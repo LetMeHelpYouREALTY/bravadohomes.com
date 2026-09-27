@@ -7,6 +7,7 @@ import SchemaMarkup from './components/schema'
 import AIOptimizationSchema from './components/ai-optimization-schema'
 import PhotoGallery from './components/photo-gallery'
 import KCMRSSFeed from './components/kcm-rss-feed'
+import NearbyAmenitiesSection from './components/nearby-amenities-section'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from './utils/domain'
 import type { Metadata } from 'next'
@@ -463,6 +464,7 @@ export default async function Page() {
         </div>
       </div>
 
+      <NearbyAmenitiesSection />
 
       {/* VIP Partnership Section - Move up for credibility */}
       <div className="vip-partnership mb-16">

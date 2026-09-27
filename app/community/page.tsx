@@ -1,4 +1,5 @@
 import RealScoutListings from '../components/realscout-listings'
+import NearbyAmenitiesSection from '../components/nearby-amenities-section'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
@@ -111,6 +112,8 @@ export default async function CommunityPage() {
           As a <strong>Featured New Home Construction and Buyer Representation specialist</strong> with Century Communities, Dr. Janet Duffy brings unparalleled expertise in helping families navigate the new home construction process while ensuring your interests are always protected.
         </p>
       </div>
+
+      <NearbyAmenitiesSection compact />
 
       {/* Community Features & Amenities Section */}
       <div className="content-section">
