@@ -3,9 +3,9 @@
 import {
   AMENITY_CATEGORIES,
   BRAVADO_COMMUNITY,
-  CURATED_NEARBY_PLACES,
   type AmenityCategoryId,
 } from '../../lib/nearby-amenities'
+import AmenityCuratedList from './amenity-curated-list'
 
 type AmenityMapFallbackProps = {
   activeCategory: AmenityCategoryId
@@ -21,19 +21,7 @@ export default function AmenityMapFallback({
   compact = false,
 }: AmenityMapFallbackProps) {
   const { lat, lng } = BRAVADO_COMMUNITY.center
-  const embedSrc = `https://www.google.com/maps?q=${lat},${lng}&z=13&output=embed`
-
-  const filtered =
-    activeCategory === 'restaurants'
-      ? CURATED_NEARBY_PLACES.filter((p) =>
-          ['restaurants', 'shopping'].includes(p.category)
-        )
-      : CURATED_NEARBY_PLACES.filter((p) => p.category === activeCategory)
-
-  const listPlaces =
-    filtered.length > 0
-      ? filtered
-      : CURATED_NEARBY_PLACES.filter((p) => p.name !== 'Bravado at Century Communities')
+  const embedSrc = `https://www.google.com/maps?q=${lat},${lng}&z=14&output=embed`
 
   return (
     <div className="space-y-4">
@@ -79,37 +67,11 @@ export default function AmenityMapFallback({
       </div>
 
       <p className="text-sm text-gray-600">
-        Interactive Google Places search appears when{' '}
-        <code className="text-xs">NEXT_PUBLIC_GOOGLE_MAPS_API_KEY</code> is configured.
-        Below is a curated list of verified destinations near Bravado.
+        Curated destinations near Bravado with verified addresses and official
+        source links. Filter by category to narrow the list.
       </p>
 
-      <ul className="grid gap-3 sm:grid-cols-2" aria-label="Curated nearby places">
-        {listPlaces.map((place) => (
-          <li
-            key={`${place.name}-${place.address}`}
-            className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm"
-          >
-            <h3 className="font-semibold text-gray-900">{place.name}</h3>
-            <p className="text-sm text-gray-600">
-              {place.address}, {place.city}, {place.state} {place.zip}
-            </p>
-            {place.note && (
-              <p className="mt-1 text-sm text-gray-500">{place.note}</p>
-            )}
-            <a
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                `${place.address}, ${place.city}, ${place.state} ${place.zip}`
-              )}`}
-              className="mt-2 inline-block text-sm font-medium text-blue-600 hover:underline"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Directions
-            </a>
-          </li>
-        ))}
-      </ul>
+      <AmenityCuratedList activeCategory={activeCategory} />
     </div>
   )
 }

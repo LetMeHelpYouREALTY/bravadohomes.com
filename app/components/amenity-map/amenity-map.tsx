@@ -4,9 +4,16 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import {
   AMENITY_CATEGORIES,
   BRAVADO_COMMUNITY,
-  CURATED_NEARBY_PLACES,
   type AmenityCategoryId,
 } from '../../lib/nearby-amenities'
+import {
+  loadGoogleMaps,
+  mapsAuthFailed,
+} from '../../lib/google-maps-loader'
+import { searchCategory } from '../../lib/places-search'
+import AmenityCuratedList, {
+  getCuratedPlacesForCategory,
+} from './amenity-curated-list'
 import AmenityMapFallback from './amenity-map-fallback'
 
 const MAP_HEIGHT_CLASS = 'h-[420px] md:h-[480px]'
@@ -16,7 +23,6 @@ type MapPlaceResult = {
   id: string
   name: string
   address: string
-  rating?: number
   lat: number
   lng: number
   directionsUrl: string
@@ -36,62 +42,61 @@ function getMapId(): string | undefined {
   return process.env.NEXT_PUBLIC_GOOGLE_MAPS_MAP_ID?.trim() || undefined
 }
 
-function loadGoogleMapsScript(apiKey: string): Promise<void> {
-  return new Promise((resolve, reject) => {
-    if (typeof window === 'undefined') {
-      reject(new Error('window unavailable'))
-      return
-    }
-    if (window.google?.maps) {
-      resolve()
-      return
-    }
-    const existing = document.querySelector<HTMLScriptElement>(
-      'script[data-amenity-google-maps]'
-    )
-    if (existing) {
-      existing.addEventListener('load', () => resolve())
-      existing.addEventListener('error', () =>
-        reject(new Error('Google Maps script failed'))
-      )
-      return
-    }
-    const script = document.createElement('script')
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(
-      apiKey
-    )}&loading=async&libraries=places,marker`
-    script.async = true
-    script.defer = true
-    script.dataset.amenityGoogleMaps = 'true'
-    script.onload = () => resolve()
-    script.onerror = () => reject(new Error('Google Maps script failed'))
-    document.head.appendChild(script)
-  })
+function setInfoWindowContent(
+  infoWindow: google.maps.InfoWindow,
+  place: MapPlaceResult,
+  isCommunity?: boolean
+): void {
+  const root = document.createElement('div')
+  root.className = 'p-1 max-w-[240px]'
+
+  if (isCommunity) {
+    const badge = document.createElement('p')
+    badge.className = 'text-xs font-semibold text-blue-700 uppercase'
+    badge.textContent = 'Bravado Community'
+    root.appendChild(badge)
+  }
+
+  const title = document.createElement('p')
+  title.className = 'font-semibold text-gray-900'
+  title.textContent = place.name
+  root.appendChild(title)
+
+  if (place.address) {
+    const addr = document.createElement('p')
+    addr.className = 'text-sm text-gray-600'
+    addr.textContent = place.address
+    root.appendChild(addr)
+  }
+
+  const link = document.createElement('a')
+  link.href = place.directionsUrl
+  link.target = '_blank'
+  link.rel = 'noopener noreferrer'
+  link.className = 'text-sm text-blue-600 font-medium'
+  link.textContent = 'Directions'
+  root.appendChild(link)
+
+  infoWindow.setContent(root)
 }
 
-function escapeHtml(text: string): string {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-}
-
-function buildInfoContent(place: MapPlaceResult, isCommunity?: boolean): string {
-  const rating =
-    place.rating != null
-      ? `<p class="text-sm text-gray-600">Rating: ${place.rating.toFixed(1)}</p>`
-      : ''
-  const badge = isCommunity
-    ? '<p class="text-xs font-semibold text-blue-700 uppercase">Bravado Community</p>'
-    : ''
-  return `<div class="p-1 max-w-[240px]">
-    ${badge}
-    <p class="font-semibold text-gray-900">${escapeHtml(place.name)}</p>
-    <p class="text-sm text-gray-600">${escapeHtml(place.address)}</p>
-    ${rating}
-    <a href="${place.directionsUrl}" target="_blank" rel="noopener noreferrer" class="text-sm text-blue-600 font-medium">Directions</a>
-  </div>`
+function curatedToMapPlaces(categoryId: AmenityCategoryId): MapPlaceResult[] {
+  return getCuratedPlacesForCategory(categoryId)
+    .filter((p) => p.lat != null && p.lng != null)
+    .map((p, i) => ({
+      id: `curated-${categoryId}-${i}`,
+      name: p.name,
+      address: p.address
+        ? `${p.address}, ${p.city}, ${p.state} ${p.zip}`
+        : `${p.city}, ${p.state} ${p.zip}`,
+      lat: p.lat ?? BRAVADO_COMMUNITY.center.lat,
+      lng: p.lng ?? BRAVADO_COMMUNITY.center.lng,
+      directionsUrl: p.address
+        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+            `${p.address}, ${p.city}, ${p.state} ${p.zip}`
+          )}`
+        : p.sourceUrl,
+    }))
 }
 
 export default function AmenityMap({
@@ -101,22 +106,37 @@ export default function AmenityMap({
 }: AmenityMapProps) {
   const apiKey = getApiKey()
   const mapContainerRef = useRef<HTMLDivElement>(null)
-  const mapRef = useRef<unknown>(null)
-  const markersRef = useRef<unknown[]>([])
-  const infoWindowRef = useRef<unknown>(null)
+  const mapRef = useRef<google.maps.Map | null>(null)
+  const markersRef = useRef<
+    (google.maps.Marker | google.maps.marker.AdvancedMarkerElement)[]
+  >([])
+  const infoWindowRef = useRef<google.maps.InfoWindow | null>(null)
   const observerRef = useRef<IntersectionObserver | null>(null)
   const [activeCategory, setActiveCategory] =
     useState<AmenityCategoryId>(initialCategory)
   const [shouldLoad, setShouldLoad] = useState(false)
   const [mapReady, setMapReady] = useState(false)
-  const [loadFailed, setLoadFailed] = useState(!apiKey)
+  const [useFallback, setUseFallback] = useState(
+    !apiKey || mapsAuthFailed
+  )
   const [loadingPlaces, setLoadingPlaces] = useState(false)
+  const [showCuratedList, setShowCuratedList] = useState(false)
 
   const heightClass = compact ? MAP_HEIGHT_COMPACT : MAP_HEIGHT_CLASS
 
   useEffect(() => {
+    const onAuthFailure = () => setUseFallback(true)
+    window.addEventListener('gmaps:auth-failure', onAuthFailure)
+    return () => window.removeEventListener('gmaps:auth-failure', onAuthFailure)
+  }, [])
+
+  useEffect(() => {
+    if (mapsAuthFailed) setUseFallback(true)
+  }, [])
+
+  useEffect(() => {
     const el = mapContainerRef.current
-    if (!el || !apiKey) return
+    if (!el || !apiKey || useFallback) return
 
     observerRef.current = new IntersectionObserver(
       (entries) => {
@@ -129,26 +149,30 @@ export default function AmenityMap({
     )
     observerRef.current.observe(el)
     return () => observerRef.current?.disconnect()
-  }, [apiKey])
+  }, [apiKey, useFallback])
 
   const clearMarkers = useCallback(() => {
     markersRef.current.forEach((m) => {
-      const marker = m as { map?: unknown }
-      marker.map = null
+      if ('map' in m && m.map !== undefined) {
+        m.map = null
+      }
+      if ('setMap' in m && typeof m.setMap === 'function') {
+        m.setMap(null)
+      }
     })
     markersRef.current = []
   }, [])
 
   const initMap = useCallback(async () => {
-    if (!apiKey || !mapContainerRef.current || mapRef.current) return
+    if (!apiKey || !mapContainerRef.current || mapRef.current || useFallback) {
+      return
+    }
+    if (mapsAuthFailed) {
+      setUseFallback(true)
+      return
+    }
     try {
-      await loadGoogleMapsScript(apiKey)
-      const google = window.google
-      if (!google?.maps) {
-        setLoadFailed(true)
-        return
-      }
-
+      await loadGoogleMaps(apiKey)
       const center = BRAVADO_COMMUNITY.center
       const mapId = getMapId()
       const map = new google.maps.Map(mapContainerRef.current, {
@@ -163,44 +187,32 @@ export default function AmenityMap({
       infoWindowRef.current = new google.maps.InfoWindow()
       setMapReady(true)
     } catch {
-      setLoadFailed(true)
+      setUseFallback(true)
     }
-  }, [apiKey])
+  }, [apiKey, useFallback])
 
   useEffect(() => {
-    if (shouldLoad && apiKey && !loadFailed) {
+    if (shouldLoad && apiKey && !useFallback) {
       initMap()
     }
-  }, [shouldLoad, apiKey, loadFailed, initMap])
+  }, [shouldLoad, apiKey, useFallback, initMap])
 
   const placeMarker = useCallback(
     async (
-      map: unknown,
-      position: { lat: number; lng: number },
+      map: google.maps.Map,
+      position: google.maps.LatLngLiteral,
       title: string,
       onClick: () => void
     ) => {
-      const google = window.google
-      if (!google?.maps) return null
-
-      const infoWindow = infoWindowRef.current as {
-        setContent: (h: string) => void
-        open: (o: { map: unknown; anchor?: unknown }) => void
-      }
+      const infoWindow = infoWindowRef.current
+      if (!infoWindow) return null
 
       try {
-        const markerLib = await google.maps.importLibrary('marker')
+        const markerLib = (await google.maps.importLibrary(
+          'marker'
+        )) as google.maps.MarkerLibrary
         const mapId = getMapId()
-        const AdvancedMarkerElement = markerLib.AdvancedMarkerElement as
-          | (new (opts: Record<string, unknown>) => {
-              addListener: (e: string, fn: () => void) => void
-            })
-          | undefined
-        const Marker = markerLib.Marker as
-          | (new (opts: Record<string, unknown>) => {
-              addListener: (e: string, fn: () => void) => void
-            })
-          | undefined
+        const { AdvancedMarkerElement, Marker } = markerLib
 
         if (mapId && AdvancedMarkerElement) {
           const marker = new AdvancedMarkerElement({
@@ -217,7 +229,14 @@ export default function AmenityMap({
           return marker
         }
       } catch {
-        infoWindow.setContent(`<p class="p-2">${escapeHtml(title)}</p>`)
+        setInfoWindowContent(infoWindow, {
+          id: 'fallback',
+          name: title,
+          address: '',
+          lat: position.lat,
+          lng: position.lng,
+          directionsUrl: `https://www.google.com/maps/search/?api=1&query=${position.lat},${position.lng}`,
+        })
         infoWindow.open({ map })
       }
       return null
@@ -227,7 +246,8 @@ export default function AmenityMap({
 
   const addCommunityMarker = useCallback(async () => {
     const map = mapRef.current
-    if (!map) return
+    const infoWindow = infoWindowRef.current
+    if (!map || !infoWindow) return
 
     const center = BRAVADO_COMMUNITY.center
     const communityPlace: MapPlaceResult = {
@@ -239,17 +259,12 @@ export default function AmenityMap({
       directionsUrl: `https://www.google.com/maps/search/?api=1&query=${center.lat},${center.lng}`,
     }
 
-    const infoWindow = infoWindowRef.current as {
-      setContent: (h: string) => void
-      open: (o: { map: unknown; anchor?: unknown }) => void
-    }
-
     const marker = await placeMarker(
       map,
       center,
       BRAVADO_COMMUNITY.name,
       () => {
-        infoWindow.setContent(buildInfoContent(communityPlace, true))
+        setInfoWindowContent(infoWindow, communityPlace, true)
         infoWindow.open({ map, anchor: marker ?? undefined })
       }
     )
@@ -258,75 +273,47 @@ export default function AmenityMap({
 
   const searchNearby = useCallback(
     async (categoryId: AmenityCategoryId) => {
-      const google = window.google
       const map = mapRef.current
-      if (!google?.maps || !map || !mapReady) return
+      const infoWindow = infoWindowRef.current
+      if (!map || !infoWindow || !mapReady) return
 
       setLoadingPlaces(true)
+      setShowCuratedList(false)
       clearMarkers()
       await addCommunityMarker()
 
       const category = AMENITY_CATEGORIES.find((c) => c.id === categoryId)
-      const curated = CURATED_NEARBY_PLACES.filter(
-        (p) => p.category === categoryId && p.lat != null && p.lng != null
-      )
-
-      const infoWindow = infoWindowRef.current as {
-        setContent: (h: string) => void
-        open: (o: { map: unknown; anchor?: unknown }) => void
-      }
-
       const bounds = new google.maps.LatLngBounds()
       bounds.extend(BRAVADO_COMMUNITY.center)
 
       let places: MapPlaceResult[] = []
 
       try {
-        const placesLib = await google.maps.importLibrary('places')
-        const Place = placesLib.Place as {
-          searchNearby: (req: Record<string, unknown>) => Promise<{
-            places: Array<{
-              id?: string
-              displayName?: string
-              formattedAddress?: string
-              rating?: number
-              location?: { lat: () => number; lng: () => number }
-              googleMapsURI?: string
-            }>
-          }>
-        }
-        const SearchNearbyRankPreference = placesLib
-          .SearchNearbyRankPreference as { POPULARITY: string }
+        if (category) {
+          const rawPlaces = await searchCategory(
+            BRAVADO_COMMUNITY.center,
+            categoryId,
+            category.primaryTypes
+          )
 
-        if (Place?.searchNearby && category) {
-          const { places: rawPlaces } = await Place.searchNearby({
-            fields: [
-              'displayName',
-              'location',
-              'formattedAddress',
-              'rating',
-              'googleMapsURI',
-              'id',
-            ],
-            locationRestriction: {
-              center: BRAVADO_COMMUNITY.center,
-              radius: 12000,
-            },
-            includedPrimaryTypes: category.primaryTypes,
-            maxResultCount: 15,
-            rankPreference: SearchNearbyRankPreference?.POPULARITY ?? 'POPULARITY',
-          })
-
-          places = (rawPlaces || []).map((p, index) => {
-            const lat = p.location?.lat?.() ?? BRAVADO_COMMUNITY.center.lat
-            const lng = p.location?.lng?.() ?? BRAVADO_COMMUNITY.center.lng
-            const name = p.displayName ?? 'Place'
+          places = rawPlaces.map((p, index) => {
+            const loc = p.location
+            const lat =
+              loc?.lat?.() ??
+              loc?.toJSON?.().lat ??
+              BRAVADO_COMMUNITY.center.lat
+            const lng =
+              loc?.lng?.() ??
+              loc?.toJSON?.().lng ??
+              BRAVADO_COMMUNITY.center.lng
+            const name = p.displayName
+              ? String(p.displayName)
+              : 'Place'
             const address = p.formattedAddress ?? ''
             return {
               id: p.id ?? `place-${index}`,
               name,
               address,
-              rating: p.rating,
               lat,
               lng,
               directionsUrl:
@@ -340,16 +327,8 @@ export default function AmenityMap({
       }
 
       if (places.length === 0) {
-        places = curated.map((p, i) => ({
-          id: `curated-${i}`,
-          name: p.name,
-          address: `${p.address}, ${p.city}, ${p.state} ${p.zip}`,
-          lat: p.lat ?? BRAVADO_COMMUNITY.center.lat,
-          lng: p.lng ?? BRAVADO_COMMUNITY.center.lng,
-          directionsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-            `${p.address}, ${p.city}, ${p.state} ${p.zip}`
-          )}`,
-        }))
+        setShowCuratedList(true)
+        places = curatedToMapPlaces(categoryId)
       }
 
       for (const place of places) {
@@ -359,16 +338,15 @@ export default function AmenityMap({
           { lat: place.lat, lng: place.lng },
           place.name,
           () => {
-            infoWindow.setContent(buildInfoContent(place))
+            setInfoWindowContent(infoWindow, place)
             infoWindow.open({ map, anchor: marker ?? undefined })
           }
         )
         if (marker) markersRef.current.push(marker)
       }
 
-      const mapInstance = map as { fitBounds: (b: unknown) => void }
       if (places.length > 0) {
-        mapInstance.fitBounds(bounds)
+        map.fitBounds(bounds)
       }
 
       setLoadingPlaces(false)
@@ -377,12 +355,12 @@ export default function AmenityMap({
   )
 
   useEffect(() => {
-    if (mapReady) {
+    if (mapReady && !useFallback) {
       searchNearby(activeCategory)
     }
-  }, [mapReady, activeCategory, searchNearby])
+  }, [mapReady, activeCategory, searchNearby, useFallback])
 
-  if (!apiKey || loadFailed) {
+  if (!apiKey || useFallback) {
     return (
       <AmenityMapFallback
         activeCategory={activeCategory}
@@ -437,6 +415,16 @@ export default function AmenityMap({
           </div>
         )}
       </div>
+
+      {showCuratedList && (
+        <div className="space-y-3">
+          <p className="text-sm text-gray-600">
+            Live search is unavailable for this category. Showing verified
+            nearby places:
+          </p>
+          <AmenityCuratedList activeCategory={activeCategory} />
+        </div>
+      )}
     </div>
   )
 }

@@ -38,7 +38,7 @@ export type AmenityCategory = {
   ariaLabel: string
 }
 
-/** Family new-construction community — standard category order per spec */
+/** New-construction community — standard category order per spec */
 export const AMENITY_CATEGORIES: AmenityCategory[] = [
   {
     id: 'restaurants',
@@ -110,20 +110,22 @@ export const AMENITY_CATEGORIES: AmenityCategory[] = [
 
 export type CuratedPlace = {
   name: string
-  address: string
+  /** Omit from JSON-LD when not verified against sourceUrl */
+  address?: string
   city: string
   state: string
   zip: string
   category: AmenityCategoryId
   schemaType: string
+  sourceUrl: string
   lat?: number
   lng?: number
   note?: string
 }
 
 /**
- * Verified places for fallback UI and JSON-LD ItemList (name + postal address only).
- * Sources: City of North Las Vegas, official venue sites, and Century Communities listing address.
+ * Verified places for fallback UI and JSON-LD ItemList.
+ * Each entry includes an official sourceUrl used to confirm name and address.
  */
 export const CURATED_NEARBY_PLACES: CuratedPlace[] = [
   {
@@ -134,6 +136,8 @@ export const CURATED_NEARBY_PLACES: CuratedPlace[] = [
     zip: '89031',
     category: 'parks',
     schemaType: 'Place',
+    sourceUrl:
+      'https://www.centurycommunities.com/find-your-new-home/nevada/las-vegas-metro/north-las-vegas/bravado/',
     lat: BRAVADO_COMMUNITY.center.lat,
     lng: BRAVADO_COMMUNITY.center.lng,
     note: 'Gated new-home community and model home sales office',
@@ -146,36 +150,44 @@ export const CURATED_NEARBY_PLACES: CuratedPlace[] = [
     zip: '89032',
     category: 'parks',
     schemaType: 'Park',
+    sourceUrl:
+      'https://www.cityofnorthlasvegas.com/things-to-do/parks-and-recreation/craig-ranch-regional-park',
     lat: 36.24306,
     lng: -115.14917,
+    note: '170-acre City of North Las Vegas regional park',
+  },
+  {
+    name: "Smith's Food and Drug",
+    address: '3013 W Craig Road',
+    city: 'North Las Vegas',
+    state: 'NV',
+    zip: '89032',
+    category: 'grocery',
+    schemaType: 'GroceryStore',
+    sourceUrl: 'https://www.smithsfoodanddrug.com/stores/details/703/03013',
   },
   {
     name: 'Aliante Casino + Hotel',
-    address: '7300 Aliante Parkway',
+    address: '7300 North Aliante Parkway',
     city: 'North Las Vegas',
     state: 'NV',
     zip: '89084',
     category: 'shopping',
     schemaType: 'ShoppingCenter',
+    sourceUrl: 'https://aliante.boydgaming.com/',
+    note: 'Dining, retail, and entertainment in the Aliante master plan',
   },
   {
-    name: 'Las Vegas Premium Outlets North',
+    name: 'Las Vegas North Premium Outlets',
     address: '875 S Grand Central Parkway',
     city: 'Las Vegas',
     state: 'NV',
     zip: '89106',
     category: 'shopping',
     schemaType: 'ShoppingCenter',
-  },
-  {
-    name: 'Topgolf Las Vegas',
-    address: '4600 Nexus Way',
-    city: 'North Las Vegas',
-    state: 'NV',
-    zip: '89030',
-    category: 'restaurants',
-    schemaType: 'Restaurant',
-    note: 'Entertainment venue with dining',
+    sourceUrl:
+      'https://www.premiumoutlets.com/outlet/las-vegas-north',
+    note: 'Regional outlet shopping north of the Strip corridor',
   },
   {
     name: 'North Vista Hospital',
@@ -185,24 +197,29 @@ export const CURATED_NEARBY_PLACES: CuratedPlace[] = [
     zip: '89030',
     category: 'healthcare',
     schemaType: 'Hospital',
+    sourceUrl: 'https://northvistahospital.com/contact-us/',
   },
   {
     name: 'Centennial Hills Hospital Medical Center',
-    address: '657 N Town Center Drive',
+    address: '6900 North Durango Drive',
     city: 'Las Vegas',
     state: 'NV',
-    zip: '89144',
+    zip: '89149',
     category: 'healthcare',
     schemaType: 'Hospital',
+    sourceUrl:
+      'https://www.centennialhillshospital.com/patients-visitors/maps-directions',
+    note: 'Northwest valley hospital serving the greater Las Vegas area',
   },
   {
     name: 'Aliante Golf Club',
-    address: '7300 Aliante Parkway',
+    address: '3100 West Elkhorn Road',
     city: 'North Las Vegas',
     state: 'NV',
     zip: '89084',
     category: 'golf',
     schemaType: 'GolfCourse',
+    sourceUrl: 'https://www.aliantegolf.com/book-tee-times/',
   },
   {
     name: 'Legacy High School',
@@ -212,6 +229,7 @@ export const CURATED_NEARBY_PLACES: CuratedPlace[] = [
     zip: '89084',
     category: 'schools',
     schemaType: 'School',
+    sourceUrl: 'https://www.legacyhigh.net/',
   },
 ]
 
@@ -219,7 +237,7 @@ export const NEARBY_AMENITIES_FAQS = [
   {
     question: 'What grocery stores are near Bravado in North Las Vegas?',
     answer:
-      'Bravado buyers commonly shop at Smith’s, Walmart Supercenter, and Target within a short drive of the 5060 Wind Springs Street community; use the map on this page to see current grocery options near Bravado.',
+      "Smith's Food and Drug at 3013 W Craig Road is one of the closest full-service grocers to Bravado at 5060 Wind Springs Street. Use the map on this page to explore additional grocery options near the community.",
   },
   {
     question: 'How far is Bravado from the Las Vegas Strip?',
@@ -229,12 +247,12 @@ export const NEARBY_AMENITIES_FAQS = [
   {
     question: 'Are there hospitals near Bravado?',
     answer:
-      'Yes — North Vista Hospital in North Las Vegas and Centennial Hills Hospital Medical Center in northwest Las Vegas serve the Bravado area; both are listed on our map and in the healthcare section below.',
+      'North Vista Hospital on E Lake Mead Boulevard in North Las Vegas serves the immediate area. Centennial Hills Hospital Medical Center on N Durango Drive in northwest Las Vegas is another major option listed on our map.',
   },
   {
     question: 'What parks are close to Bravado homes?',
     answer:
-      'Craig Ranch Regional Park — a 170-acre City of North Las Vegas park at 628 W Craig Road — is the signature outdoor amenity near Bravado, with trails, sports fields, and community programming.',
+      'Craig Ranch Regional Park — a 170-acre City of North Las Vegas park at 628 W Craig Road — is the anchor outdoor amenity near Bravado, with trails, sports fields, and community programming.',
   },
   {
     question: 'How far is Bravado from Harry Reid International Airport?',
@@ -244,12 +262,17 @@ export const NEARBY_AMENITIES_FAQS = [
   {
     question: 'Is there golf near Bravado North Las Vegas?',
     answer:
-      'Aliante Golf Club on Aliante Parkway in North Las Vegas is one of the well-known public courses north of Bravado, with additional valley courses reachable by car.',
+      'Aliante Golf Club at 3100 West Elkhorn Road in North Las Vegas is a public course in the Aliante area north of Bravado, with additional valley courses reachable by car.',
   },
   {
     question: 'What shopping is near the Bravado community?',
     answer:
-      'Aliante Casino + Hotel retail and dining, Las Vegas Premium Outlets North, and big-box stores along the Craig Road and Decatur corridors are common destinations for Bravado residents.',
+      'Aliante Casino + Hotel retail and dining on North Aliante Parkway and Las Vegas North Premium Outlets on S Grand Central Parkway are common regional shopping destinations for Bravado residents.',
+  },
+  {
+    question: 'Which CCSD schools are assigned to Bravado addresses?',
+    answer:
+      'School assignments depend on your exact lot and CCSD boundaries. Verify current zoning with the CCSD Zoning Search before you buy. Legacy High School at 150 W Deer Springs Way is one CCSD high school serving parts of the north valley.',
   },
   {
     question: 'Who can help me buy a new home at Bravado?',

@@ -63,14 +63,27 @@ export default async function NearbyAmenitiesSchema() {
         item: {
           '@type': place.schemaType,
           name: place.name,
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress: place.address,
-            addressLocality: place.city,
-            addressRegion: place.state,
-            postalCode: place.zip,
-            addressCountry: 'US',
-          },
+          url: place.sourceUrl,
+          ...(place.address
+            ? {
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: place.address,
+                  addressLocality: place.city,
+                  addressRegion: place.state,
+                  postalCode: place.zip,
+                  addressCountry: 'US',
+                },
+              }
+            : {
+                address: {
+                  '@type': 'PostalAddress',
+                  addressLocality: place.city,
+                  addressRegion: place.state,
+                  postalCode: place.zip,
+                  addressCountry: 'US',
+                },
+              }),
           ...(place.lat != null && place.lng != null
             ? {
                 geo: {

@@ -85,15 +85,13 @@ export default async function NearbyAmenitiesPage() {
             </h2>
             <p>
               North Las Vegas dining clusters along Craig Road, Aliante Parkway,
-              and Nellis Boulevard. <strong>Topgolf Las Vegas</strong> at 4600
-              Nexus Way combines entertainment and food a short drive from
-              Bravado. <strong>Aliante Casino + Hotel</strong> at 7300 Aliante
-              Parkway offers multiple restaurant options. Chain favorites such as
-              Chili&apos;s and local spots referenced on our{' '}
+              and Nellis Boulevard. <strong>Aliante Casino + Hotel</strong> at
+              7300 North Aliante Parkway offers multiple restaurant options.
+              Additional north-valley spots are noted on our{' '}
               <a href="/location" className="text-blue-600 hover:underline">
                 location page
-              </a>{' '}
-              sit within the north-valley corridor buyers use daily.
+              </a>
+              .
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10">
@@ -102,15 +100,15 @@ export default async function NearbyAmenitiesPage() {
             <p>
               <strong>Craig Ranch Regional Park</strong> (628 W Craig Road, North
               Las Vegas, NV 89032) is the anchor outdoor amenity for Bravado
-              families — 170 acres operated by the City of North Las Vegas with
+              residents — 170 acres operated by the City of North Las Vegas with
               trails, sports fields, and community events. Bravado&apos;s own
               gated parks and walking paths complement this regional destination.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10">Golf</h2>
             <p>
-              <strong>Aliante Golf Club</strong> shares the Aliante master plan
-              at 7300 Aliante Parkway. Additional public and resort courses across
+              <strong>Aliante Golf Club</strong> at 3100 West Elkhorn Road sits
+              in the Aliante master plan. Additional public and resort courses across
               the Las Vegas Valley are reachable via I-15 and the 215 Beltway.
             </p>
 
@@ -120,8 +118,8 @@ export default async function NearbyAmenitiesPage() {
             <p>
               <strong>North Vista Hospital</strong> (1409 E Lake Mead Boulevard,
               North Las Vegas) serves the immediate area.{' '}
-              <strong>Centennial Hills Hospital Medical Center</strong> (657 N
-              Town Center Drive, Las Vegas) is a major northwest valley hospital.
+              <strong>Centennial Hills Hospital Medical Center</strong> (6900 N
+              Durango Drive, Las Vegas) is a major northwest valley hospital.
               Urgent care and pharmacy chains line Craig Road and Decatur Boulevard.
             </p>
 
@@ -129,21 +127,30 @@ export default async function NearbyAmenitiesPage() {
               Grocery &amp; shopping
             </h2>
             <p>
-              Daily errands typically include Smith&apos;s, Walmart Supercenter,
-              Target, and Kohl&apos;s within a few miles of Bravado (see our{' '}
+              Daily errands often include Smith&apos;s at 3013 W Craig Road and
+              other big-box retailers within a few miles of Bravado (see our{' '}
               <a href="/location" className="text-blue-600 hover:underline">
                 location guide
               </a>
-              ). <strong>Las Vegas Premium Outlets North</strong> (875 S Grand
+              ). <strong>Las Vegas North Premium Outlets</strong> (875 S Grand
               Central Parkway) and Aliante retail add regional shopping trips.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10">Schools</h2>
             <p>
+              Which CCSD schools are assigned to Bravado addresses? Verify with
+              the{' '}
+              <a
+                href="https://zoning.ccsd.net/"
+                className="text-blue-600 hover:underline"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                CCSD Zoning Search
+              </a>{' '}
+              for your specific lot before you buy.{' '}
               <strong>Legacy High School</strong> (150 W Deer Springs Way, North
-              Las Vegas) is one of the Clark County School District campuses
-              serving the Aliante and north-valley area. Always verify attendance
-              zones with CCSD for your specific lot before you buy.
+              Las Vegas) is one CCSD high school in the north valley.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10">
