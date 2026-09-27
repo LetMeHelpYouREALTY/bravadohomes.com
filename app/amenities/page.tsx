@@ -80,6 +80,11 @@ export default async function AmenitiesPage() {
           <p className="text-lg">
             5060 Wind Springs Street, North Las Vegas, NV 89031
           </p>
+          <p className="mt-4">
+            <a href="/nearby-amenities" className="underline font-semibold hover:text-blue-200">
+              Explore the interactive nearby amenities map →
+            </a>
+          </p>
         </div>
       </div>
 

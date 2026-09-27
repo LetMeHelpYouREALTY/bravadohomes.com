@@ -1,4 +1,5 @@
 import RealScoutListings from '../components/realscout-listings'
+import NearbyAmenitiesSection from '../components/nearby-amenities-section'
 import RealScoutHomeValue from '../components/realscout-home-value'
 import RealScoutAdvancedSearch from '../components/realscout-advanced-search'
 import { headers } from 'next/headers'
@@ -109,6 +110,8 @@ export default async function LocationPage() {
           As a <strong>Featured New Home Construction and Buyer Representation specialist</strong>, Dr. Janet Duffy provides expert guidance on location benefits, local amenities, and investment potential in North Las Vegas.
         </p>
       </div>
+
+      <NearbyAmenitiesSection compact title="What's Nearby Bravado" />
 
       {/* RealScout Location-Based Listings */}
       <div className="mb-16">

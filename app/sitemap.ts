@@ -37,6 +37,7 @@ export default async function sitemap() {
     // Important supporting pages
     { route: '/community', priority: 0.85, changefreq: 'weekly' },
     { route: '/location', priority: 0.85, changefreq: 'weekly' },
+    { route: '/nearby-amenities', priority: 0.85, changefreq: 'weekly' },
     { route: '/reviews', priority: 0.85, changefreq: 'weekly' },
     { route: '/lennar-vs-century-communities', priority: 0.8, changefreq: 'monthly' },
     { route: '/about', priority: 0.8, changefreq: 'monthly' },
