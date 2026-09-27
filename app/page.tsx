@@ -18,9 +18,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = config.baseUrl
   const agent = config.realEstateAgent
 
+  const description =
+    'Bravado Homes by Century Communities in North Las Vegas. New construction floor plans with smart home tech. Expert buyer guidance from Dr. Janet Duffy.'
+  const ogImageUrl = `${baseUrl}/og?title=${encodeURIComponent('Bravado Homes | Century Communities Las Vegas')}`
+
   return {
     title: 'Bravado Homes | Century Communities Las Vegas | Now Selling $459,790+',
-    description: 'Bravado Homes by Century Communities in Las Vegas. Now selling luxury new construction homes starting at $459,790. 3 floor plans available with 3-5 bedrooms, smart tech included. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner. Schedule your VIP tour today!',
+    description,
     keywords: [
       'bravado homes',
       'bravado homes las vegas',
@@ -61,14 +65,23 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: 'Bravado Homes | Century Communities Las Vegas | Now Selling $459,790+',
-      description: 'Bravado Homes by Century Communities in Las Vegas. Now selling luxury new construction homes starting at $459,790. 3 floor plans available. Expert guidance from Dr. Janet Duffy.',
+      description,
       url: baseUrl,
       type: 'website',
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: 'Bravado Homes by Century Communities in North Las Vegas',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: 'Bravado Homes | Century Communities Las Vegas',
-      description: 'Bravado Homes by Century Communities. Now selling luxury new construction homes starting at $459,790.',
+      description,
+      images: [ogImageUrl],
     },
   }
 }
