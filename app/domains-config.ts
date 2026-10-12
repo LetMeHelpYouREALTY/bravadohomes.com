@@ -37,7 +37,7 @@ export const domains: Record<string, DomainConfig> = {
     baseUrl: 'https://www.bravadohomes.com',
     googleVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
     gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-6H8SG3KDBY',
-    businessName: 'Bravado Homes by Dr. Janet Duffy',
+    businessName: 'Bravado Homes by Dr. Jan Duffy',
     location: {
       address: '5060 Wind Springs Street',
       city: 'North Las Vegas',
@@ -53,7 +53,7 @@ export const domains: Record<string, DomainConfig> = {
       email: 'DrJanSells@BravadoHomes.com',
     },
     realEstateAgent: {
-      name: 'Dr. Janet Duffy',
+      name: 'Dr. Jan Duffy',
       licenseNumber: 'S.0197614',
     },
   },
@@ -62,7 +62,7 @@ export const domains: Record<string, DomainConfig> = {
     baseUrl: 'https://www.bravadohomes.com',
     googleVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
     gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-6H8SG3KDBY',
-    businessName: 'Bravado Homes by Dr. Janet Duffy',
+    businessName: 'Bravado Homes by Dr. Jan Duffy',
     location: {
       address: '5060 Wind Springs Street',
       city: 'North Las Vegas',
@@ -78,7 +78,7 @@ export const domains: Record<string, DomainConfig> = {
       email: 'DrJanSells@BravadoHomes.com',
     },
     realEstateAgent: {
-      name: 'Dr. Janet Duffy',
+      name: 'Dr. Jan Duffy',
       licenseNumber: 'S.0197614',
     },
   },
@@ -103,7 +103,7 @@ export const domains: Record<string, DomainConfig> = {
       email: 'DrJanSells@ReverenceSummerlinHomes.com',
     },
     realEstateAgent: {
-      name: 'Dr. Janet Duffy',
+      name: 'Dr. Jan Duffy',
       licenseNumber: 'S.0197614',
     },
   },

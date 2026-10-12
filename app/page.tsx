@@ -18,11 +18,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   const description =
-    'Bravado Homes by Century Communities in North Las Vegas. New construction floor plans with smart home tech. Expert buyer guidance from Dr. Janet Duffy.'
+    'Bravado Homes by Century Communities in North Las Vegas. New construction floor plans with smart home tech. Expert buyer guidance from Dr. Jan Duffy.'
   const ogImageUrl = `${baseUrl}/og?title=${encodeURIComponent('Bravado Homes | Century Communities Las Vegas')}`
 
   return {
-    title: 'Bravado Homes | Century Communities Las Vegas | Now Selling $459,790+',
+    title: 'Bravado Homes | Century Communities | From $445,000',
     description,
     keywords: [
       'bravado homes',
@@ -50,10 +50,10 @@ export async function generateMetadata(): Promise<Metadata> {
       'residence 1792',
       'residence 1943',
       'residence 2119',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       '89031 homes',
       '89031 new construction',
-      'starting at $459,790',
+      'starting at $445,000',
       'new construction las vegas',
       'two-story homes las vegas',
       'bravado homes for sale',
@@ -63,7 +63,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: baseUrl,
     },
     openGraph: {
-      title: 'Bravado Homes | Century Communities Las Vegas | Now Selling $459,790+',
+      title: 'Bravado Homes | Century Communities | From $445,000',
       description,
       url: baseUrl,
       type: 'website',
@@ -118,17 +118,17 @@ export default async function Page() {
             Bravado Homes | Century Communities Las Vegas
           </h1>
           <p className="text-2xl mb-4 text-white drop-shadow-md font-semibold">
-            Now Selling! Starting at $459,790 - Luxury Homes in Gated Community
+            Now Selling! Starting at $445,000 - Luxury Homes in Gated Community
           </p>
           <p className="text-xl mb-8 text-white drop-shadow-md bg-black/20 px-4 py-2 rounded-lg backdrop-blur-sm">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership | <strong>Bravado Homes Las Vegas For Sale</strong>
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership | <strong>Bravado Homes Las Vegas For Sale</strong>
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
               📞 Call NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="#floor-plans" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 View Floor Plans
@@ -145,7 +145,7 @@ export default async function Page() {
         <h2 className="text-2xl font-bold mb-4">🚨 LIMITED AVAILABILITY - ACT FAST!</h2>
         <p className="text-lg mb-4">
           <strong>Only 3 floor plans remaining!</strong> Bravado is selling out fast. 
-          Get your VIP tour with Dr. Janet Duffy before these luxury homes are gone.
+          Get your VIP tour with Dr. Jan Duffy before these luxury homes are gone.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-red-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -182,7 +182,7 @@ export default async function Page() {
               </div>
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1792</h3>
-                    <p className="price-highlight">From $459,790</p>
+                    <p className="price-highlight">From $429,990</p>
                   </div>
             </div>
             
@@ -254,7 +254,7 @@ export default async function Page() {
               </div>
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1943</h3>
-                    <p className="price-highlight">From $469,790</p>
+                    <p className="price-highlight">From $439,990</p>
                   </div>
             </div>
             
@@ -317,7 +317,7 @@ export default async function Page() {
               </div>
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 2119</h3>
-                    <p className="price-highlight">From $479,790</p>
+                    <p className="price-highlight">From $449,990</p>
                   </div>
             </div>
             
@@ -370,7 +370,7 @@ export default async function Page() {
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-lg mt-12 text-center">
           <h3 className="text-2xl font-bold mb-4">⚡ ACT NOW - LIMITED TIME OFFER!</h3>
           <p className="text-lg mb-6">
-            Get VIP access to Bravado floor plans with Dr. Janet Duffy's expert guidance. 
+            Get VIP access to Bravado floor plans with Dr. Jan Duffy's expert guidance. 
             <strong> Schedule your private tour today!</strong>
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -403,7 +403,7 @@ export default async function Page() {
         </h2>
         <p className="text-lg text-gray-700 mb-8 text-center max-w-4xl mx-auto leading-relaxed">
           Start your search for the perfect home in <strong>Bravado</strong> or throughout North Las Vegas. 
-          Get expert guidance from <strong>Dr. Janet Duffy</strong>.
+          Get expert guidance from <strong>Dr. Jan Duffy</strong>.
         </p>
             
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-lg mb-8">
@@ -418,7 +418,7 @@ export default async function Page() {
               <div className="bg-blue-50 p-6 rounded-lg text-center">
                 <div className="text-3xl mb-2">🏡</div>
                 <h4 className="font-bold text-gray-900 mb-2">Bravado Homes</h4>
-                <p className="text-sm text-gray-700">New construction homes starting at $459K</p>
+                <p className="text-sm text-gray-700">New construction homes starting at $445K</p>
                 <a href="/floor-plans" className="text-blue-600 font-medium hover:underline">View Floor Plans</a>
               </div>
               <div className="bg-purple-50 p-6 rounded-lg text-center">
@@ -448,7 +448,7 @@ export default async function Page() {
           About Bravado Homes by Century Communities
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
-          <strong>Dr. Janet Duffy</strong>, Featured New Home Construction & Buyer Representation Specialist, is proud to represent <strong>Century Communities</strong>—one of the nation's top 10 homebuilders—at <strong>Bravado Homes in North Las Vegas, NV</strong>. This prestigious gated <strong>Bravado community</strong> showcases stunning two-story floor plans ranging from 1,792 to 2,119 square feet, featuring up to 5 bedrooms and contemporary open layouts. Each <strong>Bravado home</strong> includes the innovative <strong>Century Connect® smart home package</strong>, modern design elements, and premium finishes that define luxury living in the 89031 zip code.
+          <strong>Dr. Jan Duffy</strong>, Featured New Home Construction & Buyer Representation Specialist, is proud to represent <strong>Century Communities</strong>—one of the nation's top 10 homebuilders—at <strong>Bravado Homes in North Las Vegas, NV</strong>. This prestigious gated <strong>Bravado community</strong> showcases stunning two-story floor plans ranging from 1,792 to 2,119 square feet, featuring up to 5 bedrooms and contemporary open layouts. Each <strong>Bravado home</strong> includes the innovative <strong>Century Connect® smart home package</strong>, modern design elements, and premium finishes that define luxury living in the 89031 zip code.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
           Strategically located at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong>, <strong>Bravado Homes</strong> offers unparalleled access to <strong>Craig Ranch Regional Park</strong>—North Las Vegas' premier recreational destination featuring 170 acres of trails, sports fields, and community amenities. <strong>Bravado community</strong> residents enjoy convenient proximity to <strong>Aliante Casino + Hotel</strong>, <strong>Las Vegas Premium Outlets North</strong>, and <strong>I-15 access</strong> for easy commuting to downtown Las Vegas, McCarran International Airport, and the Las Vegas Strip.
@@ -487,7 +487,7 @@ export default async function Page() {
             Elite Builder Relationship = Your Advantage
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy's VIP Century Communities partnership delivers exclusive access, priority lot selection, and expert negotiation backed by premier relationships.
+            Dr. Jan Duffy's VIP Century Communities partnership delivers exclusive access, priority lot selection, and expert negotiation backed by premier relationships.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -565,10 +565,10 @@ export default async function Page() {
         </div>
       </div>
 
-      {/* Why Work With Dr. Janet Duffy Section */}
+      {/* Why Work With Dr. Jan Duffy Section */}
       <div className="content-section">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Why Work With Dr. Janet Duffy?
+          Why Work With Dr. Jan Duffy?
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto">
           Get expert, unbiased guidance—I'm your trusted advisor, not the builder's sales agent
@@ -623,11 +623,11 @@ export default async function Page() {
             <p className="text-gray-700 leading-relaxed mb-4">
               When you choose Bravado Homes, you're not just buying a house—you're investing in a lifestyle. 
               The homebuying process at Bravado is designed to be smooth, transparent, and enjoyable. Working with 
-              {agent?.name || 'Dr. Janet Duffy'} as your Featured Century Communities Partner ensures you have 
+              {agent?.name || 'Dr. Jan Duffy'} as your Featured Century Communities Partner ensures you have 
               expert guidance every step of the way.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              From the initial consultation through closing and beyond, {agent?.name || 'Dr. Janet'} provides 
+              From the initial consultation through closing and beyond, {agent?.name || 'Dr. Jan'} provides 
               personalized service that protects your interests. You'll have access to insider information about 
               available lots, pricing, and incentives that aren't always available to the general public. This 
               VIP access can make a significant difference in finding the perfect home at the best possible price.
@@ -661,7 +661,7 @@ export default async function Page() {
             businesses, and infrastructure improvements, all of which contribute to property value growth.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The starting price of $459,790 for Bravado homes represents exceptional value in the Las Vegas 
+            Move-in ready homes at Bravado start at $445,000 per Century Communities (2026-10-12), representing exceptional value in the Las Vegas 
             new construction market. Comparable homes in other communities often cost significantly more, while 
             Bravado includes premium features like Century Connect® smart home technology as standard. This 
             combination of affordability and quality makes Bravado an attractive option for both first-time 
@@ -709,7 +709,7 @@ export default async function Page() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Gated Community at Entry-Level Pricing</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Finding a gated community with premium amenities at Bravado's starting price of $459,790 is 
+              Finding a gated community with premium amenities at Bravado&apos;s starting price of $445,000 is 
               exceptional in the Las Vegas market. Most gated communities in North Las Vegas start significantly 
               higher, often $50,000-$100,000 more for comparable homes. Bravado provides the security, 
               exclusivity, and community amenities of higher-priced developments at an accessible price point.
@@ -727,11 +727,11 @@ export default async function Page() {
             <p className="text-gray-700 leading-relaxed mb-4">
               Most new construction communities only offer builder sales teams whose primary interest is 
               representing the builder, not the buyer. At Bravado, you have the option to work with 
-              {agent?.name || 'Dr. Janet Duffy'} as an independent buyer's representative. This means you 
+              {agent?.name || 'Dr. Jan Duffy'} as an independent buyer's representative. This means you 
               have someone advocating for your interests throughout the entire process.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              {agent?.name || 'Dr. Janet'} provides expert guidance on lot selection, pricing negotiation, 
+              {agent?.name || 'Dr. Jan'} provides expert guidance on lot selection, pricing negotiation, 
               upgrade decisions, and contract terms. Having an experienced professional who specializes in 
               new construction and understands the Century Communities process gives you a significant advantage 
               throughout your homebuying journey.
@@ -841,7 +841,7 @@ export default async function Page() {
           🚨 DON'T MISS OUT - BRAVADO IS SELLING FAST!
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          <strong>Only 3 floor plans remaining!</strong> Get VIP access to Bravado with {agent?.name || 'Dr. Janet Duffy'}'s expert guidance. 
+          <strong>Only 3 floor plans remaining!</strong> Get VIP access to Bravado with {agent?.name || 'Dr. Jan Duffy'}'s expert guidance. 
           Schedule your private tour today before these luxury homes are gone forever.
         </p>
         
@@ -861,7 +861,7 @@ export default async function Page() {
           <div className="grid md:grid-cols-3 gap-4 text-left">
             <div className="flex items-center">
               <span className="text-2xl mr-3">🎁</span>
-              <span>FREE VIP Tour with Dr. Janet Duffy</span>
+              <span>FREE VIP Tour with Dr. Jan Duffy</span>
             </div>
             <div className="flex items-center">
               <span className="text-2xl mr-3">💰</span>
@@ -883,7 +883,7 @@ export default async function Page() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>
@@ -891,7 +891,7 @@ export default async function Page() {
           
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964<br /><br />
             Model Home Hours<br />
@@ -901,8 +901,8 @@ export default async function Page() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            © 2025 Bravado | Homes by Dr Janet Duffy. All rights reserved.<br />
-            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Janet Duffy is an independent real estate agent providing expert guidance to home buyers.
+            © 2025 Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
           </p>
         </div>
       </div>
