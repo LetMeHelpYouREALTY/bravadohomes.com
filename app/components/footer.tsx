@@ -43,7 +43,7 @@ export default async function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-bold mb-4">Contact Dr. Janet Duffy</h4>
+            <h4 className="text-lg font-bold mb-4">Contact Dr. Jan Duffy</h4>
             <div className="space-y-2 opacity-90">
               <p>
                 <strong>Primary Phone:</strong><br />
@@ -77,11 +77,11 @@ export default async function Footer() {
               🏡 Search Available Bravado Homes ($500K-$600K)
             </h4>
             <p className="text-white/90 text-center mb-4 text-sm">
-              Browse current listings in the Bravado community with Dr. Janet Duffy's expert guidance
+              Browse current listings in the Bravado community with Dr. Jan Duffy&apos;s expert guidance
             </p>
             <p className="text-white/80 text-center mb-6 text-xs">
               These are current listings near the Bravado area to give you more options and market insights. 
-              Dr. Janet Duffy provides expert guidance on all North Las Vegas properties.
+              Dr. Jan Duffy provides expert guidance on all North Las Vegas properties.
             </p>
             
             {/* Market Insights Cards */}
@@ -114,7 +114,7 @@ export default async function Footer() {
             <div className="mt-4 text-center">
               <p className="text-white/80 text-xs">
                 💡 <strong>Pro Tip:</strong> Properties near Bravado offer excellent value and investment potential. 
-                Contact Dr. Janet Duffy for exclusive market insights and early access to new listings.
+                Contact Dr. Jan Duffy for exclusive market insights and early access to new listings.
               </p>
             </div>
           </div>
@@ -123,10 +123,10 @@ export default async function Footer() {
         <div className="mt-8 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm opacity-75 mb-4 md:mb-0">
-              © {new Date().getFullYear()} Bravado | Homes by Dr Janet Duffy. All rights reserved.
+              © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.
             </p>
             <p className="text-sm opacity-75">
-              Independent real estate resource. Not affiliated with or endorsed by Century Communities.
+              Equal Housing Opportunity. Independent real estate resource. Not affiliated with or endorsed by Century Communities.
             </p>
           </div>
         </div>

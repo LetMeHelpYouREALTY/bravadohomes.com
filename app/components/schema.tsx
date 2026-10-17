@@ -8,15 +8,30 @@ export default async function SchemaMarkup() {
   const location = config.location
   const contact = config.contact
   const agent = config.realEstateAgent
+  const agentName = agent?.name ?? 'Dr. Jan Duffy'
+  const bravadoPlaceId = `${baseUrl}/#bravado`
 
   const schemaData = {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Place",
+        "@id": bravadoPlaceId,
+        "name": "Bravado",
+        "containedInPlace": {
+          "@type": "City",
+          "name": "North Las Vegas",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Nevada"
+          }
+        }
+      },
+      {
         "@type": "HomeAndConstructionBusiness",
         "@id": `${baseUrl}/#business`,
         "name": config.businessName,
-        "description": `${agent?.name || 'Dr. Janet Duffy'}, Featured New Home Construction & Buyer Representation Specialist. Located in ${location.city}, ${location.state}. Premium new construction homes with expert guidance.`,
+        "description": `${agentName}, independent buyer representation for Bravado new construction in ${location.city}, ${location.state}.`,
         "url": baseUrl,
         "address": {
           "@type": "PostalAddress",
@@ -60,7 +75,7 @@ export default async function SchemaMarkup() {
             "@type": "OpeningHoursSpecification",
             "closes": "18:00:00",
             "dayOfWeek": "https://schema.org/Friday",
-            "opens": "12:00:00"
+            "opens": "10:00:00"
           },
           {
             "@type": "OpeningHoursSpecification",
@@ -79,12 +94,7 @@ export default async function SchemaMarkup() {
         "email": contact.email,
         "foundingDate": "2024",
         "areaServed": {
-          "@type": "City",
-          "name": "North Las Vegas",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Nevada"
-          }
+          "@id": bravadoPlaceId
         },
         "serviceArea": {
           "@type": "GeoCircle",
@@ -95,19 +105,14 @@ export default async function SchemaMarkup() {
           },
           "geoRadius": "50000"
         },
-        "memberOf": {
-          "@type": "Organization",
-          "name": "Century Communities",
-          "description": "One of America's Top 10 Homebuilders"
-        },
         "sameAs": [
-          "https://www.centurycommunities.com/find-your-new-home/nevada/las-vegas-metro/north-las-vegas/bravado/"
+          baseUrl
         ]
       },
       {
         "@type": "RealEstateAgent",
         "@id": `${baseUrl}/#agent`,
-        "name": agent?.name || "Dr. Janet Duffy",
+        "name": agentName,
         "description": "Featured New Home Construction & Buyer Representation Specialist",
         "url": baseUrl,
         "telephone": contact.phone,
@@ -127,12 +132,7 @@ export default async function SchemaMarkup() {
         },
         "licenseNumber": agent?.licenseNumber || "S.0197614",
         "areaServed": {
-          "@type": "City",
-          "name": location.city,
-          "containedInPlace": {
-            "@type": "State",
-            "name": location.state
-          }
+          "@id": bravadoPlaceId
         },
         "hasCredential": [
           {
@@ -145,13 +145,8 @@ export default async function SchemaMarkup() {
             "name": "Nevada Real Estate License"
           }
         ],
-        "memberOf": {
-          "@type": "Organization",
-          "name": "Century Communities",
-          "description": "Featured Partner"
-        },
         "worksFor": {
-          "@id": "https://www.bravadohomes.com/#business"
+          "@id": `${baseUrl}/#organization`
         },
         "knowsAbout": [
           "New Home Construction",
@@ -161,15 +156,18 @@ export default async function SchemaMarkup() {
           "North Las Vegas Real Estate"
         ],
         "sameAs": [
-          "https://www.bravadohomes.com"
+          baseUrl
         ]
       },
       {
         "@type": "ResidentialComplex",
-        "@id": "https://www.bravadohomes.com/#community",
+        "@id": `${baseUrl}/#community`,
         "name": "Bravado",
-        "description": "Luxury gated community in North Las Vegas featuring new construction homes by Century Communities",
-        "url": "https://www.bravadohomes.com",
+        "description": "Gated new construction community in North Las Vegas built by Century Communities",
+        "url": baseUrl,
+        "containedInPlace": {
+          "@id": bravadoPlaceId
+        },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "5060 Wind Springs Street",
@@ -200,7 +198,6 @@ export default async function SchemaMarkup() {
             "value": true
           }
         ],
-        "numberOfUnits": "Limited",
         "petsAllowed": true,
         "isAccessibleForFree": false,
         "publicAccess": false,
@@ -210,21 +207,21 @@ export default async function SchemaMarkup() {
             "@type": "PropertyValue",
             "name": "Residence 1792",
             "description": "1,792 sq ft, 3-4 bedrooms, 2.5 bathrooms",
-            "value": "459790",
+            "value": "429990",
             "unitCode": "USD"
           },
           {
             "@type": "PropertyValue",
             "name": "Residence 1943",
             "description": "1,943 sq ft, 3 bedrooms, 2.5 bathrooms",
-            "value": "469790",
+            "value": "439990",
             "unitCode": "USD"
           },
           {
             "@type": "PropertyValue",
             "name": "Residence 2119",
             "description": "2,119 sq ft, 3 bedrooms, 2.5 bathrooms",
-            "value": "479790",
+            "value": "449990",
             "unitCode": "USD"
           }
         ],
@@ -271,11 +268,6 @@ export default async function SchemaMarkup() {
         },
         "founder": {
           "@id": `${baseUrl}/#agent`
-        },
-        "memberOf": {
-          "@type": "Organization",
-          "name": "Century Communities",
-          "description": "Featured Partner"
         }
       },
       {
@@ -301,7 +293,7 @@ export default async function SchemaMarkup() {
         "isPartOf": {
           "@id": `${baseUrl}/#website`
         },
-        "description": `Discover luxury new homes in ${location.city}. ${agent?.name || 'Dr. Janet Duffy'}, Featured New Home Construction & Buyer Representation Specialist.`,
+        "description": `Bravado new construction homes in ${location.city}. Independent buyer guidance from ${agentName}.`,
         "breadcrumb": {
           "@type": "BreadcrumbList",
           "itemListElement": [
@@ -325,12 +317,7 @@ export default async function SchemaMarkup() {
         },
         "serviceType": "Real Estate Buyer Representation",
         "areaServed": {
-          "@type": "City",
-          "name": location.city,
-          "containedInPlace": {
-            "@type": "State",
-            "name": location.state
-          }
+          "@id": bravadoPlaceId
         },
         "offers": {
           "@type": "Offer",
@@ -341,36 +328,26 @@ export default async function SchemaMarkup() {
         "@type": "Service",
         "@id": `${baseUrl}/#new-construction-service`,
         "name": "New Home Construction Guidance",
-        "description": "Expert guidance for new home construction purchases with Century Communities partnership benefits",
+        "description": "Expert guidance for new home construction purchases at Bravado",
         "provider": {
           "@id": `${baseUrl}/#agent`
         },
         "serviceType": "New Home Construction Consulting",
         "areaServed": {
-          "@type": "City",
-          "name": location.city,
-          "containedInPlace": {
-            "@type": "State",
-            "name": location.state
-          }
+          "@id": bravadoPlaceId
         },
         "offers": {
           "@type": "Offer",
-          "description": "New construction home buying services with VIP access"
+          "description": "New construction home buying services"
         }
       },
       {
         "@type": "Person",
         "@id": `${baseUrl}/#person`,
-        "name": agent?.name || "Dr. Janet Duffy",
+        "name": agentName,
         "jobTitle": "Featured New Home Construction & Buyer Representation Specialist",
         "worksFor": {
           "@id": `${baseUrl}/#organization`
-        },
-        "memberOf": {
-          "@type": "Organization",
-          "name": "Century Communities",
-          "description": "Featured Partner"
         },
         "hasCredential": [
           {
@@ -389,12 +366,8 @@ export default async function SchemaMarkup() {
           "New Home Construction",
           "Buyer Representation",
           "Las Vegas Real Estate Market",
-          "Clinical Psychology Applied to Real Estate"
-        ],
-        "alumniOf": {
-          "@type": "EducationalOrganization",
-          "name": "Clinical Psychology Program"
-        }
+          "North Las Vegas New Construction"
+        ]
       }
     ]
   }

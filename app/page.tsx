@@ -10,6 +10,7 @@ import KCMRSSFeed from './components/kcm-rss-feed'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from './utils/domain'
 import type { Metadata } from 'next'
+import { getHomeFaqs } from './lib/home-faqs'
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers()
@@ -90,6 +91,7 @@ export default async function Page() {
   const config = getCurrentDomainConfig({ headers: headersList })
   const email = config.contact.email
   const agent = config.realEstateAgent
+  const homeFaqs = getHomeFaqs(config)
   return (
     <>
       <SchemaMarkup />
@@ -117,6 +119,11 @@ export default async function Page() {
           <h1 className="text-5xl font-bold mb-6 text-white drop-shadow-lg">
             Bravado Homes | Century Communities Las Vegas
           </h1>
+          <p className="text-lg mb-6 text-white/95 drop-shadow-md max-w-4xl mx-auto leading-relaxed">
+            Bravado is a gated Century Communities community at 5060 Wind Springs Street, North Las Vegas, NV 89031.
+            Three two-story plans span 1,792–2,119 sq ft with move-in homes from $445,000 (Century Communities, 2026-10-12).
+            Dr. Jan Duffy (NV {agent?.licenseNumber ?? 'S.0197614'}) provides independent buyer representation. Equal Housing Opportunity.
+          </p>
           <p className="text-2xl mb-4 text-white drop-shadow-md font-semibold">
             Now Selling! Starting at $445,000 - Luxury Homes in Gated Community
           </p>
@@ -835,6 +842,18 @@ export default async function Page() {
         </div>
       </div>
 
+      <section id="faq" className="content-section mb-16">
+        <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">Bravado Homes FAQ</h2>
+        <div className="max-w-4xl mx-auto space-y-8">
+          {homeFaqs.map((faq) => (
+            <div key={faq.question} className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+              <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Final Urgency CTA Section */}
       <div className="bg-gradient-to-r from-red-600 to-purple-600 text-white p-12 rounded-lg text-center mb-8">
         <h2 className="text-4xl font-bold mb-6">
@@ -851,7 +870,7 @@ export default async function Page() {
             <span className="text-2xl">(702) 500-1955</span>
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-red-600 transition-colors">
-            📧 EMAIL DR. JANET<br />
+            📧 EMAIL DR. JAN<br />
             {email}
           </a>
         </div>
@@ -901,7 +920,7 @@ export default async function Page() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            © 2025 Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+            © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
             Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
           </p>
         </div>

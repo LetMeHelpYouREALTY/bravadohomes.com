@@ -43,7 +43,7 @@ export default async function GeoFAQSchema({
     },
     "author": {
       "@type": "Person",
-      "name": agent?.name || "Dr. Janet Duffy",
+      "name": agent?.name || "Dr. Jan Duffy",
       "identifier": agent?.licenseNumber || "S.0197614"
     },
     "publisher": {

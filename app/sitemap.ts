@@ -79,18 +79,14 @@ export default async function sitemap() {
     
     // Blog pages (medium priority)
     { route: '/blog', priority: 0.6, changefreq: 'weekly' },
-  ].map(({ route, priority, changefreq }) => ({
+  ].map(({ route }) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString().split('T')[0],
-    priority,
-    changefreq,
   }))
 
   // Add blog posts with lower priority
-  let blogPosts = blogs.map((blog) => ({
-    ...blog,
-    priority: 0.5,
-    changefreq: 'monthly',
+  const blogPosts = blogs.map((blog) => ({
+    url: blog.url,
+    lastModified: blog.lastModified,
   }))
 
   return [...routes, ...blogPosts]

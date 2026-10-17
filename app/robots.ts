@@ -88,6 +88,36 @@ export default async function robots() {
         disallow: ['/api/', '/admin/', '/private/'],
       },
       {
+        userAgent: 'anthropic-ai',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+      {
+        userAgent: 'Google-Extended',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+      {
+        userAgent: 'cohere-ai',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+      {
+        userAgent: 'Applebot-Extended',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+      {
+        userAgent: 'YouBot',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+      {
+        userAgent: 'Diffbot',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/private/'],
+      },
+      {
         userAgent: 'MistralAI-User',
         allow: '/',
         disallow: ['/api/', '/admin/', '/private/'],

@@ -27,7 +27,7 @@ export async function generateDomainMetadata(): Promise<Metadata> {
       default: `Bravado Homes | Century Communities Las Vegas | ${businessName}`,
       template: `%s | Bravado Homes`,
     },
-    description: `Bravado Homes by Century Communities in Las Vegas. Now selling luxury new construction homes starting at $459,790. Expert guidance from ${config.realEstateAgent?.name || 'Dr. Janet Duffy'}, Featured Century Communities Partner. View floor plans, schedule tour, and get VIP access.`,
+    description: `Bravado Homes by Century Communities in North Las Vegas. New construction from $445,000 (Century Communities, 2026-10-12). Expert guidance from ${config.realEstateAgent?.name || 'Dr. Jan Duffy'}.`,
     keywords: [
       'bravado homes',
       'bravado century communities',
@@ -41,11 +41,11 @@ export async function generateDomainMetadata(): Promise<Metadata> {
       location.zip !== 'TBD' ? location.zip : '',
       'new home construction',
       'buyer representation',
-      config.realEstateAgent?.name || 'Dr. Janet Duffy',
+      config.realEstateAgent?.name || 'Dr. Jan Duffy',
       'century communities las vegas',
     ].filter(Boolean),
-    authors: [{ name: config.realEstateAgent?.name || 'Dr. Janet Duffy', url: config.baseUrl }],
-    creator: config.realEstateAgent?.name || 'Dr. Janet Duffy',
+    authors: [{ name: config.realEstateAgent?.name || 'Dr. Jan Duffy', url: config.baseUrl }],
+    creator: config.realEstateAgent?.name || 'Dr. Jan Duffy',
     publisher: businessName,
     formatDetection: {
       email: false,
@@ -54,7 +54,7 @@ export async function generateDomainMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: `Bravado Homes | Century Communities Las Vegas | ${businessName}`,
-      description: `Bravado Homes by Century Communities in Las Vegas. Now selling luxury new construction homes starting at $459,790. Expert guidance from ${config.realEstateAgent?.name || 'Dr. Janet Duffy'}, Featured Century Communities Partner.`,
+      description: `Bravado Homes by Century Communities in North Las Vegas. New construction from $445,000. Expert guidance from ${config.realEstateAgent?.name || 'Dr. Jan Duffy'}.`,
       url: config.baseUrl,
       siteName: businessName,
       locale: 'en_US',
@@ -71,7 +71,7 @@ export async function generateDomainMetadata(): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       title: `Bravado Homes | Century Communities Las Vegas`,
-      description: `Bravado Homes by Century Communities. Now selling luxury new construction homes starting at $459,790. Expert guidance from ${config.realEstateAgent?.name || 'Dr. Janet Duffy'}.`,
+      description: `Bravado Homes by Century Communities in North Las Vegas. New construction from $445,000. Expert guidance from ${config.realEstateAgent?.name || 'Dr. Jan Duffy'}.`,
       images: [`${config.baseUrl}/images/bravado/exterior/community-hero.jpg`],
       creator: '@DrJanSells',
     },
