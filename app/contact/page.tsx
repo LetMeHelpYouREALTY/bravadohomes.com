@@ -12,11 +12,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Contact Dr. Janet Duffy | Bravado Homes North Las Vegas | Century Communities Expert',
-    description: 'Contact Dr. Janet Duffy for expert new home construction and buyer representation services in North Las Vegas. Featured Century Communities Partner. Call (702) 500-1955 or email today.',
+    title: 'Contact Dr. Jan Duffy | Bravado Homes North Las Vegas | Century Communities Expert',
+    description: 'Contact Dr. Jan Duffy for expert new home construction and buyer representation services in North Las Vegas. Featured Century Communities Partner. Call (702) 500-1955 or email today.',
     keywords: [
-      'contact Dr. Janet Duffy',
-      'Dr. Janet Duffy contact',
+      'contact Dr. Jan Duffy',
+      'Dr. Jan Duffy contact',
       'Bravado homes contact',
       'North Las Vegas real estate agent',
       'Century Communities expert',
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'schedule tour Bravado',
       'model home tour',
       'Nevada real estate license S.0197614',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'Century Communities partner',
       'new construction consultation',
       'home buying guidance',
@@ -38,8 +38,8 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: `${baseUrl}/contact`,
     },
     openGraph: {
-      title: 'Contact Dr. Janet Duffy | Bravado Homes North Las Vegas',
-      description: 'Contact Dr. Janet Duffy for expert new home construction and buyer representation services. Featured Century Communities Partner.',
+      title: 'Contact Dr. Jan Duffy | Bravado Homes North Las Vegas',
+      description: 'Contact Dr. Jan Duffy for expert new home construction and buyer representation services. Featured Century Communities Partner.',
       url: `${baseUrl}/contact`,
       type: 'website',
     },
@@ -59,7 +59,7 @@ export default async function ContactPage() {
             ⭐ LIMITED TIME: VIP ACCESS TO BRAVADO HOMES ⭐
           </div>
           <h1 className="text-5xl font-bold mb-6">
-            Contact Dr. Janet Duffy
+            Contact Dr. Jan Duffy
           </h1>
           <p className="text-2xl mb-4">
             Your Featured Century Communities Partner
@@ -72,7 +72,7 @@ export default async function ContactPage() {
               📞 Call NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="tel:+17022221964" className="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors text-lg">
               🚨 Urgent: (702) 222-1964
@@ -84,13 +84,13 @@ export default async function ContactPage() {
         </div>
       </div>
 
-      {/* About Dr. Janet Duffy Section */}
+      {/* About Dr. Jan Duffy Section */}
       <div className="about-section">
         <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">
-          About Dr. Janet Duffy
+          About Dr. Jan Duffy
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
-          Ready to make Bravado your new home? Dr. Janet Duffy, featured partner with 
+          Ready to make Bravado your new home? Dr. Jan Duffy, featured partner with 
           Century Communities, is here to guide you through every step of your home 
           buying journey. As a <strong>Featured New Home Construction and Buyer Representation specialist</strong>, she provides expert guidance throughout the entire new home construction process.
         </p>
@@ -107,7 +107,7 @@ export default async function ContactPage() {
               🎯 Get Personalized Home Alerts & Market Updates
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Sign up for Dr. Janet Duffy's exclusive property alerts and stay informed about 
+              Sign up for Dr. Jan Duffy's exclusive property alerts and stay informed about 
               new Bravado homes, market changes, and investment opportunities.
             </p>
             
@@ -144,7 +144,7 @@ export default async function ContactPage() {
               </h3>
               <p className="text-gray-700 text-center mb-6">
                 Curious about your current home's value? Get an instant, accurate valuation 
-                from Dr. Janet Duffy's RealScout system. Perfect for planning your next move to Bravado!
+                from Dr. Jan Duffy's RealScout system. Perfect for planning your next move to Bravado!
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <RealScoutHomeValue agentEncodedId="QWdlbnQtMjI1MDUw" />
@@ -162,7 +162,7 @@ export default async function ContactPage() {
 
             {/* RealScout Lead Capture Widget */}
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Sign Up for Dr. Janet Duffy's Alerts</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Sign Up for Dr. Jan Duffy's Alerts</h3>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <RealScoutListings
                   agentEncodedId="QWdlbnQtMjI1MDUw"
@@ -181,7 +181,7 @@ export default async function ContactPage() {
       {/* Contact Options Section */}
       <div className="content-section">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Get in Touch with Dr. Janet Duffy
+          Get in Touch with Dr. Jan Duffy
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -296,7 +296,7 @@ export default async function ContactPage() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border card-hover text-center">
             <div className="feature-icon mx-auto mb-4">👩‍💼</div>
-            <h3 className="text-xl font-bold mb-4 text-gray-900">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-4 text-gray-900">Dr. Jan Duffy</h3>
             <p className="text-gray-700 mb-2">
               <strong>Featured New Home Construction<br />
               & Buyer Representation Specialist</strong><br />
@@ -351,10 +351,10 @@ export default async function ContactPage() {
             ⭐ FEATURED NEW HOME CONSTRUCTION & BUYER REPRESENTATION ⭐
           </div>
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy as Your Home Specialist?
+            Why Choose Dr. Jan Duffy as Your Home Specialist?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy serves as a Featured New Home Construction and Buyer Representation specialist for Century Communities, providing expert guidance throughout your entire new home journey while protecting your interests.
+            Dr. Jan Duffy serves as a Featured New Home Construction and Buyer Representation specialist for Century Communities, providing expert guidance throughout your entire new home journey while protecting your interests.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -485,7 +485,7 @@ export default async function ContactPage() {
         <p className="text-xl mb-8 opacity-90">
           Don't wait to secure your dream home at Bravado. With limited inventory available 
           and high demand for these exceptional homes, now is the perfect time to schedule 
-          your personal tour with Dr. Janet Duffy, your Featured New Home Construction and Buyer Representation specialist.
+          your personal tour with Dr. Jan Duffy, your Featured New Home Construction and Buyer Representation specialist.
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -512,7 +512,7 @@ export default async function ContactPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Featured New Home Construction<br />
             & Buyer Representation Specialist<br />
             Nevada License: S.0197614</p>
@@ -528,8 +528,8 @@ export default async function ContactPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            © 2025 Bravado | Homes by Dr Janet Duffy. All rights reserved.<br />
-            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Janet Duffy is an independent real estate agent providing expert guidance to home buyers.
+            © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
           </p>
         </div>
       </div>

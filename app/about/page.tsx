@@ -5,12 +5,12 @@ import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Dr. Janet Duffy - Century Communities Expert | Bravado Homes',
-  description: 'Meet Dr. Janet Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities. Expert guidance for Bravado homes in North Las Vegas with Nevada License S.0197614.',
+  title: 'About Dr. Jan Duffy - Century Communities Expert | Bravado Homes',
+  description: 'Meet Dr. Jan Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities. Expert guidance for Bravado homes in North Las Vegas with Nevada License S.0197614.',
   keywords: [
-    'Dr. Janet Duffy',
-    'Dr. Janet Duffy real estate agent',
-    'Dr. Janet Duffy Century Communities',
+    'Dr. Jan Duffy',
+    'Dr. Jan Duffy real estate agent',
+    'Dr. Jan Duffy Century Communities',
     'Century Communities expert',
     'Century Communities featured partner',
     'new home construction specialist',
@@ -35,15 +35,15 @@ export const metadata: Metadata = {
     'new home construction guidance'
   ],
   openGraph: {
-    title: 'About Dr. Janet Duffy - Century Communities Expert',
-    description: 'Meet Dr. Janet Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities. Expert guidance for Bravado homes.',
+    title: 'About Dr. Jan Duffy - Century Communities Expert',
+    description: 'Meet Dr. Jan Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities. Expert guidance for Bravado homes.',
     type: 'profile',
     images: [
       {
         url: '/images/bravado/about/dr-janet-duffy.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dr. Janet Duffy - Century Communities Expert',
+        alt: 'Dr. Jan Duffy - Century Communities Expert',
       },
     ],
   },
@@ -65,7 +65,7 @@ export default async function AboutPage() {
             ⭐ VIP CENTURY COMMUNITIES PARTNER ⭐
           </div>
           <h1 className="text-5xl font-bold mb-6">
-            About Dr. Janet Duffy
+            About Dr. Jan Duffy
           </h1>
           <p className="text-2xl mb-4">
             Featured New Home Construction & Buyer Representation Specialist
@@ -78,7 +78,7 @@ export default async function AboutPage() {
               📞 Call NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 Schedule Consultation
@@ -92,9 +92,9 @@ export default async function AboutPage() {
 
       {/* Urgency Banner */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-8 rounded-lg mb-12 text-center">
-        <h2 className="text-2xl font-bold mb-4">🚨 LIMITED TIME: BRAVADO HOMES SELLING FAST!</h2>
+        <h2 className="text-2xl font-bold mb-4">Work With Dr. Jan Duffy at Bravado</h2>
         <p className="text-lg mb-4">
-          <strong>Only 3 floor plans remaining!</strong> Get VIP access to Bravado with Dr. Janet Duffy's expert guidance. 
+          Get VIP access to Bravado floor plans and North Las Vegas new construction with Dr. Jan Duffy&apos;s buyer representation. 
           Don't miss your chance to own a luxury home in North Las Vegas.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
@@ -107,15 +107,15 @@ export default async function AboutPage() {
         </div>
       </div>
 
-      {/* About Dr. Janet Duffy Section */}
+      {/* About Dr. Jan Duffy Section */}
       <div className="content-section">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
-              Meet Dr. Janet Duffy
+              Meet Dr. Jan Duffy
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              <strong>Dr. Janet Duffy</strong> is a distinguished real estate professional specializing in new home construction and buyer representation in the Las Vegas area. With her <strong>VIP partnership with Century Communities</strong>, she provides unparalleled expertise and exclusive access to premier communities like Bravado in North Las Vegas.
+              <strong>Dr. Jan Duffy</strong> is a distinguished real estate professional specializing in new home construction and buyer representation in the Las Vegas area. With her <strong>VIP partnership with Century Communities</strong>, she provides unparalleled expertise and exclusive access to premier communities like Bravado in North Las Vegas.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               As a <strong>Featured New Home Construction & Buyer Representation Specialist</strong>, Dr. Duffy brings a unique perspective to real estate, combining her professional background with deep market knowledge and builder relationships. Her clients benefit from her insider access to Century Communities' latest developments, priority lot selection, and exclusive incentives.
@@ -161,7 +161,7 @@ export default async function AboutPage() {
               <div className="border-l-4 border-blue-600 pl-4">
                 <h4 className="font-bold text-gray-900">1995-Present: 30+ Years in Las Vegas Real Estate</h4>
                 <p className="text-gray-700">
-                  Dr. Janet Duffy has been serving Las Vegas homebuyers for over three decades, witnessing 
+                  Dr. Jan Duffy has been serving Las Vegas homebuyers for over three decades, witnessing 
                   and adapting to market cycles, neighborhood development, and changing buyer needs. This 
                   extensive experience provides unparalleled market knowledge and client service expertise.
                 </p>
@@ -169,7 +169,7 @@ export default async function AboutPage() {
               <div className="border-l-4 border-purple-600 pl-4">
                 <h4 className="font-bold text-gray-900">Clinical Psychology Background</h4>
                 <p className="text-gray-700">
-                  Dr. Janet Duffy's clinical psychology background provides unique insights into buyer behavior, 
+                  Dr. Jan Duffy's clinical psychology background provides unique insights into buyer behavior, 
                   life transitions, and the emotional aspects of home buying. This expertise enhances her ability 
                   to understand client needs, especially during major life changes like retirement, first-time 
                   buying, or divorce situations.
@@ -178,7 +178,7 @@ export default async function AboutPage() {
               <div className="border-l-4 border-green-600 pl-4">
                 <h4 className="font-bold text-gray-900">Century Communities Partnership History</h4>
                 <p className="text-gray-700">
-                  As a Featured Century Communities Partner, Dr. Janet Duffy has built a long-standing relationship 
+                  As a Featured Century Communities Partner, Dr. Jan Duffy has built a long-standing relationship 
                   with one of America's top 10 homebuilders. This partnership provides clients with exclusive access, 
                   priority lot selection, and insider knowledge of Century Communities' processes and quality standards.
                 </p>
@@ -186,7 +186,7 @@ export default async function AboutPage() {
               <div className="border-l-4 border-yellow-600 pl-4">
                 <h4 className="font-bold text-gray-900">Expertise Across Buyer Types</h4>
                 <p className="text-gray-700">
-                  Dr. Janet Duffy specializes in helping diverse buyer types including first-time buyers, 
+                  Dr. Jan Duffy specializes in helping diverse buyer types including first-time buyers, 
                   55+ active adult community buyers, divorce situations, and real estate investors. Her 
                   experience across these different scenarios provides comprehensive expertise for any buyer situation.
                 </p>
@@ -228,7 +228,7 @@ export default async function AboutPage() {
       {/* Expertise Section */}
       <div className="content-section">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Dr. Janet Duffy's Expertise
+          Dr. Jan Duffy's Expertise
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border text-center card-hover">
@@ -276,7 +276,7 @@ export default async function AboutPage() {
             VIP Century Communities Partnership
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy's exclusive partnership with Century Communities provides unique advantages for her clients
+            Dr. Jan Duffy's exclusive partnership with Century Communities provides unique advantages for her clients
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -302,7 +302,7 @@ export default async function AboutPage() {
       {/* Client Benefits Section */}
       <div className="content-section">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Why Work With Dr. Janet Duffy?
+          Why Work With Dr. Jan Duffy?
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border">
@@ -357,14 +357,14 @@ export default async function AboutPage() {
           🏠 Advanced Property Tools
         </h2>
         <p className="text-lg text-gray-700 text-center mb-8 max-w-4xl mx-auto leading-relaxed">
-          Dr. Janet Duffy provides access to <strong>advanced RealScout technology</strong> for comprehensive market analysis and property search
+          Dr. Jan Duffy provides access to <strong>advanced RealScout technology</strong> for comprehensive market analysis and property search
         </p>
           
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-xl font-bold mb-4 text-gray-900">Property Valuation</h3>
             <p className="text-gray-700 mb-4">
-              Get instant property valuations with Dr. Janet Duffy's RealScout system
+              Get instant property valuations with Dr. Jan Duffy's RealScout system
             </p>
             <RealScoutHomeValue agentEncodedId="QWdlbnQtMjI1MDUw" />
           </div>
@@ -385,7 +385,7 @@ export default async function AboutPage() {
           Professional Background and Approach
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          Dr. Janet Duffy brings a unique combination of professional expertise, market knowledge, and builder 
+          Dr. Jan Duffy brings a unique combination of professional expertise, market knowledge, and builder 
           relationships to every client interaction. Her approach is based on transparency, education, and 
           genuine commitment to client success rather than simply making a sale.
         </p>
@@ -431,7 +431,7 @@ export default async function AboutPage() {
           Client Success and Satisfaction
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          Dr. Janet Duffy's commitment to client success is reflected in the satisfaction of her clients and 
+          Dr. Jan Duffy's commitment to client success is reflected in the satisfaction of her clients and 
           the successful outcomes they achieve. Her approach combines expert guidance, personalized service, 
           and genuine care for each client's unique situation and goals.
         </p>
@@ -466,13 +466,13 @@ export default async function AboutPage() {
         </div>
       </div>
 
-      {/* What Makes Dr. Janet Different Section */}
+      {/* What Makes Dr. Jan Different Section */}
       <div className="content-section mb-12">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          What Makes Dr. Janet Duffy Different
+          What Makes Dr. Jan Duffy Different
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          In a market where many real estate agents offer similar services, Dr. Janet Duffy stands out for 
+          In a market where many real estate agents offer similar services, Dr. Jan Duffy stands out for 
           several key reasons. Her combination of specialization, builder relationships, and client-focused 
           approach creates a unique value proposition for homebuyers.
         </p>
@@ -530,10 +530,10 @@ export default async function AboutPage() {
       {/* Contact Section */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">
         <h2 className="text-3xl font-bold mb-6">
-          Ready to Work With Dr. Janet Duffy?
+          Ready to Work With Dr. Jan Duffy?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for expert guidance on your new home construction or real estate needs
+          Contact Dr. Jan Duffy today for expert guidance on your new home construction or real estate needs
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -550,13 +550,13 @@ export default async function AboutPage() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

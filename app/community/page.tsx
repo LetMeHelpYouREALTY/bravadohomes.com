@@ -10,8 +10,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Bravado Community | Gated Luxury Community North Las Vegas | Dr. Janet Duffy',
-    description: 'Bravado Community - Gated luxury community in North Las Vegas with park, walking paths, and security. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner. View available homes starting at $459,790.',
+    title: 'Bravado Community | Gated Luxury Community North Las Vegas | Dr. Jan Duffy',
+    description: 'Bravado gated community in North Las Vegas: park, walking paths, and security. Move-in homes from $445,000 (Century Communities, 2026-10-12). Guidance from Dr. Jan Duffy.',
     keywords: [
       'bravado community',
       'bravado north las vegas',
@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'century communities bravado',
       'north las vegas gated communities',
       'bravado community amenities',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       '89031 community',
       'new construction community las vegas',
     ],
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: 'Bravado Community | Gated Luxury Community North Las Vegas',
-      description: 'Bravado Community - Gated luxury community in North Las Vegas with park, walking paths, and security. Expert guidance from Dr. Janet Duffy.',
+      description: 'Bravado Community - Gated luxury community in North Las Vegas with park, walking paths, and security. Expert guidance from Dr. Jan Duffy.',
       url: `${baseUrl}/community`,
       type: 'website',
     },
@@ -60,14 +60,14 @@ export default async function CommunityPage() {
             Gated Luxury Community in North Las Vegas
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Featured Partner
+            Expert Guidance from Dr. Jan Duffy | Century Communities Featured Partner
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
               📞 Call NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/floor-plans" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 View Floor Plans
@@ -81,10 +81,9 @@ export default async function CommunityPage() {
 
       {/* Urgency Banner */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-8 rounded-lg mb-12 text-center">
-        <h2 className="text-2xl font-bold mb-4">🚨 ACT FAST - BRAVADO COMMUNITY SELLING OUT!</h2>
+        <h2 className="text-2xl font-bold mb-4">Tour Bravado in North Las Vegas</h2>
         <p className="text-lg mb-4">
-          <strong>Only 3 floor plans remaining!</strong> This exclusive gated community is selling fast. 
-          Get your VIP tour with Dr. Janet Duffy before these luxury homes are gone forever.
+          Explore three two-story floor plans in this gated community. Schedule a tour with Dr. Jan Duffy for current availability and builder pricing.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-red-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -108,7 +107,7 @@ export default async function CommunityPage() {
           ideal place to call home in North Las Vegas.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
-          As a <strong>Featured New Home Construction and Buyer Representation specialist</strong> with Century Communities, Dr. Janet Duffy brings unparalleled expertise in helping families navigate the new home construction process while ensuring your interests are always protected.
+          As a <strong>Featured New Home Construction and Buyer Representation specialist</strong> with Century Communities, Dr. Jan Duffy brings unparalleled expertise in helping families navigate the new home construction process while ensuring your interests are always protected.
         </p>
       </div>
 
@@ -192,7 +191,7 @@ export default async function CommunityPage() {
             </p>
             <p className="text-base text-gray-600 text-center mb-8 max-w-4xl mx-auto">
               <strong>These are current listings near the Bravado area to give you more options and market insights.</strong> 
-              Dr. Janet Duffy provides expert guidance on all North Las Vegas properties, helping you find the perfect home 
+              Dr. Jan Duffy provides expert guidance on all North Las Vegas properties, helping you find the perfect home 
               whether it's in Bravado or the surrounding communities.
             </p>
             
@@ -268,12 +267,12 @@ export default async function CommunityPage() {
             
             <div className="mt-6 text-center">
               <p className="text-gray-600 text-sm mb-4">
-                💡 <strong>Expert Tip:</strong> Dr. Janet Duffy has insider knowledge of the entire North Las Vegas market. 
+                💡 <strong>Expert Tip:</strong> Dr. Jan Duffy has insider knowledge of the entire North Las Vegas market. 
                 Contact her for exclusive access to off-market properties and pre-construction opportunities.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a href="tel:+17025001955" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-blue-700 transition-colors">
-                  Call Dr. Janet: (702) 500-1955
+                  Call Dr. Jan: (702) 500-1955
                 </a>
                 <a href={`mailto:${email}`} className="bg-white border-2 border-blue-600 text-blue-600 px-6 py-2 rounded-lg font-bold hover:bg-blue-50 transition-colors">
                   Email for Market Report
@@ -381,10 +380,10 @@ export default async function CommunityPage() {
             ⭐ FEATURED NEW HOME CONSTRUCTION & BUYER REPRESENTATION ⭐
           </div>
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy as Your New Home Specialist?
+            Why Choose Dr. Jan Duffy as Your New Home Specialist?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy serves as a Featured New Home Construction and Buyer Representation specialist for Century Communities, providing expert guidance throughout your entire new home journey while protecting your interests.
+            Dr. Jan Duffy serves as a Featured New Home Construction and Buyer Representation specialist for Century Communities, providing expert guidance throughout your entire new home journey while protecting your interests.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -442,7 +441,7 @@ export default async function CommunityPage() {
           <div className="bg-white p-8 rounded-lg shadow-sm border card-hover">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">New Home Construction Process</h3>
             <p className="mb-4 text-gray-700 leading-relaxed">
-              As a Featured New Home Construction specialist, Dr. Janet Duffy guides you through 
+              As a Featured New Home Construction specialist, Dr. Jan Duffy guides you through 
               every step of the construction process, from initial design selections to final 
               walkthrough. Her expertise ensures you understand timelines, quality standards, 
               and have proper representation throughout your new home journey.
@@ -469,18 +468,14 @@ export default async function CommunityPage() {
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Family-Friendly Environment</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Gated Community &amp; Park Access</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Bravado is designed with families in mind. The gated community provides a safe environment 
-              where children can play and explore, while the proximity to Craig Ranch Regional Park offers 
-              endless recreational opportunities. The well-maintained common areas and landscaping create 
-              an attractive, welcoming atmosphere that families appreciate.
+              Bravado is a gated community with a neighborhood park, walking paths, and landscaped common areas.
+              Craig Ranch Regional Park is nearby for trails, sports fields, and open space.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The community's location in North Las Vegas provides access to excellent schools, making 
-              it an ideal choice for families with school-age children. The combination of safety, 
-              amenities, and educational opportunities creates an environment where families can thrive 
-              and children can grow up in a supportive community setting.
+              North Las Vegas is served by Clark County School District schools. Verify attendance boundaries
+              and programs on the CCSD school locator before you choose a homesite.
             </p>
           </div>
 
@@ -521,7 +516,7 @@ export default async function CommunityPage() {
             <p className="text-gray-700 leading-relaxed mb-4">
               Bravado's location provides easy access to Las Vegas's world-class attractions while maintaining 
               the peaceful, residential atmosphere that makes North Las Vegas special. The I-15 access makes 
-              commuting to downtown Las Vegas, the Strip, and McCarran International Airport quick and convenient.
+              commuting to downtown Las Vegas, the Strip, and Harry Reid International Airport.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Whether you work in Las Vegas, enjoy entertainment and dining on the Strip, or frequently travel, 
@@ -569,7 +564,7 @@ export default async function CommunityPage() {
         </h2>
         <p className="text-xl mb-8 opacity-90">
           Ready to discover what makes Bravado the perfect community for your family? 
-          Dr. Janet Duffy invites you to experience firsthand the exceptional lifestyle 
+          Dr. Jan Duffy invites you to experience firsthand the exceptional lifestyle 
           and new home construction process that awaits you in this premier North Las Vegas development.
         </p>
         
@@ -593,7 +588,7 @@ export default async function CommunityPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Featured New Home Construction<br />
             & Buyer Representation Specialist<br />
             Nevada License: S.0197614</p>
@@ -609,8 +604,8 @@ export default async function CommunityPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            © 2025 Bravado | Homes by Dr Janet Duffy. All rights reserved.<br />
-            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Janet Duffy is an independent real estate agent providing expert guidance to home buyers.
+            © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
           </p>
         </div>
       </div>

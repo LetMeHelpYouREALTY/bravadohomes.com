@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Bravado Homes Las Vegas Floor Plans | Century Communities | Now Selling $459,790+',
-    description: 'Bravado Homes Las Vegas floor plans - 3 two-story floor plans available starting at $459,790. View Residence 1792, 1943, and 2119 floor plans with 3-5 bedrooms, smart tech included. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner.',
+    title: 'Bravado Floor Plans | Century Communities | From $429,990',
+    description: 'Three Bravado two-story floor plans (1792, 1943, 2119) from $429,990–$449,990 per Century Communities (2026-10-12). Smart home tech included. Guidance from Dr. Jan Duffy.',
     keywords: [
       'bravado homes las vegas floor plans',
       'bravado floor plans',
@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'two-story homes las vegas',
       'floor plans north las vegas',
       'new home floor plans',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'residence 1792',
       'residence 1792 floor plan',
       'residence 1943',
@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'residence 2119',
       'residence 2119 floor plan',
       'bravado homes for sale',
-      'starting at $459,790',
+      'starting at $429,990',
       'bravado floor plan comparison',
       'choose floor plan',
       'floor plan selection',
@@ -45,14 +45,14 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: 'Bravado Homes Las Vegas Floor Plans | Century Communities',
-      description: 'Bravado Homes Las Vegas floor plans - 3 two-story floor plans available starting at $459,790. View all floor plans with expert guidance from Dr. Janet Duffy.',
+      description: 'Bravado floor plans from $429,990–$449,990 (Century Communities, 2026-10-12). View Residence 1792, 1943, and 2119 with guidance from Dr. Jan Duffy.',
       url: `${baseUrl}/floor-plans`,
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title: 'Bravado Homes Las Vegas Floor Plans',
-      description: 'View 3 two-story floor plans at Bravado Homes Las Vegas starting at $459,790.',
+      description: 'View three two-story Bravado floor plans starting at $429,990.',
     },
   }
 }
@@ -74,17 +74,17 @@ export default async function FloorPlansPage() {
             Bravado Homes Las Vegas Floor Plans
           </h1>
           <p className="text-2xl mb-4">
-            Now Selling! Luxury Two-Story Homes Starting at $459,790
+            Now Selling! Two-Story Floor Plans From $429,990
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
               📞 Call NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="#floor-plans" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 View Floor Plans
@@ -100,8 +100,7 @@ export default async function FloorPlansPage() {
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-8 rounded-lg mb-12 text-center">
         <h2 className="text-2xl font-bold mb-4">🚨 ACT FAST - LIMITED AVAILABILITY!</h2>
         <p className="text-lg mb-4">
-          <strong>Only 3 floor plans left at Bravado!</strong> These luxury homes are selling out fast. 
-          Get your VIP tour with Dr. Janet Duffy before they're gone forever.
+          Bravado offers three two-story floor plans. Schedule a VIP tour with Dr. Jan Duffy to compare layouts and current builder pricing.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-red-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -293,7 +292,7 @@ export default async function FloorPlansPage() {
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-lg mt-12 text-center">
           <h3 className="text-2xl font-bold mb-4">⚡ ACT NOW - LIMITED TIME OFFER!</h3>
           <p className="text-lg mb-6">
-            Get VIP access to Bravado floor plans with Dr. Janet Duffy's expert guidance. 
+            Get VIP access to Bravado floor plans with Dr. Jan Duffy's expert guidance. 
             <strong> Schedule your private tour today!</strong>
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -301,7 +300,7 @@ export default async function FloorPlansPage() {
               📞 CALL NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-green-600 transition-colors text-lg">
-              📧 EMAIL DR. JANET
+              📧 EMAIL DR. JAN
             </a>
           </div>
         </div>
@@ -313,7 +312,7 @@ export default async function FloorPlansPage() {
           About Bravado Floor Plans
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
-          <strong>Dr. Janet Duffy</strong>, Featured New Home Construction & Buyer Representation Specialist, represents <strong>Century Communities</strong>—one of the nation's top 10 homebuilders—at <strong>Bravado</strong>, offering exceptional <strong>new homes for sale in North Las Vegas, NV</strong>. This prestigious North Las Vegas community features a luxurious lineup of <strong>two-story homes</strong> with <strong>modern designs</strong>, optional smart home features, and contemporary layouts.
+          <strong>Dr. Jan Duffy</strong>, Featured New Home Construction & Buyer Representation Specialist, represents <strong>Century Communities</strong>—one of the nation's top 10 homebuilders—at <strong>Bravado</strong>, offering exceptional <strong>new homes for sale in North Las Vegas, NV</strong>. This prestigious North Las Vegas community features a luxurious lineup of <strong>two-story homes</strong> with <strong>modern designs</strong>, optional smart home features, and contemporary layouts.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
           Located at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong>, Bravado combines luxury and convenience for the ideal home in Clark County. Quick access to <strong>I-15 & Craig Ranch Regional Park</strong> provides easy connectivity to downtown Las Vegas, the Las Vegas Strip, and Mount Charleston.
@@ -614,7 +613,7 @@ export default async function FloorPlansPage() {
             </p>
             <p className="text-gray-700 leading-relaxed">
               Features like the Century Connect® smart home technology, premium finishes, and thoughtful design 
-              elements contribute to long-term value. {agent?.name || 'Dr. Janet Duffy'} can help you understand 
+              elements contribute to long-term value. {agent?.name || 'Dr. Jan Duffy'} can help you understand 
               the market dynamics and resale considerations for each floor plan option.
             </p>
           </div>
@@ -634,7 +633,7 @@ export default async function FloorPlansPage() {
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg mb-8">
           <h3 className="text-2xl font-bold mb-6 text-gray-900">Residence 1792: The Perfect Starter Home</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Starting at $459,790, the Residence 1792 is Bravado's entry-level floor plan, but "entry-level" 
+            From $429,990 (Century Communities, 2026-10-12), the Residence 1792 is Bravado&apos;s entry-level floor plan, but &quot;entry-level&quot; 
             doesn't mean basic. This 1,792 square foot home offers everything you need for comfortable living, 
             with the flexibility to choose between 3 or 4 bedrooms depending on your needs. The two-story foyer 
             with courtyard entrance creates an impressive first impression, while the wide-open great room and 
@@ -769,7 +768,7 @@ export default async function FloorPlansPage() {
             Elite Builder Relationship = Your Advantage
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy's VIP Century Communities partnership delivers exclusive access, priority lot selection, and expert negotiation backed by premier relationships.
+            Dr. Jan Duffy's VIP Century Communities partnership delivers exclusive access, priority lot selection, and expert negotiation backed by premier relationships.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -802,14 +801,14 @@ export default async function FloorPlansPage() {
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
           Choosing your Bravado floor plan is an exciting process that involves understanding your needs, 
           exploring your options, and making an informed decision. Here's what to expect when working with 
-          {agent?.name || 'Dr. Janet Duffy'} to select the perfect floor plan for your family.
+          {agent?.name || 'Dr. Jan Duffy'} to select the perfect floor plan for your family.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Initial Consultation</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Your journey begins with a consultation where {agent?.name || 'Dr. Janet'} will help you 
+              Your journey begins with a consultation where {agent?.name || 'Dr. Jan'} will help you 
               understand your family's specific needs, lifestyle, and preferences. We'll discuss your current 
               living situation, future plans, and what's most important to you in a new home. This conversation 
               helps narrow down which floor plan might work best for your situation.
@@ -826,7 +825,7 @@ export default async function FloorPlansPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Model Home Tours</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Seeing a floor plan in person is essential to truly understanding how it will work for your family. 
-              {agent?.name || 'Dr. Janet'} will arrange private tours of the available model homes, allowing you 
+              {agent?.name || 'Dr. Jan'} will arrange private tours of the available model homes, allowing you 
               to experience each floor plan firsthand. During these tours, you'll see how the spaces flow, how 
               natural light enters the home, and how the layout functions in real life.
             </p>
@@ -841,12 +840,12 @@ export default async function FloorPlansPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Lot Selection and Customization</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Once you've chosen a floor plan, {agent?.name || 'Dr. Janet'} will help you select the perfect lot 
+              Once you've chosen a floor plan, {agent?.name || 'Dr. Jan'} will help you select the perfect lot 
               from available options. Lot selection affects views, privacy, natural light, and sometimes even 
               pricing. We'll discuss the pros and cons of different lot positions to help you make the best choice.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              You'll also have opportunities to customize your home with various options and upgrades. {agent?.name || 'Dr. Janet'} 
+              You'll also have opportunities to customize your home with various options and upgrades. {agent?.name || 'Dr. Jan'} 
               can help you understand which upgrades add value and which might not be worth the investment. Her 
               expertise ensures you make smart customization choices that enhance your living experience without 
               overspending on features that don't add proportional value.
@@ -858,13 +857,13 @@ export default async function FloorPlansPage() {
           <h3 className="text-2xl font-bold mb-4 text-gray-900">Making Your Decision</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
             After touring models and discussing your options, you'll have all the information needed to make 
-            an informed decision. {agent?.name || 'Dr. Janet'} will help you weigh the pros and cons of each 
+            an informed decision. {agent?.name || 'Dr. Jan'} will help you weigh the pros and cons of each 
             floor plan option, considering your specific needs, budget, and preferences. There's no pressure—we 
             want you to feel confident in your choice.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Once you've selected your floor plan and lot, the process moves forward with contract signing and 
-            the beginning of the construction process. Throughout construction, {agent?.name || 'Dr. Janet'} 
+            the beginning of the construction process. Throughout construction, {agent?.name || 'Dr. Jan'} 
             remains your advocate, ensuring quality standards are met and addressing any questions or concerns 
             that arise. This ongoing support continues through closing and beyond, as you settle into your new 
             Bravado home.
@@ -889,7 +888,7 @@ export default async function FloorPlansPage() {
             <p className="text-gray-700 leading-relaxed mb-4">
               Century Communities offers various interior customization options that allow you to personalize your 
               Bravado home to match your style and preferences. These may include flooring selections, cabinet 
-              upgrades, countertop materials, fixture choices, and paint colors. {agent?.name || 'Dr. Janet Duffy'} 
+              upgrades, countertop materials, fixture choices, and paint colors. {agent?.name || 'Dr. Jan Duffy'} 
               can help you understand which upgrades add value and which might not provide proportional return on investment.
             </p>
             <p className="text-gray-700 leading-relaxed">
@@ -908,7 +907,7 @@ export default async function FloorPlansPage() {
               rooms. These options allow you to create a home that truly fits your lifestyle and preferences.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              {agent?.name || 'Dr. Janet'} can help you understand which structural options are available for your 
+              {agent?.name || 'Dr. Jan'} can help you understand which structural options are available for your 
               chosen floor plan and lot, and which modifications make sense for your situation. Early selection of 
               your floor plan and lot provides the most customization opportunities, as construction timelines and 
               phase availability affect what options can be incorporated into your home.
@@ -924,7 +923,7 @@ export default async function FloorPlansPage() {
             may be important for your personal enjoyment but might not provide proportional resale value.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            {agent?.name || 'Dr. Janet Duffy'} provides expert guidance on upgrade decisions, helping you understand 
+            {agent?.name || 'Dr. Jan Duffy'} provides expert guidance on upgrade decisions, helping you understand 
             which customizations add value and which are primarily for personal enjoyment. This guidance ensures you 
             make smart decisions that enhance your living experience while maintaining good investment value. The 
             goal is to create a home you love that also maintains strong resale potential.
@@ -938,7 +937,7 @@ export default async function FloorPlansPage() {
           Ready to Find Your Perfect Floor Plan?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Call or email {agent?.name || 'Dr. Janet Duffy'} today for a private tour and expert guidance on your Bravado floor plan selection
+          Call or email {agent?.name || 'Dr. Jan Duffy'} today for a private tour and expert guidance on your Bravado floor plan selection
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -961,7 +960,7 @@ export default async function FloorPlansPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>
@@ -977,8 +976,8 @@ export default async function FloorPlansPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            © 2025 Bravado | Homes by Dr Janet Duffy. All rights reserved.<br />
-            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Janet Duffy is an independent real estate agent providing expert guidance to home buyers.
+            © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
           </p>
         </div>
       </div>

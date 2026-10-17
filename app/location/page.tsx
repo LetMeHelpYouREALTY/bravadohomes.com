@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: `Prime Location | ${config.businessName} | North Las Vegas`,
-    description: `Discover the prime location of ${config.businessName} at 5060 Wind Springs Street, North Las Vegas, NV 89031. Expert location guidance from ${agent?.name || 'Dr. Janet Duffy'}, Century Communities Featured Partner. Easy access to Craig Ranch Regional Park, shopping, dining, and major Las Vegas attractions.`,
+    description: `Discover the prime location of ${config.businessName} at 5060 Wind Springs Street, North Las Vegas, NV 89031. Expert location guidance from ${agent?.name || 'Dr. Jan Duffy'}, Century Communities Featured Partner. Easy access to Craig Ranch Regional Park, shopping, dining, and major Las Vegas attractions.`,
     keywords: [
       `${config.businessName} location`,
       'Bravado location',
@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'North Las Vegas real estate location',
       'Las Vegas new homes location',
       'prime location North Las Vegas',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'Century Communities location',
       'Bravado community location',
       location.zip,
@@ -44,7 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: `Prime Location | ${config.businessName} | North Las Vegas`,
-      description: `Discover the prime location of ${config.businessName} at 5060 Wind Springs Street, North Las Vegas, NV 89031. Expert location guidance from ${agent?.name || 'Dr. Janet Duffy'}.`,
+      description: `Discover the prime location of ${config.businessName} at 5060 Wind Springs Street, North Las Vegas, NV 89031. Expert location guidance from ${agent?.name || 'Dr. Jan Duffy'}.`,
       url: `${baseUrl}/location`,
       type: 'website',
     },
@@ -75,14 +75,14 @@ export default async function LocationPage() {
             5060 Wind Springs Street, North Las Vegas, NV 89031
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Location Guidance from Dr. Janet Duffy | Century Communities Featured Partner
+            Expert Location Guidance from Dr. Jan Duffy | Century Communities Featured Partner
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
               📞 Call NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/floor-plans" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 View Floor Plans
@@ -106,7 +106,7 @@ export default async function LocationPage() {
           the perfect balance of convenience and lifestyle.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
-          As a <strong>Featured New Home Construction and Buyer Representation specialist</strong>, Dr. Janet Duffy provides expert guidance on location benefits, local amenities, and investment potential in North Las Vegas.
+          As a <strong>Featured New Home Construction and Buyer Representation specialist</strong>, Dr. Jan Duffy provides expert guidance on location benefits, local amenities, and investment potential in North Las Vegas.
         </p>
       </div>
 
@@ -166,7 +166,7 @@ export default async function LocationPage() {
 
             <div className="text-center mt-8">
               <a href="/contact" className="cta-button inline-block">
-                Get Personalized Location Guidance from Dr. Janet Duffy
+                Get Personalized Location Guidance from Dr. Jan Duffy
               </a>
             </div>
           </div>
@@ -181,7 +181,7 @@ export default async function LocationPage() {
           Bravado's prime location at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong> places you at the crossroads of 
           convenience and opportunity. Situated near the intersection of major transportation 
           routes, residents enjoy easy access to the Las Vegas Strip, downtown Las Vegas, 
-          McCarran International Airport, and the growing North Las Vegas business district.
+          Harry Reid International Airport, and the growing North Las Vegas business district.
         </p>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border card-hover">
@@ -193,7 +193,7 @@ export default async function LocationPage() {
                 <span className="font-bold text-blue-600">20 minutes</span>
               </li>
               <li className="flex justify-between items-center">
-                <span>McCarran International Airport</span>
+                <span>Harry Reid International Airport</span>
                 <span className="font-bold text-blue-600">25 minutes</span>
               </li>
               <li className="flex justify-between items-center">
@@ -205,6 +205,7 @@ export default async function LocationPage() {
                 <span className="font-bold text-blue-600">30 minutes</span>
               </li>
             </ul>
+            <p className="text-sm text-gray-500 mt-4">Approximate drive times; actual times vary with traffic.</p>
           </div>
           
           <div className="bg-white p-8 rounded-lg shadow-sm border card-hover">
@@ -331,7 +332,7 @@ export default async function LocationPage() {
 
       <div className="mb-12">
         <h2 className="text-2xl font-semibold mb-6 text-gray-900">
-          Excellent Schools & Education
+          Nearby Schools &amp; Education
         </h2>
         <p className="mb-4 text-gray-700 leading-relaxed">
           Families at Bravado benefit from access to some of North Las Vegas's most 
@@ -480,7 +481,7 @@ export default async function LocationPage() {
             Location Expertise from Your New Home Specialist
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy's deep knowledge of North Las Vegas locations, combined with her Featured New Home Construction and Buyer Representation expertise, ensures you make the best location choice for your family's needs.
+            Dr. Jan Duffy&apos;s deep knowledge of North Las Vegas locations, combined with her buyer representation expertise, helps you evaluate commute patterns, amenities, and homesite options.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -529,7 +530,7 @@ export default async function LocationPage() {
             <p className="text-gray-700 leading-relaxed mb-4">
               Bravado's location provides convenient access to I-15, one of Las Vegas's major transportation 
               arteries. This highway access makes commuting to downtown Las Vegas, the Las Vegas Strip, 
-              McCarran International Airport, and employment centers throughout the valley quick and straightforward. 
+              Harry Reid International Airport, and employment centers throughout the valley quick and straightforward. 
               The proximity to major highways reduces commute times and makes daily travel more efficient.
             </p>
             <p className="text-gray-700 leading-relaxed">
@@ -561,13 +562,11 @@ export default async function LocationPage() {
       {/* Schools and Education Section */}
       <div className="content-section mb-12">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Excellent Schools and Educational Opportunities
+          Nearby Schools and CCSD Resources
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          Families choosing Bravado benefit from access to excellent schools in the North Las Vegas area. The 
-          community's location provides convenient access to highly-rated elementary, middle, and high schools, 
-          making it an ideal choice for families with school-age children. The combination of quality education 
-          and prime location creates an excellent environment for raising children.
+          Bravado is in the Clark County School District (CCSD). Use the CCSD school locator to confirm attendance
+          zones and programs for specific addresses before you buy. Equal Housing Opportunity.
         </p>
 
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg mb-8">
@@ -641,7 +640,7 @@ export default async function LocationPage() {
         </h2>
         <p className="text-xl mb-8 opacity-90">
           Ready to discover why Bravado's location at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong> makes it the perfect choice for your 
-          new home? Dr. Janet Duffy invites you to experience firsthand the convenience, 
+          new home? Dr. Jan Duffy invites you to experience firsthand the convenience, 
           amenities, and lifestyle that await you in this premier North Las Vegas 
           community.
         </p>
@@ -666,7 +665,7 @@ export default async function LocationPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Featured New Home Construction<br />
             & Buyer Representation Specialist<br />
             Nevada License: S.0197614</p>
@@ -682,8 +681,8 @@ export default async function LocationPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            © 2025 Bravado | Homes by Dr Janet Duffy. All rights reserved.<br />
-            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Janet Duffy is an independent real estate agent providing expert guidance to home buyers.
+            © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+            Independent real estate resource. Not affiliated with or endorsed by Century Communities. Dr. Jan Duffy is an independent real estate agent providing expert guidance to home buyers.
           </p>
         </div>
       </div>

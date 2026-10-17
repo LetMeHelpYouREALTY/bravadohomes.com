@@ -151,8 +151,7 @@ export default async function Page() {
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white p-8 rounded-lg mb-12 text-center">
         <h2 className="text-2xl font-bold mb-4">🚨 LIMITED AVAILABILITY - ACT FAST!</h2>
         <p className="text-lg mb-4">
-          <strong>Only 3 floor plans remaining!</strong> Bravado is selling out fast. 
-          Get your VIP tour with Dr. Jan Duffy before these luxury homes are gone.
+          Bravado has three two-story floor plans available. Schedule a VIP tour with Dr. Jan Duffy to review layouts and current builder pricing.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-red-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -385,7 +384,7 @@ export default async function Page() {
               📞 CALL NOW: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-green-600 transition-colors text-lg">
-              📧 EMAIL DR. JANET
+              📧 EMAIL DR. JAN
             </a>
           </div>
         </div>
@@ -458,7 +457,7 @@ export default async function Page() {
           <strong>Dr. Jan Duffy</strong>, Featured New Home Construction & Buyer Representation Specialist, is proud to represent <strong>Century Communities</strong>—one of the nation's top 10 homebuilders—at <strong>Bravado Homes in North Las Vegas, NV</strong>. This prestigious gated <strong>Bravado community</strong> showcases stunning two-story floor plans ranging from 1,792 to 2,119 square feet, featuring up to 5 bedrooms and contemporary open layouts. Each <strong>Bravado home</strong> includes the innovative <strong>Century Connect® smart home package</strong>, modern design elements, and premium finishes that define luxury living in the 89031 zip code.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center max-w-4xl mx-auto">
-          Strategically located at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong>, <strong>Bravado Homes</strong> offers unparalleled access to <strong>Craig Ranch Regional Park</strong>—North Las Vegas' premier recreational destination featuring 170 acres of trails, sports fields, and community amenities. <strong>Bravado community</strong> residents enjoy convenient proximity to <strong>Aliante Casino + Hotel</strong>, <strong>Las Vegas Premium Outlets North</strong>, and <strong>I-15 access</strong> for easy commuting to downtown Las Vegas, McCarran International Airport, and the Las Vegas Strip.
+          Strategically located at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong>, <strong>Bravado Homes</strong> offers unparalleled access to <strong>Craig Ranch Regional Park</strong>—North Las Vegas' premier recreational destination featuring 170 acres of trails, sports fields, and community amenities. <strong>Bravado community</strong> residents enjoy convenient proximity to <strong>Aliante Casino + Hotel</strong>, <strong>Las Vegas Premium Outlets North</strong>, and <strong>I-15 access</strong> for easy commuting to downtown Las Vegas, Harry Reid International Airport, and the Las Vegas Strip.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center max-w-4xl mx-auto">
           This master-planned <strong>Bravado community</strong> represents the pinnacle of North Las Vegas living, combining the tranquility of suburban life with the excitement of nearby attractions including <strong>Topgolf Las Vegas</strong>, <strong>M Resort Spa Casino</strong>, world-class golf courses, and convenient access to <strong>Nellis AFB</strong>. <strong>Bravado Homes</strong>' location in the heart of North Las Vegas's fastest-growing corridor ensures strong property values and exceptional lifestyle amenities for discerning homebuyers.
@@ -754,7 +753,7 @@ export default async function Page() {
               area continues to attract new residents and businesses, driving property value growth.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Easy access to I-15 provides convenient commuting to downtown Las Vegas, the Strip, McCarran 
+              Easy access to I-15 provides convenient commuting to downtown Las Vegas, the Strip, Harry Reid 
               International Airport, and Nellis AFB. This connectivity is valuable for both current living 
               and future resale. The combination of location, growth potential, and community amenities 
               makes Bravado a smart investment choice in addition to being a great place to live.
@@ -857,11 +856,11 @@ export default async function Page() {
       {/* Final Urgency CTA Section */}
       <div className="bg-gradient-to-r from-red-600 to-purple-600 text-white p-12 rounded-lg text-center mb-8">
         <h2 className="text-4xl font-bold mb-6">
-          🚨 DON'T MISS OUT - BRAVADO IS SELLING FAST!
+          Schedule Your Bravado Tour
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          <strong>Only 3 floor plans remaining!</strong> Get VIP access to Bravado with {agent?.name || 'Dr. Jan Duffy'}'s expert guidance. 
-          Schedule your private tour today before these luxury homes are gone forever.
+          Get VIP access to Bravado with {agent?.name || 'Dr. Jan Duffy'}&apos;s buyer representation.
+          Schedule a private tour to compare floor plans and current Century Communities pricing.
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
