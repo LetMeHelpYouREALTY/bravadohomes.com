@@ -32,7 +32,7 @@ export default function StickyContact() {
             <div className="flex items-center space-x-4">
               <div className="text-sm">
                 <span className="font-semibold text-gray-900">Ready to find your dream home?</span>
-                <span className="text-gray-600 ml-2">Get expert guidance from Dr. Janet Duffy</span>
+                <span className="text-gray-600 ml-2">Get expert guidance from Dr. Jan Duffy</span>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function StickyContact() {
               href={`mailto:${email}`} 
               className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-bold hover:bg-green-700 transition-colors flex items-center"
             >
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <button 
               onClick={() => setIsVisible(false)}

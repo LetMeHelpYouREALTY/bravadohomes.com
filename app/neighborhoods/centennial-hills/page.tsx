@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import RealScoutListings from '../../components/realscout-listings'
 
 export const metadata: Metadata = {
-  title: 'Centennial Hills Neighborhood Guide | Las Vegas Real Estate | Dr. Janet Duffy',
-  description: 'Complete Centennial Hills neighborhood guide including schools, amenities, price trends, and homes for sale. Expert guidance from Dr. Janet Duffy.',
+  title: 'Centennial Hills Neighborhood Guide | Las Vegas Real Estate | Dr. Jan Duffy',
+  description: 'Complete Centennial Hills neighborhood guide including schools, amenities, price trends, and homes for sale. Expert guidance from Dr. Jan Duffy.',
   keywords: [
     'Centennial Hills Las Vegas',
     'Centennial Hills neighborhoods',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'Centennial Hills real estate',
     'Centennial Hills schools',
     'best neighborhoods Centennial Hills',
-    'Dr. Janet Duffy Centennial Hills'
+    'Dr. Jan Duffy Centennial Hills'
   ],
   openGraph: {
     title: 'Centennial Hills Neighborhood Guide | Las Vegas Real Estate',
@@ -44,7 +44,7 @@ export default async function CentennialHillsPage() {
             Complete Guide to Centennial Hills: Schools, Amenities & Real Estate
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default async function CentennialHillsPage() {
             neighborhoods, and newer construction options. Located in northwest Las Vegas, Centennial Hills 
             features a mix of established and newer communities with average home prices starting around $500,000+. 
             The area is known for good schools, growing amenities, and excellent value relative to other Las Vegas 
-            neighborhoods. {agent?.name || 'Dr. Janet Duffy'} provides expert guidance for buyers considering 
+            neighborhoods. {agent?.name || 'Dr. Jan Duffy'} provides expert guidance for buyers considering 
             Centennial Hills and can help you find homes that match your needs and budget.
           </p>
         </div>
@@ -105,14 +105,14 @@ export default async function CentennialHillsPage() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Interested in Centennial Hills?</h2>
         <p className="text-xl mb-8">
-          Let {agent?.name || 'Dr. Janet Duffy'} help you find the perfect home in Centennial Hills
+          Let {agent?.name || 'Dr. Jan Duffy'} help you find the perfect home in Centennial Hills
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
         </div>
       </div>

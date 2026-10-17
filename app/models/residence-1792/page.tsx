@@ -6,8 +6,8 @@ import { getCurrentDomainConfig } from '../../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Residence 1792 - Bravado North Las Vegas | Dr. Janet Duffy',
-  description: 'Discover Residence 1792 at Bravado in North Las Vegas. 1,792 sq ft, 3-4 bedrooms, 2.5 baths, from $459,990. Expert guidance from Dr. Janet Duffy, Century Communities Featured Partner.',
+  title: 'Residence 1792 - Bravado North Las Vegas | Dr. Jan Duffy',
+  description: 'Discover Residence 1792 at Bravado in North Las Vegas. 1,792 sq ft, 3-4 bedrooms, 2.5 baths, from $429,990. Expert guidance from Dr. Jan Duffy, Century Communities Featured Partner.',
   keywords: [
     'Residence 1792',
     'Residence 1792 Bravado',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'North Las Vegas new construction',
     'Century Communities Bravado',
     'Century Communities Residence 1792',
-    'Dr. Janet Duffy',
+    'Dr. Jan Duffy',
     'new construction homes',
     'new homes Las Vegas',
     '89031 homes',
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     'smart home technology',
     'Century Connect',
     'Bravado floor plans',
-    'starting at $459,990',
+    'starting at $429,990',
     'North Las Vegas real estate',
     'Bravado community homes'
   ],
   openGraph: {
-    title: 'Residence 1792 - Bravado North Las Vegas | Dr. Janet Duffy',
-    description: 'Discover Residence 1792 at Bravado in North Las Vegas. 1,792 sq ft, 3-4 bedrooms, 2.5 baths, from $459,990.',
+    title: 'Residence 1792 - Bravado North Las Vegas | Dr. Jan Duffy',
+    description: 'Discover Residence 1792 at Bravado in North Las Vegas. 1,792 sq ft, 3-4 bedrooms, 2.5 baths, from $429,990.',
     type: 'website',
     images: [
       {
@@ -72,7 +72,7 @@ export default async function Residence1792Page() {
     image: 'https://www.bravadohomes.com/images/bravado/floor-plans/residence-1792.jpg',
     offers: {
       '@type': 'Offer',
-      price: '459790',
+      price: '429990',
       priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
       url: 'https://www.bravadohomes.com/models/residence-1792',
@@ -92,17 +92,17 @@ export default async function Residence1792Page() {
             Residence 1792 - Bravado North Las Vegas
           </h1>
           <p className="text-2xl mb-4">
-            From $459,990 | 1,792 Sq Ft | 3-4 Bedrooms
+            From $429,990 | 1,792 Sq Ft | 3-4 Bedrooms
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Tour
@@ -247,8 +247,8 @@ export default async function Residence1792Page() {
               sortOrder="PRICE_LOW"
               listingStatus="For Sale"
               propertyTypes=",SFR,OTHER"
-              priceMin="459990"
-              priceMax="479990"
+              priceMin="429990"
+              priceMax="449990"
             />
           </div>
         </div>
@@ -267,7 +267,7 @@ export default async function Residence1792Page() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Perfect for First-Time Homebuyers</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Starting at <strong>$459,990</strong>, the <strong>Residence 1792</strong> offers an accessible entry point into <strong>luxury new construction homes in North Las Vegas</strong>. This price point represents exceptional value when you consider that every <strong>Bravado home</strong> includes the <strong>Century Connect® smart home package</strong> as standard equipment. Unlike other builders where similar technology costs $5,000-$10,000 as an upgrade, <strong>Century Communities</strong> includes it in every Residence 1792, providing immediate value and long-term convenience.
+              Starting at <strong>$429,990</strong>, the <strong>Residence 1792</strong> offers an accessible entry point into <strong>luxury new construction homes in North Las Vegas</strong>. This price point represents exceptional value when you consider that every <strong>Bravado home</strong> includes the <strong>Century Connect® smart home package</strong> as standard equipment. Unlike other builders where similar technology costs $5,000-$10,000 as an upgrade, <strong>Century Communities</strong> includes it in every Residence 1792, providing immediate value and long-term convenience.
             </p>
             <p className="text-gray-700 leading-relaxed">
               For first-time homebuyers, the <strong>Residence 1792</strong> provides the perfect starter home without feeling like a starter home. The quality construction, premium finishes, and thoughtful design create a living experience that rivals homes costing significantly more. The flexibility to choose between 3 or 4 bedrooms allows you to select the configuration that best fits your current needs, with the option to adapt as your family grows or needs change.
@@ -291,7 +291,7 @@ export default async function Residence1792Page() {
             When comparing <strong>new homes in North Las Vegas</strong>, the <strong>Residence 1792 at Bravado</strong> consistently emerges as a top choice for several compelling reasons. First, the location at <strong>5060 Wind Springs Street, North Las Vegas, NV 89031</strong> places you in one of the area's fastest-growing corridors, with easy access to <strong>Craig Ranch Regional Park</strong>, major shopping centers, and employment hubs. The <strong>gated community</strong> provides security and exclusivity that's rare at this price point in the Las Vegas market.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Second, the <strong>Century Communities</strong> reputation for quality construction and attention to detail means your Residence 1792 is built to last. From the foundation to the roof, every aspect of construction reflects <strong>Century Communities'</strong> commitment to excellence. The energy-efficient design, premium materials, and thoughtful craftsmanship create a home that provides immediate enjoyment and long-term value. Working with <strong>Dr. Janet Duffy</strong>, a <strong>Featured Century Communities Partner</strong>, ensures you have expert guidance throughout the entire process.
+            Second, the <strong>Century Communities</strong> reputation for quality construction and attention to detail means your Residence 1792 is built to last. From the foundation to the roof, every aspect of construction reflects <strong>Century Communities'</strong> commitment to excellence. The energy-efficient design, premium materials, and thoughtful craftsmanship create a home that provides immediate enjoyment and long-term value. Working with <strong>Dr. Jan Duffy</strong>, a <strong>Featured Century Communities Partner</strong>, ensures you have expert guidance throughout the entire process.
           </p>
         </div>
       </div>
@@ -302,7 +302,7 @@ export default async function Residence1792Page() {
           Customization Options for Residence 1792
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          One of the advantages of choosing <strong>new construction at Bravado</strong> is the ability to customize your <strong>Residence 1792</strong> to match your personal style and preferences. <strong>Century Communities</strong> offers various options and upgrades that allow you to personalize your home while staying within your budget. <strong>Dr. Janet Duffy</strong> can help you understand which customizations add value and which are primarily for personal enjoyment.
+          One of the advantages of choosing <strong>new construction at Bravado</strong> is the ability to customize your <strong>Residence 1792</strong> to match your personal style and preferences. <strong>Century Communities</strong> offers various options and upgrades that allow you to personalize your home while staying within your budget. <strong>Dr. Jan Duffy</strong> can help you understand which customizations add value and which are primarily for personal enjoyment.
         </p>
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border text-center card-hover">
@@ -402,7 +402,7 @@ export default async function Residence1792Page() {
             When customizing your <strong>Residence 1792</strong>, it's important to balance personal preferences with investment value. Some upgrades, like premium kitchen finishes or additional square footage, typically add significant resale value and enhance your daily living experience. Other customizations may be important for your personal enjoyment but might not provide proportional return on investment.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            <strong>Dr. Janet Duffy</strong>, with her expertise in <strong>new home construction</strong> and market knowledge, can help you make informed decisions about which customizations make sense for your situation. Her guidance ensures you create a home you love while maintaining good investment value. This personalized approach is one of the key benefits of working with a <strong>Featured Century Communities Partner</strong> who understands both the construction process and the Las Vegas real estate market.
+            <strong>Dr. Jan Duffy</strong>, with her expertise in <strong>new home construction</strong> and market knowledge, can help you make informed decisions about which customizations make sense for your situation. Her guidance ensures you create a home you love while maintaining good investment value. This personalized approach is one of the key benefits of working with a <strong>Featured Century Communities Partner</strong> who understands both the construction process and the Las Vegas real estate market.
           </p>
         </div>
       </div>
@@ -441,10 +441,10 @@ export default async function Residence1792Page() {
         <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-4 text-gray-900">Comparing Residence 1792 to Other North Las Vegas Options</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            When shopping for <strong>new homes in North Las Vegas</strong>, it's important to compare the <strong>Residence 1792</strong> to other options available. Many builders charge $50,000-$100,000 more for comparable homes without the smart home technology that's included standard in every <strong>Bravado home</strong>. The starting price of <strong>$459,990</strong> for the Residence 1792 represents exceptional value in the Las Vegas new construction market.
+            When shopping for <strong>new homes in North Las Vegas</strong>, it's important to compare the <strong>Residence 1792</strong> to other options available. Many builders charge $50,000-$100,000 more for comparable homes without the smart home technology that's included standard in every <strong>Bravado home</strong>. The starting price of <strong>$429,990</strong> for the Residence 1792 represents exceptional value in the Las Vegas new construction market.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Additionally, the <strong>gated community</strong> aspect of Bravado provides security and exclusivity that's rare at this price point. Most gated communities in <strong>North Las Vegas</strong> start significantly higher, often $50,000-$100,000 more for comparable homes. The combination of gated security, premium features, and accessible pricing makes the <strong>Residence 1792</strong> an outstanding value proposition. <strong>Dr. Janet Duffy</strong>, with her market expertise, can help you understand how the Residence 1792 compares to other options and why it represents an excellent investment opportunity.
+            Additionally, the <strong>gated community</strong> aspect of Bravado provides security and exclusivity that's rare at this price point. Most gated communities in <strong>North Las Vegas</strong> start significantly higher, often $50,000-$100,000 more for comparable homes. The combination of gated security, premium features, and accessible pricing makes the <strong>Residence 1792</strong> an outstanding value proposition. <strong>Dr. Jan Duffy</strong>, with her market expertise, can help you understand how the Residence 1792 compares to other options and why it represents an excellent investment opportunity.
           </p>
         </div>
       </div>
@@ -481,14 +481,14 @@ export default async function Residence1792Page() {
         </div>
       </div>
 
-      {/* Dr. Janet Duffy Partnership Section */}
+      {/* Dr. Jan Duffy Partnership Section */}
       <div className="mb-16">
         <div className="vip-partnership bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy for Your Residence 1792?
+            Why Choose Dr. Jan Duffy for Your Residence 1792?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Get expert guidance on your new home construction with Dr. Janet Duffy's VIP Century Communities partnership
+            Get expert guidance on your new home construction with Dr. Jan Duffy's VIP Century Communities partnership
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -533,7 +533,7 @@ export default async function Residence1792Page() {
           Ready to Tour Residence 1792?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for a private tour and expert guidance on your Residence 1792 purchase
+          Contact Dr. Jan Duffy today for a private tour and expert guidance on your Residence 1792 purchase
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -550,13 +550,13 @@ export default async function Residence1792Page() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

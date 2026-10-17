@@ -2,6 +2,8 @@ import RealScoutListings from '../components/realscout-listings'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
+import GeoFAQSchema from '../components/geo-faq-schema'
+import { getCommunityFaqs } from '../lib/community-faqs'
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers()
@@ -45,8 +47,10 @@ export default async function CommunityPage() {
   const headersList = await headers()
   const config = getCurrentDomainConfig({ headers: headersList })
   const email = config.contact.email
+  const communityFaqs = getCommunityFaqs(config)
   return (
     <section>
+      <GeoFAQSchema faqs={communityFaqs} pageTitle="Bravado Community FAQ" pageUrl="/community" />
       {/* Hero Section */}
       <div className="hero-gradient text-white py-16 px-8 rounded-lg mb-12">
         <div className="max-w-6xl mx-auto text-center">
@@ -556,6 +560,18 @@ export default async function CommunityPage() {
           </div>
         </div>
       </div>
+
+      <section id="faq" className="content-section mb-16">
+        <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">Bravado Community FAQ</h2>
+        <div className="max-w-4xl mx-auto space-y-8">
+          {communityFaqs.map((faq) => (
+            <div key={faq.question} className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+              <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Ready to Explore Section */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">

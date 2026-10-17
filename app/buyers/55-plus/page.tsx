@@ -5,8 +5,8 @@ import GeoFAQSchema from '../../components/geo-faq-schema'
 import RealScoutListings from '../../components/realscout-listings'
 
 export const metadata: Metadata = {
-  title: 'Best 55+ Active Adult Communities in Las Vegas | Dr. Janet Duffy',
-  description: 'Discover the best 55+ active adult communities in Las Vegas and North Las Vegas. Expert guide from Dr. Janet Duffy with 30+ years experience helping retirees find perfect homes.',
+  title: 'Best 55+ Active Adult Communities in Las Vegas | Dr. Jan Duffy',
+  description: 'Discover the best 55+ active adult communities in Las Vegas and North Las Vegas. Expert guide from Dr. Jan Duffy with 30+ years experience helping retirees find perfect homes.',
   keywords: [
     '55+ active adult communities Las Vegas',
     'senior living Las Vegas',
@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     '55+ housing Las Vegas',
     'senior communities Las Vegas',
     'active adult homes Las Vegas',
-    'Dr. Janet Duffy 55+',
+    'Dr. Jan Duffy 55+',
     'retirement real estate Las Vegas'
   ],
   openGraph: {
     title: 'Best 55+ Active Adult Communities in Las Vegas',
-    description: 'Expert guide to 55+ active adult communities in Las Vegas and North Las Vegas from Dr. Janet Duffy.',
+    description: 'Expert guide to 55+ active adult communities in Las Vegas and North Las Vegas from Dr. Jan Duffy.',
     url: 'https://www.bravadohomes.com/buyers/55-plus',
     type: 'website',
   },
@@ -35,63 +35,63 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What are the best 55+ active adult communities in Las Vegas?",
-    answer: "The best 55+ active adult communities in Las Vegas include Sun City Summerlin, Sun City MacDonald Ranch, Sun City Anthem, and Del Webb communities. In North Las Vegas, newer 55+ communities offer modern amenities and smart home technology. Dr. Janet Duffy specializes in helping retirees find the perfect active adult community based on lifestyle preferences, budget, and desired amenities."
+    answer: "The best 55+ active adult communities in Las Vegas include Sun City Summerlin, Sun City MacDonald Ranch, Sun City Anthem, and Del Webb communities. In North Las Vegas, newer 55+ communities offer modern amenities and smart home technology. Dr. Jan Duffy specializes in helping retirees find the perfect active adult community based on lifestyle preferences, budget, and desired amenities."
   },
   {
     question: "What amenities are typically available in 55+ communities in Las Vegas?",
-    answer: "Most 55+ active adult communities in Las Vegas offer fitness centers, swimming pools, golf courses, clubhouses, walking trails, pickleball courts, and organized social activities. Many newer communities also include smart home technology, gated security, and low-maintenance landscaping. Dr. Janet Duffy can help you identify communities that match your specific amenity preferences."
+    answer: "Most 55+ active adult communities in Las Vegas offer fitness centers, swimming pools, golf courses, clubhouses, walking trails, pickleball courts, and organized social activities. Many newer communities also include smart home technology, gated security, and low-maintenance landscaping. Dr. Jan Duffy can help you identify communities that match your specific amenity preferences."
   },
   {
     question: "How much do 55+ active adult community homes cost in Las Vegas?",
-    answer: "55+ active adult community homes in Las Vegas range from $300,000 to over $1 million, depending on location, size, and amenities. North Las Vegas offers excellent value with newer communities starting around $400,000. Dr. Janet Duffy provides expert guidance on finding homes that fit your budget while meeting your lifestyle needs."
+    answer: "55+ active adult community homes in Las Vegas range from $300,000 to over $1 million, depending on location, size, and amenities. North Las Vegas offers excellent value with newer communities starting around $400,000. Dr. Jan Duffy provides expert guidance on finding homes that fit your budget while meeting your lifestyle needs."
   },
   {
     question: "What should I consider when buying in a 55+ community?",
-    answer: "When buying in a 55+ community, consider: HOA fees and what they cover, community rules and restrictions, proximity to healthcare facilities, availability of desired amenities, home maintenance requirements, resale potential, and the overall community culture. Dr. Janet Duffy's clinical psychology background helps her understand the lifestyle transitions of retirement and can guide you through these important decisions."
+    answer: "When buying in a 55+ community, consider: HOA fees and what they cover, community rules and restrictions, proximity to healthcare facilities, availability of desired amenities, home maintenance requirements, resale potential, and the overall community culture. Dr. Jan Duffy's clinical psychology background helps her understand the lifestyle transitions of retirement and can guide you through these important decisions."
   },
   {
     question: "Are there 55+ communities in North Las Vegas?",
-    answer: "Yes, North Las Vegas offers several 55+ active adult communities with modern amenities and excellent value. These communities often feature newer construction, smart home technology, and proximity to healthcare facilities. Dr. Janet Duffy specializes in North Las Vegas real estate and can help you explore active adult communities in this growing area."
+    answer: "Yes, North Las Vegas offers several 55+ active adult communities with modern amenities and excellent value. These communities often feature newer construction, smart home technology, and proximity to healthcare facilities. Dr. Jan Duffy specializes in North Las Vegas real estate and can help you explore active adult communities in this growing area."
   },
   {
     question: "What makes a good 55+ active adult community?",
-    answer: "A good 55+ active adult community offers: accessible design features, low-maintenance living, active lifestyle amenities, social activities and clubs, quality healthcare nearby, safety and security, well-maintained common areas, and a welcoming community atmosphere. Dr. Janet Duffy evaluates communities based on these factors to help you find the perfect fit."
+    answer: "A good 55+ active adult community offers: accessible design features, low-maintenance living, active lifestyle amenities, social activities and clubs, quality healthcare nearby, safety and security, well-maintained common areas, and a welcoming community atmosphere. Dr. Jan Duffy evaluates communities based on these factors to help you find the perfect fit."
   },
   {
     question: "How do I find the right 55+ community for my lifestyle?",
-    answer: "Finding the right 55+ community requires understanding your priorities: Do you want golf, pickleball, or fitness focus? Urban or suburban setting? Single-story or multi-level? Proximity to family? Budget considerations? Dr. Janet Duffy uses her 30+ years of experience and clinical psychology background to help you identify communities that align with your lifestyle goals and values."
+    answer: "Finding the right 55+ community requires understanding your priorities: Do you want golf, pickleball, or fitness focus? Urban or suburban setting? Single-story or multi-level? Proximity to family? Budget considerations? Dr. Jan Duffy uses her 30+ years of experience and clinical psychology background to help you identify communities that align with your lifestyle goals and values."
   },
   {
     question: "What are HOA fees like in Las Vegas 55+ communities?",
-    answer: "HOA fees in Las Vegas 55+ communities typically range from $150 to $500+ per month, depending on amenities. Higher fees often include access to golf courses, fitness centers, and extensive clubhouse facilities. Dr. Janet Duffy helps you understand what fees cover and evaluate whether the amenities justify the cost for your lifestyle."
+    answer: "HOA fees in Las Vegas 55+ communities typically range from $150 to $500+ per month, depending on amenities. Higher fees often include access to golf courses, fitness centers, and extensive clubhouse facilities. Dr. Jan Duffy helps you understand what fees cover and evaluate whether the amenities justify the cost for your lifestyle."
   },
   {
     question: "Can I buy a home in a 55+ community if I'm under 55?",
-    answer: "Most 55+ communities require at least one resident to be 55 or older. Some communities allow a spouse or partner under 55, while others are strictly 55+. Community rules vary, so it's important to understand the specific age restrictions. Dr. Janet Duffy can help you navigate these requirements and find communities that fit your situation."
+    answer: "Most 55+ communities require at least one resident to be 55 or older. Some communities allow a spouse or partner under 55, while others are strictly 55+. Community rules vary, so it's important to understand the specific age restrictions. Dr. Jan Duffy can help you navigate these requirements and find communities that fit your situation."
   },
   {
     question: "What's the difference between 55+ communities and assisted living?",
-    answer: "55+ active adult communities are for independent, active seniors who want low-maintenance living with social and recreational amenities. Assisted living provides daily care services. Many 55+ community residents remain independent for decades. Dr. Janet Duffy helps you understand these options and choose the right living situation for your current and future needs."
+    answer: "55+ active adult communities are for independent, active seniors who want low-maintenance living with social and recreational amenities. Assisted living provides daily care services. Many 55+ community residents remain independent for decades. Dr. Jan Duffy helps you understand these options and choose the right living situation for your current and future needs."
   },
   {
     question: "How do I schedule a tour of 55+ communities?",
-    answer: "Contact Dr. Janet Duffy at (702) 500-1955 or DrJanSells@BravadoHomes.com to schedule tours of 55+ active adult communities in Las Vegas and North Las Vegas. As a Featured Century Communities Partner with 30+ years experience, Dr. Janet can arrange community tours, provide expert guidance, and help you evaluate whether a community matches your lifestyle preferences."
+    answer: "Contact Dr. Jan Duffy at (702) 500-1955 or DrJanSells@BravadoHomes.com to schedule tours of 55+ active adult communities in Las Vegas and North Las Vegas. As a Featured Century Communities Partner with 30+ years experience, Dr. Jan can arrange community tours, provide expert guidance, and help you evaluate whether a community matches your lifestyle preferences."
   },
   {
     question: "What financing options are available for 55+ community homes?",
-    answer: "Financing for 55+ community homes typically uses standard mortgage options, though some communities offer builder financing incentives. Dr. Janet Duffy works with trusted lenders who understand the unique aspects of 55+ community purchases and can help you explore financing options, including down payment assistance programs if you qualify."
+    answer: "Financing for 55+ community homes typically uses standard mortgage options, though some communities offer builder financing incentives. Dr. Jan Duffy works with trusted lenders who understand the unique aspects of 55+ community purchases and can help you explore financing options, including down payment assistance programs if you qualify."
   },
   {
     question: "Are 55+ communities good investments?",
-    answer: "55+ communities can be good investments because they often maintain stable values due to desirable amenities and location. However, appreciation may be slower than family-oriented communities. Resale can be strong if the community remains desirable. Dr. Janet Duffy provides market analysis to help you understand investment potential in specific 55+ communities."
+    answer: "55+ communities can be good investments because they often maintain stable values due to desirable amenities and location. However, appreciation may be slower than family-oriented communities. Resale can be strong if the community remains desirable. Dr. Jan Duffy provides market analysis to help you understand investment potential in specific 55+ communities."
   },
   {
     question: "What questions should I ask when touring a 55+ community?",
-    answer: "Key questions include: What's included in HOA fees? What are the community rules? How active is the social calendar? What's the average age of residents? How is the community maintained? What's the resale history? What's nearby for healthcare and shopping? Dr. Janet Duffy accompanies clients on tours and helps ask the right questions to evaluate communities."
+    answer: "Key questions include: What's included in HOA fees? What are the community rules? How active is the social calendar? What's the average age of residents? How is the community maintained? What's the resale history? What's nearby for healthcare and shopping? Dr. Jan Duffy accompanies clients on tours and helps ask the right questions to evaluate communities."
   },
   {
-    question: "How does Dr. Janet Duffy help with 55+ community purchases?",
-    answer: "Dr. Janet Duffy brings 30+ years of Las Vegas real estate experience and a clinical psychology background to help you navigate 55+ community purchases. She provides: expert community evaluation, lifestyle matching, buyer representation to protect your interests, negotiation expertise, and understanding of retirement transitions. Her goal is ensuring you find a community that supports your active retirement lifestyle."
+    question: "How does Dr. Jan Duffy help with 55+ community purchases?",
+    answer: "Dr. Jan Duffy brings 30+ years of Las Vegas real estate experience and a clinical psychology background to help you navigate 55+ community purchases. She provides: expert community evaluation, lifestyle matching, buyer representation to protect your interests, negotiation expertise, and understanding of retirement transitions. Her goal is ensuring you find a community that supports your active retirement lifestyle."
   }
 ]
 
@@ -118,14 +118,14 @@ export default async function Buyers55PlusPage() {
             Expert Guide to Retirement Living in Las Vegas & North Las Vegas
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
           </div>
         </div>
@@ -138,7 +138,7 @@ export default async function Buyers55PlusPage() {
             The best 55+ active adult communities in Las Vegas offer resort-style amenities, 
             low-maintenance living, and vibrant social environments perfect for active retirees. 
             Top communities include Sun City Summerlin, Sun City Anthem, and newer developments 
-            in North Las Vegas with modern smart home technology. {agent?.name || 'Dr. Janet Duffy'}, 
+            in North Las Vegas with modern smart home technology. {agent?.name || 'Dr. Jan Duffy'}, 
             with 30+ years of Las Vegas real estate experience and a clinical psychology background, 
             specializes in helping retirees find communities that match their lifestyle, budget, 
             and long-term needs.
@@ -213,14 +213,14 @@ export default async function Buyers55PlusPage() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Ready to Find Your Perfect 55+ Community?</h2>
         <p className="text-xl mb-8">
-          Let {agent?.name || 'Dr. Janet Duffy'} help you discover the active adult community that matches your lifestyle
+          Let {agent?.name || 'Dr. Jan Duffy'} help you discover the active adult community that matches your lifestyle
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
           <a href="/contact" className="bg-yellow-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
             🏠 Schedule Consultation

@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Lennar vs Century Communities Las Vegas | Builder Comparison Guide | Dr. Janet Duffy',
-    description: 'Compare Lennar vs Century Communities in Las Vegas. Expert comparison of pricing, quality, locations, smart home technology, and more. Learn why Century Communities Bravado might be the better choice for your new home. Expert guidance from Dr. Janet Duffy.',
+    title: 'Lennar vs Century Communities Las Vegas | Builder Comparison Guide | Dr. Jan Duffy',
+    description: 'Compare Lennar vs Century Communities in Las Vegas. Expert comparison of pricing, quality, locations, smart home technology, and more. Learn why Century Communities Bravado might be the better choice for your new home. Expert guidance from Dr. Jan Duffy.',
     keywords: [
       'lennar homes las vegas',
       'lennar vs century communities',
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'bravado homes',
       'which builder is better',
       'lennar or century communities',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'new construction builders las vegas',
       'home builder comparison',
       'builder comparison guide',
@@ -78,14 +78,14 @@ export default async function LennarVsCenturyPage() {
             Expert Comparison: Which Home Builder is Right for You?
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | Featured Century Communities Partner | Unbiased Builder Comparison
+            {agent?.name || 'Dr. Jan Duffy'} | Featured Century Communities Partner | Unbiased Builder Comparison
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/floor-plans" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 View Bravado Floor Plans
@@ -219,7 +219,7 @@ export default async function LennarVsCenturyPage() {
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">Bravado Advantages:</h4>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>Starting at $459,790 - competitive pricing</li>
+                  <li>Starting at $445,000 (Century Communities Bravado, 2026-10-12) - competitive pricing</li>
                   <li>Prime North Las Vegas location</li>
                   <li>3-5 bedroom floor plans available</li>
                   <li>Near Craig Ranch Regional Park</li>
@@ -243,7 +243,7 @@ export default async function LennarVsCenturyPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Buyer Representation and Advocacy</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              One of the most significant differences between <strong>Lennar</strong> and <strong>Century Communities</strong> is the availability of independent <strong>buyer representation</strong>. <strong>Century Communities</strong> offers the option to work with Featured Partners like <strong>{agent?.name || 'Dr. Janet Duffy'}</strong>, who provide expert <strong>buyer representation</strong> that protects your interests throughout the entire process.
+              One of the most significant differences between <strong>Lennar</strong> and <strong>Century Communities</strong> is the availability of independent <strong>buyer representation</strong>. <strong>Century Communities</strong> offers the option to work with Featured Partners like <strong>{agent?.name || 'Dr. Jan Duffy'}</strong>, who provide expert <strong>buyer representation</strong> that protects your interests throughout the entire process.
             </p>
             <p className="text-gray-700 leading-relaxed">
               With <strong>Lennar</strong>, you typically work directly with the builder's sales team, who represent the builder's interests. While they're helpful and informative, they don't provide independent advocacy for buyers. <strong>Century Communities</strong> Featured Partners, on the other hand, work exclusively for you, ensuring your interests are protected during negotiations, contract reviews, and throughout construction.
@@ -320,7 +320,7 @@ export default async function LennarVsCenturyPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Pricing and Value Proposition</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Both <strong>Lennar</strong> and <strong>Century Communities</strong> offer competitive pricing, but the value proposition differs. <strong>Century Communities Bravado</strong> starts at $459,790 and includes <strong>Century Connect®</strong> smart home technology as standard, representing significant included value.
+              Both <strong>Lennar</strong> and <strong>Century Communities</strong> offer competitive pricing, but the value proposition differs. <strong>Century Communities Bravado</strong> starts at $445,000 (Century Communities Bravado, 2026-10-12) and includes <strong>Century Connect®</strong> smart home technology as standard, representing significant included value.
             </p>
             <p className="text-gray-700 leading-relaxed">
               <strong>Lennar's</strong> pricing varies by community and location, with "Everything's Included®" bundling features. The value depends on which features are included in the specific community you're considering. Understanding what's included versus what's an upgrade is crucial for comparing true value.
@@ -349,7 +349,7 @@ export default async function LennarVsCenturyPage() {
             <div>
               <h4 className="font-bold text-xl mb-3">✅ Expert Buyer Representation</h4>
               <p className="opacity-90">
-                When you work with a Featured Century Communities Partner like {agent?.name || 'Dr. Janet Duffy'}, 
+                When you work with a Featured Century Communities Partner like {agent?.name || 'Dr. Jan Duffy'}, 
                 you get expert guidance that represents YOUR interests, not just the builder's.
               </p>
             </div>
@@ -393,7 +393,7 @@ export default async function LennarVsCenturyPage() {
             <li><strong>Standard smart home technology</strong> included in your home</li>
             <li><strong>Gated community living</strong> with premium amenities</li>
             <li><strong>Personalized service</strong> from a Featured Partner</li>
-            <li><strong>Competitive pricing</strong> starting at $459,790</li>
+            <li><strong>Competitive pricing</strong> starting at $445,000 (Century Communities Bravado, 2026-10-12)</li>
           </ul>
           <p className="text-lg text-gray-700 leading-relaxed">
             Then <strong>Century Communities Bravado</strong> might be the better choice for you.
@@ -407,7 +407,7 @@ export default async function LennarVsCenturyPage() {
           Ready to Explore Century Communities Bravado?
         </h3>
         <p className="text-lg mb-6 opacity-90">
-          {agent?.name || 'Dr. Janet Duffy'}, Featured Century Communities Partner, can help you understand all your options 
+          {agent?.name || 'Dr. Jan Duffy'}, Featured Century Communities Partner, can help you understand all your options 
           and make an informed decision about your new home.
         </p>
         <div className="flex flex-wrap justify-center gap-4">

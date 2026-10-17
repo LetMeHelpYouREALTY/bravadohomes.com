@@ -6,8 +6,8 @@ import ComparisonTableSchemaComponent from '../../components/comparison-table-sc
 import { ComparisonTable } from '../../components/comparison-table-schema'
 
 export const metadata: Metadata = {
-  title: 'Henderson Neighborhood Guide | Las Vegas Real Estate | Dr. Janet Duffy',
-  description: 'Complete Henderson neighborhood guide including schools, amenities, price trends, and homes for sale. Expert guidance from Dr. Janet Duffy.',
+  title: 'Henderson Neighborhood Guide | Las Vegas Real Estate | Dr. Jan Duffy',
+  description: 'Complete Henderson neighborhood guide including schools, amenities, price trends, and homes for sale. Expert guidance from Dr. Jan Duffy.',
   keywords: [
     'Henderson Las Vegas',
     'Henderson neighborhoods',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'Henderson real estate',
     'Henderson schools',
     'best neighborhoods Henderson',
-    'Dr. Janet Duffy Henderson'
+    'Dr. Jan Duffy Henderson'
   ],
   openGraph: {
     title: 'Henderson Neighborhood Guide | Las Vegas Real Estate',
@@ -46,7 +46,7 @@ export default async function HendersonPage() {
             Complete Guide to Henderson: Schools, Amenities & Real Estate
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default async function HendersonPage() {
             family-friendly neighborhoods, and good value relative to Summerlin. Located southeast of Las Vegas, 
             Henderson features well-established neighborhoods with average home prices starting around $550,000+. 
             The community is known for excellent school district ratings, multiple shopping centers, golf courses, 
-            and extensive community amenities. {agent?.name || 'Dr. Janet Duffy'} provides expert guidance for 
+            and extensive community amenities. {agent?.name || 'Dr. Jan Duffy'} provides expert guidance for 
             buyers considering Henderson and can help you find homes that match your needs and budget.
           </p>
         </div>
@@ -108,14 +108,14 @@ export default async function HendersonPage() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Interested in Henderson?</h2>
         <p className="text-xl mb-8">
-          Let {agent?.name || 'Dr. Janet Duffy'} help you find the perfect home in Henderson
+          Let {agent?.name || 'Dr. Jan Duffy'} help you find the perfect home in Henderson
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
         </div>
       </div>

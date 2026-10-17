@@ -43,7 +43,7 @@ const navItems: Record<string, NavItem> = {
     ]
   },
   '/about': {
-    name: 'About Dr. Janet',
+    name: 'About Dr. Jan',
   },
   '/contact': {
     name: 'Contact',
@@ -123,7 +123,7 @@ export function Navbar() {
               Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="text-blue-600 hover:text-blue-700 text-sm font-medium">
-              Email Dr. Janet
+              Email Dr. Jan
             </a>
             <div className="hidden lg:block">
               <div className="nav-realscout-search">

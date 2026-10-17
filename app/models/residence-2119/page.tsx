@@ -6,8 +6,8 @@ import { getCurrentDomainConfig } from '../../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Residence 2119 - Largest Bravado Home | Dr. Janet Duffy',
-  description: 'Discover Residence 2119 at Bravado in North Las Vegas. 2,119 sq ft, 3-4 bedrooms, 2.5 baths, from $479,990. Largest model with luxury features and expert guidance from Dr. Janet Duffy, Century Communities Featured Partner.',
+  title: 'Residence 2119 - Largest Bravado Home | Dr. Jan Duffy',
+  description: 'Discover Residence 2119 at Bravado in North Las Vegas. 2,119 sq ft, 3-4 bedrooms, 2.5 baths, from $449,990. Largest model with luxury features and expert guidance from Dr. Jan Duffy, Century Communities Featured Partner.',
   keywords: [
     'Residence 2119',
     'Residence 2119 Bravado',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'North Las Vegas new construction',
     'Century Communities Bravado',
     'Century Communities Residence 2119',
-    'Dr. Janet Duffy',
+    'Dr. Jan Duffy',
     'new construction homes',
     'new homes Las Vegas',
     '89031 homes',
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
     'smart home technology',
     'Century Connect',
     'Bravado floor plans',
-    'starting at $479,990',
+    'starting at $449,990',
     'North Las Vegas real estate',
     'Bravado community homes',
     'largest luxury home',
     'maximum space and flexibility'
   ],
   openGraph: {
-    title: 'Residence 2119 - Largest Bravado Home | Dr. Janet Duffy',
-    description: 'Discover Residence 2119 at Bravado in North Las Vegas. 2,119 sq ft, 3-4 bedrooms, 2.5 baths, from $479,990. Largest model with luxury features.',
+    title: 'Residence 2119 - Largest Bravado Home | Dr. Jan Duffy',
+    description: 'Discover Residence 2119 at Bravado in North Las Vegas. 2,119 sq ft, 3-4 bedrooms, 2.5 baths, from $449,990. Largest model with luxury features.',
     type: 'website',
     images: [
       {
@@ -97,17 +97,17 @@ export default async function Residence2119Page() {
             Residence 2119 - Bravado North Las Vegas
           </h1>
           <p className="text-2xl mb-4">
-            From $479,990 | 2,119 Sq Ft | 3-4 Bedrooms
+            From $449,990 | 2,119 Sq Ft | 3-4 Bedrooms
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Tour
@@ -256,7 +256,7 @@ export default async function Residence2119Page() {
               sortOrder="PRICE_LOW"
               listingStatus="For Sale"
               propertyTypes=",SFR,OTHER"
-              priceMin="479990"
+              priceMin="449990"
               priceMax="499990"
             />
           </div>
@@ -269,7 +269,7 @@ export default async function Residence2119Page() {
           Why Choose Residence 2119 - Maximum Space and Luxury
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          The <strong>Residence 2119</strong> is Bravado's largest and most luxurious floor plan, offering <strong>2,119 square feet</strong> of premium living space designed for those who want maximum room, flexibility, and luxury features. Starting at <strong>$479,990</strong>, the Residence 2119 provides the ultimate in <strong>North Las Vegas new construction</strong>, combining expansive square footage with thoughtful design and premium finishes throughout.
+          The <strong>Residence 2119</strong> is Bravado's largest and most luxurious floor plan, offering <strong>2,119 square feet</strong> of premium living space designed for those who want maximum room, flexibility, and luxury features. Starting at <strong>$449,990</strong>, the Residence 2119 provides the ultimate in <strong>North Las Vegas new construction</strong>, combining expansive square footage with thoughtful design and premium finishes throughout.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -289,7 +289,7 @@ export default async function Residence2119Page() {
               What makes the <strong>Residence 2119</strong> particularly appealing is that premium features come standard, not as expensive upgrades. The <strong>luxurious master suite</strong> with its oversized walk-in closet and spa-like bathroom provides a retreat that rivals homes costing significantly more. The <strong>Century Connect® smart home technology</strong> is included standard, providing thousands of dollars in value that would be expensive upgrades in other communities.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The starting price of <strong>$479,990</strong> represents exceptional value when you consider that every <strong>Residence 2119</strong> includes premium finishes, quality construction, and smart home technology. The investment in extra square footage pays dividends in comfort, functionality, and long-term value. The combination of maximum space and premium features makes the Residence 2119 an outstanding choice for those seeking the ultimate in <strong>Bravado</strong> living.
+              The starting price of <strong>$449,990</strong> represents exceptional value when you consider that every <strong>Residence 2119</strong> includes premium finishes, quality construction, and smart home technology. The investment in extra square footage pays dividends in comfort, functionality, and long-term value. The combination of maximum space and premium features makes the Residence 2119 an outstanding choice for those seeking the ultimate in <strong>Bravado</strong> living.
             </p>
           </div>
         </div>
@@ -311,7 +311,7 @@ export default async function Residence2119Page() {
           Luxury Features & Customization Options
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          The <strong>Residence 2119</strong> includes luxury features as standard, but you also have opportunities to customize your home with various premium options and upgrades. <strong>Century Communities</strong> offers a wide range of customization options that allow you to personalize your <strong>Residence 2119</strong> while maintaining good investment value. <strong>Dr. Janet Duffy</strong> can help you understand which customizations add value and which are primarily for personal enjoyment.
+          The <strong>Residence 2119</strong> includes luxury features as standard, but you also have opportunities to customize your home with various premium options and upgrades. <strong>Century Communities</strong> offers a wide range of customization options that allow you to personalize your <strong>Residence 2119</strong> while maintaining good investment value. <strong>Dr. Jan Duffy</strong> can help you understand which customizations add value and which are primarily for personal enjoyment.
         </p>
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border text-center card-hover">
@@ -420,10 +420,10 @@ export default async function Residence2119Page() {
         <div className="bg-blue-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-4 text-gray-900">Expert Guidance on Premium Customization</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            When customizing your <strong>Residence 2119</strong>, it's important to balance personal preferences with investment value. <strong>Dr. Janet Duffy</strong>, with her expertise in <strong>new home construction</strong> and market knowledge, can help you make informed decisions about which premium customizations make sense for your situation. Her guidance ensures you create a home you love while maintaining good investment value.
+            When customizing your <strong>Residence 2119</strong>, it's important to balance personal preferences with investment value. <strong>Dr. Jan Duffy</strong>, with her expertise in <strong>new home construction</strong> and market knowledge, can help you make informed decisions about which premium customizations make sense for your situation. Her guidance ensures you create a home you love while maintaining good investment value.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Some upgrades, like premium kitchen finishes, enhanced master suite features, or additional square footage, typically add significant resale value and enhance your daily living experience. Other customizations may be important for your personal enjoyment but might not provide proportional return on investment. <strong>Dr. Janet</strong> provides expert guidance to help you make smart customization choices that enhance your living experience without overspending on features that don't add proportional value.
+            Some upgrades, like premium kitchen finishes, enhanced master suite features, or additional square footage, typically add significant resale value and enhance your daily living experience. Other customizations may be important for your personal enjoyment but might not provide proportional return on investment. <strong>Dr. Jan</strong> provides expert guidance to help you make smart customization choices that enhance your living experience without overspending on features that don't add proportional value.
           </p>
         </div>
       </div>
@@ -462,22 +462,22 @@ export default async function Residence2119Page() {
         <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-4 text-gray-900">Comparing Residence 2119 to Other North Las Vegas Options</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            When shopping for <strong>new homes in North Las Vegas</strong>, it's important to compare the <strong>Residence 2119</strong> to other options available. Many builders charge $50,000-$100,000 more for comparable homes without the smart home technology that's included standard in every <strong>Bravado home</strong>. The starting price of <strong>$479,990</strong> for the Residence 2119 represents exceptional value for a <strong>2,119 square foot luxury home</strong> in the Las Vegas new construction market.
+            When shopping for <strong>new homes in North Las Vegas</strong>, it's important to compare the <strong>Residence 2119</strong> to other options available. Many builders charge $50,000-$100,000 more for comparable homes without the smart home technology that's included standard in every <strong>Bravado home</strong>. The starting price of <strong>$449,990</strong> for the Residence 2119 represents exceptional value for a <strong>2,119 square foot luxury home</strong> in the Las Vegas new construction market.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Additionally, the <strong>gated community</strong> aspect of Bravado provides security and exclusivity that's rare at this price point. Most gated communities in <strong>North Las Vegas</strong> with similar square footage start significantly higher, often $75,000-$150,000 more for comparable homes. The combination of maximum space, gated security, premium features, and accessible pricing makes the <strong>Residence 2119</strong> an outstanding value proposition. <strong>Dr. Janet Duffy</strong>, with her market expertise, can help you understand how the Residence 2119 compares to other options and why it represents an excellent investment opportunity.
+            Additionally, the <strong>gated community</strong> aspect of Bravado provides security and exclusivity that's rare at this price point. Most gated communities in <strong>North Las Vegas</strong> with similar square footage start significantly higher, often $75,000-$150,000 more for comparable homes. The combination of maximum space, gated security, premium features, and accessible pricing makes the <strong>Residence 2119</strong> an outstanding value proposition. <strong>Dr. Jan Duffy</strong>, with her market expertise, can help you understand how the Residence 2119 compares to other options and why it represents an excellent investment opportunity.
           </p>
         </div>
       </div>
 
-      {/* Dr. Janet Duffy Partnership Section */}
+      {/* Dr. Jan Duffy Partnership Section */}
       <div className="mb-16">
         <div className="vip-partnership bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy for Your Residence 2119?
+            Why Choose Dr. Jan Duffy for Your Residence 2119?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Get expert guidance on your new home construction with Dr. Janet Duffy's VIP Century Communities partnership
+            Get expert guidance on your new home construction with Dr. Jan Duffy's VIP Century Communities partnership
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -522,7 +522,7 @@ export default async function Residence2119Page() {
           Ready to Tour Residence 2119?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for a private tour and expert guidance on your Residence 2119 purchase
+          Contact Dr. Jan Duffy today for a private tour and expert guidance on your Residence 2119 purchase
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -539,13 +539,13 @@ export default async function Residence2119Page() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

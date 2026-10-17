@@ -3,6 +3,8 @@ import RealScoutAdvancedSearch from '../components/realscout-advanced-search'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
+import GeoFAQSchema from '../components/geo-faq-schema'
+import { getFloorPlansFaqs } from '../lib/floor-plans-faqs'
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers()
@@ -62,13 +64,15 @@ export default async function FloorPlansPage() {
   const config = getCurrentDomainConfig({ headers: headersList })
   const email = config.contact.email
   const agent = config.realEstateAgent
+  const floorPlanFaqs = getFloorPlansFaqs(config)
   return (
     <section>
+      <GeoFAQSchema faqs={floorPlanFaqs} pageTitle="Bravado Floor Plans FAQ" pageUrl="/floor-plans" />
       {/* Hero Section */}
       <div className="hero-gradient text-white py-16 px-8 rounded-lg mb-12">
         <div className="max-w-6xl mx-auto text-center">
           <div className="vip-badge">
-            ⭐ LIMITED TIME: 3 FLOOR PLANS REMAINING ⭐
+            ⭐ THREE BRAVADO FLOOR PLANS AVAILABLE ⭐
           </div>
           <h1 className="text-5xl font-bold mb-6">
             Bravado Homes Las Vegas Floor Plans
@@ -127,7 +131,7 @@ export default async function FloorPlansPage() {
             <div className="text-center mb-6">
               <div className="text-4xl mb-4">🏡</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1792</h3>
-              <p className="price-highlight">From $459,990</p>
+              <p className="price-highlight">From $429,990</p>
             </div>
             
             <div className="grid grid-cols-2 gap-4 mb-6">
@@ -188,7 +192,7 @@ export default async function FloorPlansPage() {
             <div className="text-center mb-6">
               <div className="text-4xl mb-4">🏰</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Residence 1943</h3>
-              <p className="price-highlight">From $469,990</p>
+              <p className="price-highlight">From $439,990</p>
             </div>
             
             <div className="grid grid-cols-2 gap-4 mb-6">
@@ -346,8 +350,8 @@ export default async function FloorPlansPage() {
                       sortOrder="PRICE_LOW"
                       listingStatus="For Sale"
                       propertyTypes=",SFR,OTHER"
-                      priceMin="459990"
-                      priceMax="479990"
+                      priceMin="429990"
+                      priceMax="449990"
                     />
                   </div>
                 </div>
@@ -930,6 +934,18 @@ export default async function FloorPlansPage() {
           </p>
         </div>
       </div>
+
+      <section id="faq" className="content-section mb-16">
+        <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">Bravado Floor Plans FAQ</h2>
+        <div className="max-w-4xl mx-auto space-y-8">
+          {floorPlanFaqs.map((faq) => (
+            <div key={faq.question} className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.question}</h3>
+              <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Ready to Explore Section */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">

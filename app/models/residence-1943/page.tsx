@@ -6,8 +6,8 @@ import { getCurrentDomainConfig } from '../../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Residence 1943 - Most Popular Bravado Home | Dr. Janet Duffy',
-  description: 'Discover Residence 1943 at Bravado in North Las Vegas. 1,943 sq ft, 3-4 bedrooms, 2.5 baths, from $469,990. Most popular model with expert guidance from Dr. Janet Duffy, Century Communities Featured Partner.',
+  title: 'Residence 1943 - Most Popular Bravado Home | Dr. Jan Duffy',
+  description: 'Discover Residence 1943 at Bravado in North Las Vegas. 1,943 sq ft, 3-4 bedrooms, 2.5 baths, from $439,990. Most popular model with expert guidance from Dr. Jan Duffy, Century Communities Featured Partner.',
   keywords: [
     'Residence 1943',
     'Residence 1943 Bravado',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'North Las Vegas new construction',
     'Century Communities Bravado',
     'Century Communities Residence 1943',
-    'Dr. Janet Duffy',
+    'Dr. Jan Duffy',
     'new construction homes',
     'new homes Las Vegas',
     '89031 homes',
@@ -34,14 +34,14 @@ export const metadata: Metadata = {
     'smart home technology',
     'Century Connect',
     'Bravado floor plans',
-    'starting at $469,990',
+    'starting at $439,990',
     'North Las Vegas real estate',
     'Bravado community homes',
     'model home open'
   ],
   openGraph: {
-    title: 'Residence 1943 - Most Popular Bravado Home | Dr. Janet Duffy',
-    description: 'Discover Residence 1943 at Bravado in North Las Vegas. 1,943 sq ft, 3-4 bedrooms, 2.5 baths, from $469,990. Most popular model.',
+    title: 'Residence 1943 - Most Popular Bravado Home | Dr. Jan Duffy',
+    description: 'Discover Residence 1943 at Bravado in North Las Vegas. 1,943 sq ft, 3-4 bedrooms, 2.5 baths, from $439,990. Most popular model.',
     type: 'website',
     images: [
       {
@@ -96,17 +96,17 @@ export default async function Residence1943Page() {
             Residence 1943 - Bravado North Las Vegas
           </h1>
           <p className="text-2xl mb-4">
-            From $469,990 | 1,943 Sq Ft | 3-4 Bedrooms
+            From $439,990 | 1,943 Sq Ft | 3-4 Bedrooms
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Tour
@@ -247,7 +247,7 @@ export default async function Residence1943Page() {
               sortOrder="PRICE_LOW"
               listingStatus="For Sale"
               propertyTypes=",SFR,OTHER"
-              priceMin="469990"
+              priceMin="439990"
               priceMax="489990"
             />
           </div>
@@ -260,7 +260,7 @@ export default async function Residence1943Page() {
           Why Residence 1943 is the Most Popular Choice at Bravado
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          The <strong>Residence 1943</strong> has earned the "Most Popular" designation at <strong>Bravado</strong> for several compelling reasons. This <strong>1,943 square foot home</strong> represents the perfect balance between space, value, and functionality, making it the ideal choice for a wide range of homebuyers. Starting at <strong>$469,990</strong>, the Residence 1943 offers exceptional value in <strong>North Las Vegas new construction</strong>, combining premium features with accessible pricing.
+          The <strong>Residence 1943</strong> has earned the "Most Popular" designation at <strong>Bravado</strong> for several compelling reasons. This <strong>1,943 square foot home</strong> represents the perfect balance between space, value, and functionality, making it the ideal choice for a wide range of homebuyers. Starting at <strong>$439,990</strong>, the Residence 1943 offers exceptional value in <strong>North Las Vegas new construction</strong>, combining premium features with accessible pricing.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -280,7 +280,7 @@ export default async function Residence1943Page() {
               What makes the <strong>Residence 1943</strong> particularly appealing is the inclusion of premium features that are standard, not upgrades. The <strong>luxurious master suite</strong> with its spa-like bathroom and generous walk-in closet provides a retreat that rivals homes costing significantly more. The <strong>Century Connect® smart home technology</strong> is included standard, providing thousands of dollars in value that would be expensive upgrades in other communities.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The starting price of <strong>$469,990</strong> represents exceptional value when you consider that every <strong>Residence 1943</strong> includes premium finishes, quality construction, and smart home technology. Many buyers find that the Residence 1943 offers the perfect combination of features and value, providing everything they need without paying for unnecessary space or features they won't use. This value proposition is a key reason why it's the most popular choice among <strong>Bravado</strong> homebuyers.
+              The starting price of <strong>$439,990</strong> represents exceptional value when you consider that every <strong>Residence 1943</strong> includes premium finishes, quality construction, and smart home technology. Many buyers find that the Residence 1943 offers the perfect combination of features and value, providing everything they need without paying for unnecessary space or features they won't use. This value proposition is a key reason why it's the most popular choice among <strong>Bravado</strong> homebuyers.
             </p>
           </div>
         </div>
@@ -291,7 +291,7 @@ export default async function Residence1943Page() {
             One of the advantages of choosing the <strong>Residence 1943</strong> is that the <strong>model home is now open for viewing</strong>. This allows you to experience the quality, design, and features firsthand before making your decision. Walking through the model home gives you a true sense of how the spaces flow, how natural light enters the home, and how the layout functions in real life.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            <strong>Dr. Janet Duffy</strong> can arrange a private tour of the <strong>Residence 1943 model home</strong>, allowing you to see the premium finishes, thoughtful design details, and quality construction that make this floor plan so popular. During your tour, you'll be able to visualize how your furniture will fit, how your family will use the spaces, and whether the Residence 1943 truly meets your needs. This firsthand experience is invaluable for making an informed decision about your new home.
+            <strong>Dr. Jan Duffy</strong> can arrange a private tour of the <strong>Residence 1943 model home</strong>, allowing you to see the premium finishes, thoughtful design details, and quality construction that make this floor plan so popular. During your tour, you'll be able to visualize how your furniture will fit, how your family will use the spaces, and whether the Residence 1943 truly meets your needs. This firsthand experience is invaluable for making an informed decision about your new home.
           </p>
         </div>
       </div>
@@ -302,7 +302,7 @@ export default async function Residence1943Page() {
           Premium Features & Customization Options
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          The <strong>Residence 1943</strong> includes premium features as standard, but you also have opportunities to customize your home with various options and upgrades. <strong>Century Communities</strong> offers a wide range of customization options that allow you to personalize your <strong>Residence 1943</strong> while maintaining good investment value. <strong>Dr. Janet Duffy</strong> can help you understand which customizations add value and which are primarily for personal enjoyment.
+          The <strong>Residence 1943</strong> includes premium features as standard, but you also have opportunities to customize your home with various options and upgrades. <strong>Century Communities</strong> offers a wide range of customization options that allow you to personalize your <strong>Residence 1943</strong> while maintaining good investment value. <strong>Dr. Jan Duffy</strong> can help you understand which customizations add value and which are primarily for personal enjoyment.
         </p>
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border text-center card-hover">
@@ -399,10 +399,10 @@ export default async function Residence1943Page() {
         <div className="bg-blue-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-4 text-gray-900">Expert Guidance on Customization</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            When customizing your <strong>Residence 1943</strong>, it's important to balance personal preferences with investment value. <strong>Dr. Janet Duffy</strong>, with her expertise in <strong>new home construction</strong> and market knowledge, can help you make informed decisions about which customizations make sense for your situation. Her guidance ensures you create a home you love while maintaining good investment value.
+            When customizing your <strong>Residence 1943</strong>, it's important to balance personal preferences with investment value. <strong>Dr. Jan Duffy</strong>, with her expertise in <strong>new home construction</strong> and market knowledge, can help you make informed decisions about which customizations make sense for your situation. Her guidance ensures you create a home you love while maintaining good investment value.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Some upgrades, like premium kitchen finishes or enhanced master suite features, typically add significant resale value and enhance your daily living experience. Other customizations may be important for your personal enjoyment but might not provide proportional return on investment. <strong>Dr. Janet</strong> provides expert guidance to help you make smart customization choices that enhance your living experience without overspending on features that don't add proportional value.
+            Some upgrades, like premium kitchen finishes or enhanced master suite features, typically add significant resale value and enhance your daily living experience. Other customizations may be important for your personal enjoyment but might not provide proportional return on investment. <strong>Dr. Jan</strong> provides expert guidance to help you make smart customization choices that enhance your living experience without overspending on features that don't add proportional value.
           </p>
         </div>
       </div>
@@ -439,14 +439,14 @@ export default async function Residence1943Page() {
         </div>
       </div>
 
-      {/* Dr. Janet Duffy Partnership Section */}
+      {/* Dr. Jan Duffy Partnership Section */}
       <div className="mb-16">
         <div className="vip-partnership bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy for Your Residence 1943?
+            Why Choose Dr. Jan Duffy for Your Residence 1943?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Get expert guidance on your new home construction with Dr. Janet Duffy's VIP Century Communities partnership
+            Get expert guidance on your new home construction with Dr. Jan Duffy's VIP Century Communities partnership
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -491,7 +491,7 @@ export default async function Residence1943Page() {
           Ready to Tour Residence 1943?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for a private tour and expert guidance on your Residence 1943 purchase
+          Contact Dr. Jan Duffy today for a private tour and expert guidance on your Residence 1943 purchase
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -508,13 +508,13 @@ export default async function Residence1943Page() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

@@ -8,9 +8,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = config.baseUrl
 
   return {
-    title: 'Benefits of Buyer Representation in North Las Vegas | Dr. Janet Duffy',
+    title: 'Benefits of Buyer Representation in North Las Vegas | Dr. Jan Duffy',
     description:
-      'Learn why independent buyer representation protects your interests when buying new construction in North Las Vegas. Compare advocacy, negotiation, and market guidance with Dr. Janet Duffy.',
+      'Learn why independent buyer representation protects your interests when buying new construction in North Las Vegas. Compare advocacy, negotiation, and market guidance with Dr. Jan Duffy.',
     alternates: {
       canonical: `${baseUrl}/buyer-representation/benefits`,
     },
@@ -40,7 +40,7 @@ export default async function BuyerRepresentationBenefitsPage() {
             Independent advocacy, expert negotiation, and local market guidance.
           </p>
           <p className="text-xl opacity-90">
-            Dr. Janet Duffy | Nevada License S.0197614
+            Dr. Jan Duffy | Nevada License S.0197614
           </p>
         </div>
       </div>
@@ -92,7 +92,7 @@ export default async function BuyerRepresentationBenefitsPage() {
             Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            Email Dr. Janet
+            Email Dr. Jan
           </a>
         </div>
       </div>

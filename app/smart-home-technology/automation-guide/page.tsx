@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function AutomationGuidePage() {
   const headersList = await headers()
   const config = getCurrentDomainConfig({ headers: headersList })
-  const agentName = config.realEstateAgent?.name || 'Dr. Janet Duffy'
+  const agentName = config.realEstateAgent?.name || 'Dr. Jan Duffy'
 
   return (
     <section>

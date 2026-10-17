@@ -87,7 +87,7 @@ export default function KCMRSSFeed() {
     if (!hasLocalContext) {
       return {
         title: `${title} - North Las Vegas Market Insights`,
-        description: `${description} Get expert analysis from Dr. Janet Duffy, your local Bravado and North Las Vegas real estate specialist.`
+        description: `${description} Get expert analysis from Dr. Jan Duffy, your local Bravado and North Las Vegas real estate specialist.`
       }
     }
 
@@ -200,7 +200,7 @@ export default function KCMRSSFeed() {
       {/* Header */}
       <div className="content-section mb-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-4">
-          Latest Market Insights from Dr. Janet Duffy
+          Latest Market Insights from Dr. Jan Duffy
         </h2>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
           Stay informed with the latest <strong>real estate market trends</strong>, insights, and expert analysis 
@@ -277,7 +277,7 @@ export default function KCMRSSFeed() {
                     />
                     <div className="absolute top-3 left-3">
                       <span className="inline-block bg-blue-600 text-white text-xs font-semibold px-2.5 py-0.5 rounded-full">
-                        Dr. Janet Duffy
+                        Dr. Jan Duffy
                       </span>
                     </div>
                     <div className="absolute bottom-3 left-3">
@@ -367,7 +367,7 @@ export default function KCMRSSFeed() {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="p-4 bg-gray-50 border-b">
             <h3 className="text-lg font-semibold text-gray-900">
-              Full Blog Feed - Dr. Janet Duffy's Market Insights
+              Full Blog Feed - Dr. Jan Duffy's Market Insights
             </h3>
             <p className="text-sm text-gray-600 mt-1">
               Complete blog posts with full content and images
@@ -384,7 +384,7 @@ export default function KCMRSSFeed() {
               width="100%" 
               allowFullScreen
               className="w-full"
-              title="Dr. Janet Duffy's Market Insights Blog"
+              title="Dr. Jan Duffy's Market Insights Blog"
             />
           </div>
         </div>
@@ -414,7 +414,7 @@ export default function KCMRSSFeed() {
           >
             Keeping Current Matters
           </a>
-          {' '}and curated by Dr. Janet Duffy
+          {' '}and curated by Dr. Jan Duffy
         </p>
         <div className="text-xs text-gray-400 mt-2 space-y-1">
           <p>Content updates weekdays only (excluding holidays)</p>

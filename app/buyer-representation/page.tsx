@@ -6,8 +6,8 @@ import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Buyer Representation Services | Dr. Janet Duffy | Bravado Homes',
-  description: 'Expert buyer representation services for new home construction in North Las Vegas. Dr. Janet Duffy provides independent guidance and advocacy for Century Communities homes at Bravado.',
+  title: 'Buyer Representation Services | Dr. Jan Duffy | Bravado Homes',
+  description: 'Expert buyer representation services for new home construction in North Las Vegas. Dr. Jan Duffy provides independent guidance and advocacy for Century Communities homes at Bravado.',
   keywords: [
     'buyer representation',
     'buyer representation services',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'new home construction buyer representation',
     'Century Communities buyer representation',
     'Bravado buyer representation',
-    'Dr. Janet Duffy',
+    'Dr. Jan Duffy',
     'buyer representation Las Vegas',
     'real estate buyer agent',
     'home buying representation',
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     'professional buyer representation'
   ],
   openGraph: {
-    title: 'Buyer Representation Services | Dr. Janet Duffy | Bravado Homes',
-    description: 'Expert buyer representation services for new home construction in North Las Vegas. Dr. Janet Duffy provides independent guidance and advocacy.',
+    title: 'Buyer Representation Services | Dr. Jan Duffy | Bravado Homes',
+    description: 'Expert buyer representation services for new home construction in North Las Vegas. Dr. Jan Duffy provides independent guidance and advocacy.',
     url: 'https://www.bravadohomes.com/buyer-representation',
     type: 'website',
   },
@@ -54,7 +54,7 @@ export default async function BuyerRepresentationPage() {
             Buyer Representation Services
           </h1>
           <p className="text-2xl mb-4">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <p className="text-xl mb-8 opacity-90">
             Featured New Home Construction & Buyer Representation Specialist
@@ -64,7 +64,7 @@ export default async function BuyerRepresentationPage() {
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Consultation
@@ -84,7 +84,7 @@ export default async function BuyerRepresentationPage() {
               What is Buyer Representation?
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              <strong>Buyer representation</strong> means having a dedicated real estate professional who works exclusively for you, not the seller or builder. <strong>Dr. Janet Duffy</strong> serves as your trusted advisor, advocate, and negotiator throughout the entire home buying process.
+              <strong>Buyer representation</strong> means having a dedicated real estate professional who works exclusively for you, not the seller or builder. <strong>Dr. Jan Duffy</strong> serves as your trusted advisor, advocate, and negotiator throughout the entire home buying process.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Unlike working directly with builder sales agents or listing agents, Dr. Duffy provides unbiased guidance, protects your interests, and ensures you make informed decisions. Her expertise in new home construction and Century Communities partnership gives you access to exclusive opportunities while maintaining your best interests as the priority.
@@ -118,10 +118,10 @@ export default async function BuyerRepresentationPage() {
         </div>
       </div>
 
-      {/* Dr. Janet Duffy's Buyer Representation Services */}
+      {/* Dr. Jan Duffy's Buyer Representation Services */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Dr. Janet Duffy's Buyer Representation Services
+          Dr. Jan Duffy's Buyer Representation Services
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border">
@@ -185,7 +185,7 @@ export default async function BuyerRepresentationPage() {
             VIP Century Communities Partnership Benefits
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy's exclusive partnership provides unique advantages while maintaining your best interests
+            Dr. Jan Duffy's exclusive partnership provides unique advantages while maintaining your best interests
           </p>
           
           <div className="grid md:grid-cols-4 gap-8">
@@ -262,7 +262,7 @@ export default async function BuyerRepresentationPage() {
             🏠 Advanced Property Tools
           </h2>
           <p className="text-lg text-gray-700 text-center mb-8 max-w-4xl mx-auto">
-            Use Dr. Janet Duffy's advanced RealScout tools for comprehensive market analysis and property search
+            Use Dr. Jan Duffy's advanced RealScout tools for comprehensive market analysis and property search
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -291,7 +291,7 @@ export default async function BuyerRepresentationPage() {
           Ready for Expert Buyer Representation?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for professional buyer representation services
+          Contact Dr. Jan Duffy today for professional buyer representation services
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -308,13 +308,13 @@ export default async function BuyerRepresentationPage() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

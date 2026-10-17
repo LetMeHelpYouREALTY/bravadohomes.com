@@ -136,7 +136,7 @@ export default async function Blog({
               url: `${baseUrl}/blog/${post.slug}`,
               author: {
                 '@type': 'Person',
-                name: 'Dr. Janet Duffy',
+                name: 'Dr. Jan Duffy',
               },
             }),
           }}

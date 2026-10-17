@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = config.baseUrl
 
   return {
-    title: 'Las Vegas ROI and Cap Rate Guide for Investors | Dr. Janet Duffy',
+    title: 'Las Vegas ROI and Cap Rate Guide for Investors | Dr. Jan Duffy',
     description:
       'Use this Las Vegas investor guide to understand ROI components, cap rates, rental demand, and risk factors for North Las Vegas investment properties.',
     alternates: {
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function InvestorsRoiGuidePage() {
   const headersList = await headers()
   const config = getCurrentDomainConfig({ headers: headersList })
-  const agentName = config.realEstateAgent?.name || 'Dr. Janet Duffy'
+  const agentName = config.realEstateAgent?.name || 'Dr. Jan Duffy'
 
   return (
     <section>

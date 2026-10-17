@@ -6,8 +6,8 @@ import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'New Home Construction | North Las Vegas | Dr. Janet Duffy',
-  description: 'Expert new home construction guidance in North Las Vegas. Dr. Janet Duffy provides specialized services for Century Communities homes including Bravado.',
+  title: 'New Home Construction | North Las Vegas | Dr. Jan Duffy',
+  description: 'Expert new home construction guidance in North Las Vegas. Dr. Jan Duffy provides specialized services for Century Communities homes including Bravado.',
   keywords: [
     'new home construction',
     'new home construction North Las Vegas',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'Bravado new construction',
     'new home construction expert',
     'new home construction specialist',
-    'Dr. Janet Duffy',
+    'Dr. Jan Duffy',
     'new construction guidance',
     'new home building',
     'custom home construction',
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     'new home construction services'
   ],
   openGraph: {
-    title: 'New Home Construction | North Las Vegas | Dr. Janet Duffy',
-    description: 'Expert new home construction guidance in North Las Vegas. Dr. Janet Duffy provides specialized services for Century Communities homes.',
+    title: 'New Home Construction | North Las Vegas | Dr. Jan Duffy',
+    description: 'Expert new home construction guidance in North Las Vegas. Dr. Jan Duffy provides specialized services for Century Communities homes.',
     url: 'https://www.bravadohomes.com/new-home-construction',
     type: 'website',
   },
@@ -55,7 +55,7 @@ export default async function NewHomeConstructionPage() {
             New Home Construction in North Las Vegas
           </h1>
           <p className="text-2xl mb-4">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <p className="text-xl mb-8 opacity-90">
             Featured New Home Construction & Buyer Representation Specialist
@@ -65,7 +65,7 @@ export default async function NewHomeConstructionPage() {
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Consultation
@@ -85,7 +85,7 @@ export default async function NewHomeConstructionPage() {
               New Home Construction Expertise
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              <strong>Dr. Janet Duffy</strong> specializes in new home construction and buyer representation, bringing her VIP partnership with <strong>Century Communities</strong> to provide you with exclusive access to premier communities like Bravado in North Las Vegas.
+              <strong>Dr. Jan Duffy</strong> specializes in new home construction and buyer representation, bringing her VIP partnership with <strong>Century Communities</strong> to provide you with exclusive access to premier communities like Bravado in North Las Vegas.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               As a <strong>Featured New Home Construction & Buyer Representation Specialist</strong>, Dr. Duffy offers comprehensive guidance throughout the entire new home construction process. From initial consultation and lot selection to final walkthrough and closing, she ensures your interests are protected every step of the way.
@@ -126,7 +126,7 @@ export default async function NewHomeConstructionPage() {
             VIP Century Communities Partnership Benefits
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy's exclusive partnership provides unique advantages for new home buyers
+            Dr. Jan Duffy's exclusive partnership provides unique advantages for new home buyers
           </p>
           
           <div className="grid md:grid-cols-4 gap-8">
@@ -236,27 +236,27 @@ export default async function NewHomeConstructionPage() {
           Comprehensive New Home Construction Process Guide
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          Understanding the <strong>new home construction process</strong> helps you know what to expect when building your home with <strong>Century Communities</strong> at Bravado. As a <strong>Featured New Home Construction & Buyer Representation Specialist</strong>, <strong>Dr. Janet Duffy</strong> guides you through each stage, ensuring you're informed, protected, and confident in your decisions throughout your <strong>new home construction</strong> journey.
+          Understanding the <strong>new home construction process</strong> helps you know what to expect when building your home with <strong>Century Communities</strong> at Bravado. As a <strong>Featured New Home Construction & Buyer Representation Specialist</strong>, <strong>Dr. Jan Duffy</strong> guides you through each stage, ensuring you're informed, protected, and confident in your decisions throughout your <strong>new home construction</strong> journey.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Initial Planning and Design Phase</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The <strong>new home construction process</strong> begins with comprehensive planning and design. During this phase, <strong>Dr. Janet Duffy</strong> helps you understand available floor plans, lot options, and customization possibilities. Her expertise ensures you make informed decisions about your home's design, location, and features. This planning phase is crucial for setting expectations and establishing timelines.
+              The <strong>new home construction process</strong> begins with comprehensive planning and design. During this phase, <strong>Dr. Jan Duffy</strong> helps you understand available floor plans, lot options, and customization possibilities. Her expertise ensures you make informed decisions about your home's design, location, and features. This planning phase is crucial for setting expectations and establishing timelines.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The design phase includes selecting your floor plan, choosing your lot, and making initial customization decisions. <strong>Dr. Janet</strong> provides guidance on which customizations add value and which are primarily for personal enjoyment. Her <strong>Century Communities partnership</strong> provides insider knowledge of available options, pricing, and construction timelines, helping you make smart decisions that align with your budget and preferences.
+              The design phase includes selecting your floor plan, choosing your lot, and making initial customization decisions. <strong>Dr. Jan</strong> provides guidance on which customizations add value and which are primarily for personal enjoyment. Her <strong>Century Communities partnership</strong> provides insider knowledge of available options, pricing, and construction timelines, helping you make smart decisions that align with your budget and preferences.
             </p>
           </div>
           
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Construction Timeline and Monitoring</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Once construction begins, <strong>Dr. Janet Duffy</strong> remains your advocate, monitoring construction progress and ensuring quality standards are met. Her <strong>new construction expertise</strong> allows her to coordinate inspections, address concerns, and keep you informed about construction milestones. This ongoing monitoring ensures your home is built to quality standards and meets all your expectations.
+              Once construction begins, <strong>Dr. Jan Duffy</strong> remains your advocate, monitoring construction progress and ensuring quality standards are met. Her <strong>new construction expertise</strong> allows her to coordinate inspections, address concerns, and keep you informed about construction milestones. This ongoing monitoring ensures your home is built to quality standards and meets all your expectations.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The construction timeline typically ranges from 4-6 months depending on the floor plan and customization options selected. Throughout this period, <strong>Dr. Janet</strong> provides regular updates, coordinates walkthroughs, and ensures any issues are addressed promptly. Her <strong>buyer representation</strong> services protect your interests throughout construction, ensuring quality standards are maintained and timelines are met.
+              The construction timeline typically ranges from 4-6 months depending on the floor plan and customization options selected. Throughout this period, <strong>Dr. Jan</strong> provides regular updates, coordinates walkthroughs, and ensures any issues are addressed promptly. Her <strong>buyer representation</strong> services protect your interests throughout construction, ensuring quality standards are maintained and timelines are met.
             </p>
           </div>
         </div>
@@ -267,7 +267,7 @@ export default async function NewHomeConstructionPage() {
             <strong>New home construction</strong> differs significantly from purchasing existing homes, requiring specialized knowledge of construction processes, builder practices, and quality standards. The process involves making decisions about design, materials, and features before construction begins, which requires expert guidance to ensure you make smart choices that enhance both your immediate enjoyment and long-term property value.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            <strong>Dr. Janet Duffy's</strong> specialized <strong>new construction expertise</strong> provides the knowledge needed to navigate these unique challenges successfully. Her partnership with <strong>Century Communities</strong> gives her insider knowledge of construction timelines, quality standards, and available options that benefit her clients. This specialized expertise is invaluable for homebuyers who want to make informed decisions throughout the building process.
+            <strong>Dr. Jan Duffy's</strong> specialized <strong>new construction expertise</strong> provides the knowledge needed to navigate these unique challenges successfully. Her partnership with <strong>Century Communities</strong> gives her insider knowledge of construction timelines, quality standards, and available options that benefit her clients. This specialized expertise is invaluable for homebuyers who want to make informed decisions throughout the building process.
           </p>
         </div>
       </div>
@@ -295,10 +295,10 @@ export default async function NewHomeConstructionPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Customization and Personalization</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              One of the most significant advantages of <strong>new home construction</strong> is the ability to customize your home to match your preferences and lifestyle. From selecting finishes and fixtures to choosing floor plans and layout options, <strong>new construction</strong> allows you to create a home that truly fits your needs. <strong>Dr. Janet Duffy</strong> helps you understand customization options and make smart choices that enhance both enjoyment and value.
+              One of the most significant advantages of <strong>new home construction</strong> is the ability to customize your home to match your preferences and lifestyle. From selecting finishes and fixtures to choosing floor plans and layout options, <strong>new construction</strong> allows you to create a home that truly fits your needs. <strong>Dr. Jan Duffy</strong> helps you understand customization options and make smart choices that enhance both enjoyment and value.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The customization process allows you to personalize your home while staying within your budget. <strong>Dr. Janet's</strong> expertise helps you understand which customizations add value and which are primarily for personal enjoyment, ensuring you make smart investment decisions. This personalized approach ensures your new home reflects your style and preferences while maintaining good resale value.
+              The customization process allows you to personalize your home while staying within your budget. <strong>Dr. Jan's</strong> expertise helps you understand which customizations add value and which are primarily for personal enjoyment, ensuring you make smart investment decisions. This personalized approach ensures your new home reflects your style and preferences while maintaining good resale value.
             </p>
           </div>
         </div>
@@ -432,7 +432,7 @@ export default async function NewHomeConstructionPage() {
             🏠 Advanced Property Tools
           </h2>
           <p className="text-lg text-gray-700 text-center mb-8 max-w-4xl mx-auto">
-            Use Dr. Janet Duffy's advanced RealScout tools for comprehensive market analysis and property search
+            Use Dr. Jan Duffy's advanced RealScout tools for comprehensive market analysis and property search
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -461,7 +461,7 @@ export default async function NewHomeConstructionPage() {
           Ready to Build Your New Home?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for expert guidance on your new home construction project
+          Contact Dr. Jan Duffy today for expert guidance on your new home construction project
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -478,13 +478,13 @@ export default async function NewHomeConstructionPage() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

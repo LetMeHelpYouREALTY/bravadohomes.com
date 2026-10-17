@@ -72,7 +72,7 @@ export default async function ComparisonTableSchema({
     "tableBody": tableRows,
     "author": {
       "@type": "Person",
-      "name": agent?.name || "Dr. Janet Duffy",
+      "name": agent?.name || "Dr. Jan Duffy",
       "identifier": agent?.licenseNumber || "S.0197614"
     },
     "publisher": {

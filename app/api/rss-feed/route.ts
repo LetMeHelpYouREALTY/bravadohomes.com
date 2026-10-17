@@ -149,14 +149,14 @@ export async function GET() {
     
     // Return fallback content
     const fallbackFeed: RSSFeed = {
-      title: 'Market Insights from Dr. Janet Duffy',
+      title: 'Market Insights from Dr. Jan Duffy',
       description: 'Latest real estate market insights for North Las Vegas',
       link: 'https://www.bravadohomes.com',
       items: [
         {
           title: 'North Las Vegas Real Estate Market Update',
           link: 'https://www.bravadohomes.com',
-          description: 'Stay informed about the latest trends in North Las Vegas real estate market with insights from Dr. Janet Duffy.',
+          description: 'Stay informed about the latest trends in North Las Vegas real estate market with insights from Dr. Jan Duffy.',
           pubDate: new Date().toISOString(),
           guid: 'fallback-1'
         },

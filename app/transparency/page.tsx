@@ -3,7 +3,7 @@ import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How We Choose: Transparent Decision-Making Process | Dr. Janet Duffy',
+  title: 'How We Choose: Transparent Decision-Making Process | Dr. Jan Duffy',
   description: 'Transparent explanation of our neighborhood selection criteria, home recommendation process, and buyer representation methodology. See how we help you make the best decisions.',
   keywords: [
     'how we choose homes',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'transparent decision making',
     'real estate transparency',
     'how we choose neighborhoods',
-    'Dr. Janet Duffy transparency',
+    'Dr. Jan Duffy transparency',
     'buyer representation process'
   ],
   openGraph: {
@@ -74,7 +74,7 @@ export default async function TransparencyPage() {
     ],
     "author": {
       "@type": "Person",
-      "name": agent?.name || "Dr. Janet Duffy",
+      "name": agent?.name || "Dr. Jan Duffy",
       "identifier": agent?.licenseNumber || "S.0197614"
     }
   }
@@ -99,7 +99,7 @@ export default async function TransparencyPage() {
             See How We Select Neighborhoods & Recommend Homes
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
         </div>
       </div>
@@ -170,7 +170,7 @@ export default async function TransparencyPage() {
             <p className="text-gray-700 leading-relaxed">
               We begin with a comprehensive consultation to understand your lifestyle, priorities, budget, 
               and long-term goals. This includes discussing your must-haves, nice-to-haves, and deal-breakers. 
-              Dr. Janet Duffy's clinical psychology background helps her understand the emotional and 
+              Dr. Jan Duffy's clinical psychology background helps her understand the emotional and 
               lifestyle factors that matter most to you.
             </p>
           </div>
@@ -223,7 +223,7 @@ export default async function TransparencyPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Our Commitment to You</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              As your buyer representation specialist, Dr. Janet Duffy is legally and ethically obligated 
+              As your buyer representation specialist, Dr. Jan Duffy is legally and ethically obligated 
               to protect your interests. This means:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -242,14 +242,14 @@ export default async function TransparencyPage() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Ready to Experience Transparent Service?</h2>
         <p className="text-xl mb-8">
-          Let {agent?.name || 'Dr. Janet Duffy'} help you with complete transparency every step of the way
+          Let {agent?.name || 'Dr. Jan Duffy'} help you with complete transparency every step of the way
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
           <a href="/contact" className="bg-yellow-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
             🏠 Schedule Consultation

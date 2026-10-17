@@ -7,8 +7,8 @@ import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Real Estate Services | Dr. Janet Duffy | Bravado Homes North Las Vegas',
-  description: 'Expert new home construction and buyer representation services in North Las Vegas. Dr. Janet Duffy provides specialized guidance for Century Communities homes at Bravado.',
+  title: 'Real Estate Services | Dr. Jan Duffy | Bravado Homes North Las Vegas',
+  description: 'Expert new home construction and buyer representation services in North Las Vegas. Dr. Jan Duffy provides specialized guidance for Century Communities homes at Bravado.',
   keywords: [
     'new home construction services',
     'buyer representation services',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'buyer representation specialist',
     'North Las Vegas real estate services',
     'Bravado homes services',
-    'Dr. Janet Duffy services',
+    'Dr. Jan Duffy services',
     'new home construction guidance',
     'buyer advocacy services',
     'real estate consultation',
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     'real estate agent services'
   ],
   openGraph: {
-    title: 'Real Estate Services | Dr. Janet Duffy | Bravado Homes North Las Vegas',
-    description: 'Expert new home construction and buyer representation services in North Las Vegas. Dr. Janet Duffy provides specialized guidance for Century Communities homes at Bravado.',
+    title: 'Real Estate Services | Dr. Jan Duffy | Bravado Homes North Las Vegas',
+    description: 'Expert new home construction and buyer representation services in North Las Vegas. Dr. Jan Duffy provides specialized guidance for Century Communities homes at Bravado.',
     url: 'https://www.bravadohomes.com/services',
     type: 'website',
   },
@@ -61,14 +61,14 @@ export default async function ServicesPage() {
             Specialized Guidance for North Las Vegas Homebuyers
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy | Century Communities Featured Partner | Nevada License S.0197614
+            Dr. Jan Duffy | Century Communities Featured Partner | Nevada License S.0197614
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
           </div>
           <p className="text-lg">
@@ -84,7 +84,7 @@ export default async function ServicesPage() {
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto">
           As a Featured New Home Construction and Buyer Representation specialist with Century Communities, 
-          Dr. Janet Duffy provides unparalleled expertise in helping families navigate the new home construction 
+          Dr. Jan Duffy provides unparalleled expertise in helping families navigate the new home construction 
           process while ensuring your interests are always protected.
         </p>
 
@@ -128,10 +128,10 @@ export default async function ServicesPage() {
         </div>
       </div>
 
-      {/* Why Choose Dr. Janet Duffy */}
+      {/* Why Choose Dr. Jan Duffy */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Why Choose Dr. Janet Duffy?
+          Why Choose Dr. Jan Duffy?
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -174,7 +174,7 @@ export default async function ServicesPage() {
             </h3>
             <p className="text-gray-700 text-center mb-6">
               Find out what your home is worth in today's North Las Vegas market. 
-              Get an instant valuation from Dr. Janet Duffy's RealScout system.
+              Get an instant valuation from Dr. Jan Duffy's RealScout system.
             </p>
             <div className="bg-white p-4 rounded-lg border border-gray-200">
               <RealScoutHomeValue agentEncodedId="QWdlbnQtMjI1MDUw" />
@@ -210,7 +210,7 @@ export default async function ServicesPage() {
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6">
             We moved our full process walkthrough into a dedicated guide so this services page stays focused on
-            how Dr. Janet Duffy supports buyers across planning, representation, and execution.
+            how Dr. Jan Duffy supports buyers across planning, representation, and execution.
           </p>
           <a
             href="/services/home-buying-process"
@@ -227,7 +227,7 @@ export default async function ServicesPage() {
           Ready to Start Your Home Buying Journey?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for expert guidance on your North Las Vegas home purchase
+          Contact Dr. Jan Duffy today for expert guidance on your North Las Vegas home purchase
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -250,7 +250,7 @@ export default async function ServicesPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>
@@ -266,7 +266,7 @@ export default async function ServicesPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            Dr. Janet Duffy is a Featured New Home Construction and Buyer Representation specialist with Century Communities. 
+            Dr. Jan Duffy is a Featured New Home Construction and Buyer Representation specialist with Century Communities. 
             Nevada License S.0197614. Equal Housing Opportunity.
           </p>
         </div>

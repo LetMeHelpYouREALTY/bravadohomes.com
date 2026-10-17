@@ -572,10 +572,8 @@ export default async function LocationPage() {
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg mb-8">
           <h3 className="text-2xl font-bold mb-4 text-gray-900">School District Advantages</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Bravado is located in an area with access to quality schools within the Clark County School District, 
-            Nevada's largest school district. The proximity to excellent educational facilities ensures that 
-            children receive quality education while families enjoy the convenience of nearby schools. The school 
-            district's commitment to excellence and innovation benefits Bravado families.
+            CCSD serves North Las Vegas with multiple elementary, middle, and high school options. Dr. Jan Duffy can
+            help you compare homesites; always verify assigned schools with CCSD for the exact parcel you select.
           </p>
           <p className="text-gray-700 leading-relaxed">
             The location also provides access to various educational opportunities, including private schools, 

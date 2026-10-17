@@ -6,8 +6,8 @@ import ComparisonTableSchemaComponent from '../../components/comparison-table-sc
 import { ComparisonTable } from '../../components/comparison-table-schema'
 
 export const metadata: Metadata = {
-  title: 'Summerlin Neighborhood Guide | Las Vegas Real Estate | Dr. Janet Duffy',
-  description: 'Complete Summerlin neighborhood guide including schools, amenities, price trends, and homes for sale. Expert guidance from Dr. Janet Duffy.',
+  title: 'Summerlin Neighborhood Guide | Las Vegas Real Estate | Dr. Jan Duffy',
+  description: 'Complete Summerlin neighborhood guide including schools, amenities, price trends, and homes for sale. Expert guidance from Dr. Jan Duffy.',
   keywords: [
     'Summerlin Las Vegas',
     'Summerlin neighborhoods',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'Summerlin schools',
     'Summerlin amenities',
     'best neighborhoods Summerlin',
-    'Dr. Janet Duffy Summerlin'
+    'Dr. Jan Duffy Summerlin'
   ],
   openGraph: {
     title: 'Summerlin Neighborhood Guide | Las Vegas Real Estate',
@@ -69,7 +69,7 @@ export default async function SummerlinPage() {
             Complete Guide to Summerlin: Schools, Amenities & Real Estate
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
         </div>
       </div>
@@ -82,7 +82,7 @@ export default async function SummerlinPage() {
             extensive amenities, golf courses, and well-established neighborhoods. Located on the western edge 
             of Las Vegas, Summerlin features higher-end homes with average prices starting around $650,000+. 
             The community is known for its excellent school district ratings, multiple golf courses, shopping 
-            centers, and extensive community amenities. {agent?.name || 'Dr. Janet Duffy'} provides expert 
+            centers, and extensive community amenities. {agent?.name || 'Dr. Jan Duffy'} provides expert 
             guidance for buyers considering Summerlin and can help you find homes that match your needs and budget.
           </p>
         </div>
@@ -140,14 +140,14 @@ export default async function SummerlinPage() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Interested in Summerlin?</h2>
         <p className="text-xl mb-8">
-          Let {agent?.name || 'Dr. Janet Duffy'} help you find the perfect home in Summerlin
+          Let {agent?.name || 'Dr. Jan Duffy'} help you find the perfect home in Summerlin
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
         </div>
       </div>

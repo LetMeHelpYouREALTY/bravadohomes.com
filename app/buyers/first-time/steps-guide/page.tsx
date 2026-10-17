@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = config.baseUrl
 
   return {
-    title: 'First-Time Buyer Steps Guide in Las Vegas | Dr. Janet Duffy',
+    title: 'First-Time Buyer Steps Guide in Las Vegas | Dr. Jan Duffy',
     description:
       'Follow a clear step-by-step first-time buyer process in Las Vegas: pre-approval, neighborhood selection, offer strategy, inspections, and closing.',
     alternates: {
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function FirstTimeStepsGuidePage() {
   const headersList = await headers()
   const config = getCurrentDomainConfig({ headers: headersList })
-  const agentName = config.realEstateAgent?.name || 'Dr. Janet Duffy'
+  const agentName = config.realEstateAgent?.name || 'Dr. Jan Duffy'
 
   return (
     <section>

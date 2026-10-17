@@ -36,7 +36,7 @@ export default function SchemaMarkup() {
         "@type": "HomeAndConstructionBusiness",
         "@id": `${baseUrl}/#business`,
         "name": config.businessName,
-        "description": `${agent?.name || 'Dr. Janet Duffy'}, Featured New Home Construction & Buyer Representation Specialist. Located in ${location.city}, ${location.state}.`,
+        "description": `${agent?.name || 'Dr. Jan Duffy'}, Featured New Home Construction & Buyer Representation Specialist. Located in ${location.city}, ${location.state}.`,
         "url": baseUrl,
         "address": {
           "@type": "PostalAddress",
@@ -57,7 +57,7 @@ export default function SchemaMarkup() {
       {
         "@type": "RealEstateAgent",
         "@id": `${baseUrl}/#agent`,
-        "name": agent?.name || "Dr. Janet Duffy",
+        "name": agent?.name || "Dr. Jan Duffy",
         "description": "Featured New Home Construction & Buyer Representation Specialist",
         "url": baseUrl,
         "telephone": contact.phone,

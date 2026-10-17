@@ -239,12 +239,12 @@ export default async function ContactPage() {
             <div className="space-y-4">
               <div className="border-l-4 border-blue-600 pl-4">
                 <h4 className="font-bold text-gray-900">Residence 1792</h4>
-                <p className="text-gray-700">From $459,990 • 1,792 sq ft • 3 bed • 2.5 bath • 2 car garage</p>
+                <p className="text-gray-700">From $429,990 • 1,792 sq ft • 3 bed • 2.5 bath • 2 car garage (Century Communities, 2026-10-12)</p>
                 <p className="text-sm text-gray-600">Features: Covered Patio, Vaulted Entry</p>
               </div>
               <div className="border-l-4 border-green-600 pl-4">
                 <h4 className="font-bold text-gray-900">Residence 1943</h4>
-                <p className="text-gray-700">From $469,990 • 1,943 sq ft • 3 bed • 2.5 bath • 2 car garage</p>
+                <p className="text-gray-700">From $439,990 • 1,943 sq ft • 3 bed • 2.5 bath • 2 car garage (Century Communities, 2026-10-12)</p>
                 <p className="text-sm text-gray-600">Features: Model Now Open, Expansive Primary Suite</p>
               </div>
               <div className="border-l-4 border-purple-600 pl-4">

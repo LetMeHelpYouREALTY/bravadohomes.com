@@ -3,7 +3,7 @@ import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Las Vegas Real Estate Market Research | Dr. Janet Duffy',
+  title: 'Las Vegas Real Estate Market Research | Dr. Jan Duffy',
   description: 'Original market research and analysis for Las Vegas real estate including price forecasts, buyer behavior data, neighborhood trends, and investment analysis.',
   keywords: [
     'Las Vegas market research',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'neighborhood trends',
     'investment analysis',
     'market research Las Vegas',
-    'Dr. Janet Duffy research'
+    'Dr. Jan Duffy research'
   ],
   openGraph: {
     title: 'Las Vegas Real Estate Market Research',
@@ -47,7 +47,7 @@ export default async function ResearchPage() {
             Original Analysis & Insights from 30+ Years Experience
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default async function ResearchPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8">
-            {agent?.name || 'Dr. Janet Duffy'} provides original market research based on 30+ years of direct 
+            {agent?.name || 'Dr. Jan Duffy'} provides original market research based on 30+ years of direct 
             experience in the Las Vegas real estate market. This research includes price forecasts, buyer behavior 
             analysis, neighborhood trend data, and investment property analysis. These insights help buyers, 
             sellers, and investors make data-driven decisions.
@@ -85,7 +85,7 @@ export default async function ResearchPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Buyer Behavior Data: Las Vegas First-Time Buyers</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Analysis of first-time buyer behavior patterns including price ranges, neighborhood preferences, 
-              financing choices, and decision factors. Based on {agent?.name || 'Dr. Janet Duffy'}'s extensive 
+              financing choices, and decision factors. Based on {agent?.name || 'Dr. Jan Duffy'}'s extensive 
               experience working with first-time buyers.
             </p>
             <p className="text-sm text-gray-500">Coming Soon</p>
@@ -121,7 +121,7 @@ export default async function ResearchPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <p className="text-gray-700 leading-relaxed mb-4">
-              {agent?.name || 'Dr. Janet Duffy'}'s research methodology combines:
+              {agent?.name || 'Dr. Jan Duffy'}'s research methodology combines:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>30+ years of direct market experience and transaction data</li>
@@ -139,14 +139,14 @@ export default async function ResearchPage() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Need Market Insights for Your Decision?</h2>
         <p className="text-xl mb-8">
-          Let {agent?.name || 'Dr. Janet Duffy'} provide personalized market analysis for your situation
+          Let {agent?.name || 'Dr. Jan Duffy'} provide personalized market analysis for your situation
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a href="tel:+17025001955" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
           <a href="/contact" className="bg-yellow-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
             🏠 Schedule Consultation

@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Real Estate Case Studies & Market Analysis | Dr. Janet Duffy',
-  description: 'Case studies and market analysis documenting 30+ years of Las Vegas real estate experience. Real client success stories and market insights from Dr. Janet Duffy.',
+  title: 'Real Estate Case Studies & Market Analysis | Dr. Jan Duffy',
+  description: 'Case studies and market analysis documenting 30+ years of Las Vegas real estate experience. Real client success stories and market insights from Dr. Jan Duffy.',
   keywords: [
     'real estate case studies',
     'Las Vegas market analysis',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'real estate market trends',
     'case studies Las Vegas',
     'real estate analysis',
-    'Dr. Janet Duffy case studies',
+    'Dr. Jan Duffy case studies',
     'Las Vegas real estate trends'
   ],
   openGraph: {
@@ -48,7 +48,7 @@ export default async function CaseStudiesPage() {
             Documenting 30+ Years of Las Vegas Real Estate Expertise
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Janet Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
           </p>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default async function CaseStudiesPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8">
-            {agent?.name || 'Dr. Janet Duffy'} has helped hundreds of clients navigate the Las Vegas real estate 
+            {agent?.name || 'Dr. Jan Duffy'} has helped hundreds of clients navigate the Las Vegas real estate 
             market over 30+ years. These case studies document real client experiences, market analysis, and 
             insights gained from decades of experience. Each case study illustrates how expertise, market knowledge, 
             and client-focused service create successful outcomes.
@@ -76,7 +76,7 @@ export default async function CaseStudiesPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">30 Years of Las Vegas Market Trends: 1995-2025</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Comprehensive analysis of Las Vegas real estate market evolution over three decades, including 
-              price trends, neighborhood development, and market cycles. Based on {agent?.name || 'Dr. Janet Duffy'}'s 
+              price trends, neighborhood development, and market cycles. Based on {agent?.name || 'Dr. Jan Duffy'}'s 
               direct experience in the market.
             </p>
             <p className="text-sm text-gray-500">Coming Soon</p>
@@ -120,7 +120,7 @@ export default async function CaseStudiesPage() {
           Market Analysis & Insights
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto">
-          {agent?.name || 'Dr. Janet Duffy'} provides regular market analysis based on 30+ years of experience 
+          {agent?.name || 'Dr. Jan Duffy'} provides regular market analysis based on 30+ years of experience 
           and current market conditions. These insights help buyers, sellers, and investors make informed decisions.
         </p>
         <div className="text-center">
@@ -132,7 +132,7 @@ export default async function CaseStudiesPage() {
 
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">Ready to Work With {agent?.name || 'Dr. Janet Duffy'}?</h2>
+        <h2 className="text-3xl font-bold mb-4">Ready to Work With {agent?.name || 'Dr. Jan Duffy'}?</h2>
         <p className="text-xl mb-8">
           Experience the expertise documented in these case studies
         </p>
@@ -141,7 +141,7 @@ export default async function CaseStudiesPage() {
             📞 Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            📧 Email Dr. Janet
+            📧 Email Dr. Jan
           </a>
           <a href="/contact" className="bg-yellow-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
             🏠 Schedule Consultation

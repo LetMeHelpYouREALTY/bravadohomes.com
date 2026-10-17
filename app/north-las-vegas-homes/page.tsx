@@ -14,8 +14,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'North Las Vegas Homes for Sale | New Construction | Dr. Janet Duffy',
-    description: 'Find your dream home in North Las Vegas. Expert guidance from Dr. Janet Duffy for new construction homes, Bravado community, and Century Communities properties.',
+    title: 'North Las Vegas Homes for Sale | New Construction | Dr. Jan Duffy',
+    description: 'Find your dream home in North Las Vegas. Expert guidance from Dr. Jan Duffy for new construction homes, Bravado community, and Century Communities properties.',
     keywords: [
       'North Las Vegas homes',
       'North Las Vegas homes for sale',
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'North Las Vegas new homes',
       'Las Vegas new homes',
       'North Las Vegas housing market',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'North Las Vegas real estate agent',
       'new construction homes North Las Vegas',
       'North Las Vegas properties',
@@ -41,8 +41,8 @@ export async function generateMetadata(): Promise<Metadata> {
       'luxury homes North Las Vegas'
     ],
     openGraph: {
-      title: 'North Las Vegas Homes for Sale | New Construction | Dr. Janet Duffy',
-      description: 'Find your dream home in North Las Vegas. Expert guidance from Dr. Janet Duffy for new construction homes, Bravado community, and Century Communities properties.',
+      title: 'North Las Vegas Homes for Sale | New Construction | Dr. Jan Duffy',
+      description: 'Find your dream home in North Las Vegas. Expert guidance from Dr. Jan Duffy for new construction homes, Bravado community, and Century Communities properties.',
       url: `${baseUrl}/north-las-vegas-homes`,
       type: 'website',
     },
@@ -71,14 +71,14 @@ export default async function NorthLasVegasHomesPage() {
             New Construction & Resale Properties in 89031
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy | Century Communities Featured Partner | Nevada License S.0197614
+            Dr. Jan Duffy | Century Communities Featured Partner | Nevada License S.0197614
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default async function NorthLasVegasHomesPage() {
       {/* Expert Guidance */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Expert Guidance from Dr. Janet Duffy
+          Expert Guidance from Dr. Jan Duffy
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8">
@@ -282,7 +282,7 @@ export default async function NorthLasVegasHomesPage() {
           Ready to Find Your North Las Vegas Dream Home?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for expert guidance on your North Las Vegas home purchase
+          Contact Dr. Jan Duffy today for expert guidance on your North Las Vegas home purchase
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -305,7 +305,7 @@ export default async function NorthLasVegasHomesPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>North Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>
@@ -321,7 +321,7 @@ export default async function NorthLasVegasHomesPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            Dr. Janet Duffy specializes in North Las Vegas real estate and Century Communities new construction. 
+            Dr. Jan Duffy specializes in North Las Vegas real estate and Century Communities new construction. 
             Nevada License S.0197614. Equal Housing Opportunity.
           </p>
         </div>

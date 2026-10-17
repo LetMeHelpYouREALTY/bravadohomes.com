@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Bravado Homes Las Vegas Reviews | Century Communities North Las Vegas | Dr. Janet Duffy',
-    description: 'Read Bravado Homes Las Vegas reviews and testimonials from satisfied homebuyers. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner. See why Bravado is one of the top-rated new construction communities in North Las Vegas.',
+    title: 'Bravado Homes Las Vegas Reviews | Century Communities North Las Vegas | Dr. Jan Duffy',
+    description: 'Read Bravado Homes Las Vegas reviews and testimonials from satisfied homebuyers. Expert guidance from Dr. Jan Duffy, Featured Century Communities Partner. See why Bravado is one of the top-rated new construction communities in North Las Vegas.',
     keywords: [
       'bravado homes las vegas reviews',
       'bravado homes reviews',
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'bravado homes testimonials',
       'bravado homeowner reviews',
       'dr. janet duffy reviews',
-      'Dr. Janet Duffy reviews',
+      'Dr. Jan Duffy reviews',
       'bravado homes las vegas',
       'century communities reviews',
       'new homes las vegas reviews',
@@ -35,14 +35,14 @@ export async function generateMetadata(): Promise<Metadata> {
       'bravado homes ratings',
       'bravado homes feedback',
       'bravado homeowner testimonials',
-      agent?.name || 'Dr. Janet Duffy'
+      agent?.name || 'Dr. Jan Duffy'
     ],
     alternates: {
       canonical: `${baseUrl}/reviews`,
     },
     openGraph: {
       title: 'Bravado Homes Las Vegas Reviews | Century Communities',
-      description: 'Read Bravado Homes Las Vegas reviews and testimonials from satisfied homebuyers. Expert guidance from Dr. Janet Duffy.',
+      description: 'Read Bravado Homes Las Vegas reviews and testimonials from satisfied homebuyers. Expert guidance from Dr. Jan Duffy.',
       url: `${baseUrl}/reviews`,
       type: 'website',
     },
@@ -73,7 +73,7 @@ export default async function ReviewsPage() {
             Bravado Homes Las Vegas Reviews
           </h1>
           <p className="text-2xl mb-4">
-            What Our Homebuyers Say About Bravado & Dr. Janet Duffy
+            What Our Homebuyers Say About Bravado & Dr. Jan Duffy
           </p>
           <p className="text-xl mb-8 opacity-90">
             Real Reviews from Real Homebuyers | Century Communities Partnership
@@ -83,7 +83,7 @@ export default async function ReviewsPage() {
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default async function ReviewsPage() {
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
           See what homebuyers are saying about <strong>Bravado Homes by Century Communities</strong> in North Las Vegas. 
-          Our clients love the quality construction, smart home technology, and expert guidance from {agent?.name || 'Dr. Janet Duffy'}.
+          Our clients love the quality construction, smart home technology, and expert guidance from {agent?.name || 'Dr. Jan Duffy'}.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -107,7 +107,7 @@ export default async function ReviewsPage() {
               <span className="font-bold text-gray-900">5.0</span>
             </div>
             <p className="text-gray-700 mb-4 italic">
-              "Dr. Janet Duffy made the entire process seamless. Her expertise with Century Communities and knowledge of Bravado homes helped us find the perfect floor plan. The smart home technology is incredible!"
+              "Dr. Jan Duffy made the entire process seamless. Her expertise with Century Communities and knowledge of Bravado homes helped us find the perfect floor plan. The smart home technology is incredible!"
             </p>
             <p className="text-sm font-semibold text-gray-900">- Sarah M., Bravado Homeowner</p>
           </div>
@@ -119,7 +119,7 @@ export default async function ReviewsPage() {
               <span className="font-bold text-gray-900">5.0</span>
             </div>
             <p className="text-gray-700 mb-4 italic">
-              "We couldn't be happier with our Bravado home! The location near Craig Ranch Regional Park is perfect for our family. Dr. Janet guided us through every step and ensured we got the best deal."
+              "We couldn't be happier with our Bravado home! The location near Craig Ranch Regional Park is perfect for our family. Dr. Jan guided us through every step and ensured we got the best deal."
             </p>
             <p className="text-sm font-semibold text-gray-900">- Michael & Jennifer T., Bravado Residents</p>
           </div>
@@ -131,7 +131,7 @@ export default async function ReviewsPage() {
               <span className="font-bold text-gray-900">5.0</span>
             </div>
             <p className="text-gray-700 mb-4 italic">
-              "As first-time homebuyers, we were nervous about the process. Dr. Janet Duffy's expertise and patience made all the difference. The Bravado community is beautiful and the homes are well-built."
+              "As first-time homebuyers, we were nervous about the process. Dr. Jan Duffy's expertise and patience made all the difference. The Bravado community is beautiful and the homes are well-built."
             </p>
             <p className="text-sm font-semibold text-gray-900">- David L., New Bravado Homeowner</p>
           </div>
@@ -143,7 +143,7 @@ export default async function ReviewsPage() {
               <span className="font-bold text-gray-900">5.0</span>
             </div>
             <p className="text-gray-700 mb-4 italic">
-              "The Century Connect smart home package is amazing! Dr. Janet explained all the features and helped us understand the value. We love our new Bravado home and the North Las Vegas location."
+              "The Century Connect smart home package is amazing! Dr. Jan explained all the features and helped us understand the value. We love our new Bravado home and the North Las Vegas location."
             </p>
             <p className="text-sm font-semibold text-gray-900">- Robert & Lisa K., Century Communities Clients</p>
           </div>
@@ -155,7 +155,7 @@ export default async function ReviewsPage() {
               <span className="font-bold text-gray-900">5.0</span>
             </div>
             <p className="text-gray-700 mb-4 italic">
-              "Dr. Janet Duffy is the best! Her knowledge of Century Communities and the Bravado floor plans helped us make the perfect choice. The gated community and amenities are exactly what we wanted."
+              "Dr. Jan Duffy is the best! Her knowledge of Century Communities and the Bravado floor plans helped us make the perfect choice. The gated community and amenities are exactly what we wanted."
             </p>
             <p className="text-sm font-semibold text-gray-900">- Amanda R., Bravado Homebuyer</p>
           </div>
@@ -167,7 +167,7 @@ export default async function ReviewsPage() {
               <span className="font-bold text-gray-900">5.0</span>
             </div>
             <p className="text-gray-700 mb-4 italic">
-              "Moving from out of state, we needed someone we could trust. Dr. Janet was professional, responsive, and made buying our Bravado home a breeze. The quality of Century Communities is outstanding!"
+              "Moving from out of state, we needed someone we could trust. Dr. Jan was professional, responsive, and made buying our Bravado home a breeze. The quality of Century Communities is outstanding!"
             </p>
             <p className="text-sm font-semibold text-gray-900">- James & Maria P., Relocated to Bravado</p>
           </div>
@@ -203,7 +203,7 @@ export default async function ReviewsPage() {
             Experience the Difference with Expert Guidance
           </h3>
           <p className="text-lg mb-6">
-            {agent?.name || 'Dr. Janet Duffy'}, Featured Century Communities Partner, brings years of experience and insider knowledge to help you find the perfect Bravado home.
+            {agent?.name || 'Dr. Jan Duffy'}, Featured Century Communities Partner, brings years of experience and insider knowledge to help you find the perfect Bravado home.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -286,9 +286,9 @@ export default async function ReviewsPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Expert Buyer Representation</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Reviews consistently highlight the value of working with {agent?.name || 'Dr. Janet Duffy'} as a 
+              Reviews consistently highlight the value of working with {agent?.name || 'Dr. Jan Duffy'} as a 
               Featured Century Communities Partner. Homebuyers appreciate having expert guidance that represents 
-              their interests, not just the builder's. Many reviewers mention that Dr. Janet's knowledge and 
+              their interests, not just the builder's. Many reviewers mention that Dr. Jan's knowledge and 
               negotiation skills helped them secure better terms and avoid common pitfalls.
             </p>
             <p className="text-gray-700 leading-relaxed">
@@ -355,18 +355,18 @@ export default async function ReviewsPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Buying Process & Service Reviews</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               The buying process at Bravado receives consistently positive reviews, particularly when working with 
-              {agent?.name || 'Dr. Janet Duffy'}. Reviewers appreciate the transparent communication, detailed 
+              {agent?.name || 'Dr. Jan Duffy'}. Reviewers appreciate the transparent communication, detailed 
               explanations, and responsive service throughout the entire journey from initial interest to closing 
               and beyond.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               Many reviewers mention that having expert buyer representation made them feel confident and protected 
               throughout the process. Unlike working directly with builder sales teams, reviewers note that 
-              {agent?.name || 'Dr. Janet'} provided unbiased guidance and negotiation support that saved them 
+              {agent?.name || 'Dr. Jan'} provided unbiased guidance and negotiation support that saved them 
               money and prevented costly mistakes.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The post-closing support also earns high marks. Reviewers appreciate that {agent?.name || 'Dr. Janet'} 
+              The post-closing support also earns high marks. Reviewers appreciate that {agent?.name || 'Dr. Jan'} 
               remains available to answer questions and provide assistance even after the sale is complete. This 
               ongoing relationship is something many reviewers didn't expect but value greatly.
             </p>
@@ -376,7 +376,7 @@ export default async function ReviewsPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Value & Investment Reviews</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Reviewers consistently mention that Bravado homes represent excellent value for the money. Starting 
-              at $459,790, Bravado homes include features and finishes that would cost significantly more in other 
+              from $445,000 (Century Communities, 2026-10-12), Bravado homes include features and finishes that would cost significantly more in other 
               communities. The smart home technology, premium finishes, and quality construction provide exceptional 
               value compared to other new construction options in Las Vegas.
             </p>
@@ -420,7 +420,7 @@ export default async function ReviewsPage() {
             <h3 className="text-xl font-bold mb-3 text-gray-900">Expert Buyer Representation</h3>
             <p className="text-gray-700 leading-relaxed">
               Most new construction communities only offer builder sales teams. Bravado buyers working with 
-              {agent?.name || 'Dr. Janet Duffy'} have access to independent expert representation that protects 
+              {agent?.name || 'Dr. Jan Duffy'} have access to independent expert representation that protects 
               their interests. Reviewers consistently rate this as a significant advantage.
             </p>
           </div>
@@ -448,7 +448,7 @@ export default async function ReviewsPage() {
             The high percentage of 5-star reviews and positive testimonials indicates that Bravado isn't just 
             meeting expectations—it's exceeding them. Reviewers frequently mention that they would recommend 
             Bravado to friends and family, and many note that they're already planning to work with 
-            {agent?.name || 'Dr. Janet Duffy'} again for future real estate needs.
+            {agent?.name || 'Dr. Jan Duffy'} again for future real estate needs.
           </p>
         </div>
       </div>
@@ -483,7 +483,7 @@ export default async function ReviewsPage() {
             <h3 className="text-xl font-bold mb-3 text-gray-900">Can I read more reviews before buying?</h3>
             <p className="text-gray-700 leading-relaxed">
               Absolutely! We encourage all prospective homebuyers to do their research. In addition to the 
-              reviews on this page, you can schedule a consultation with {agent?.name || 'Dr. Janet Duffy'} to 
+              reviews on this page, you can schedule a consultation with {agent?.name || 'Dr. Jan Duffy'} to 
               discuss specific aspects that matter to you. We can also connect you with current Bravado homeowners 
               who are happy to share their experiences. Transparency and informed decision-making are priorities 
               for us.
@@ -493,7 +493,7 @@ export default async function ReviewsPage() {
           <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-xl font-bold mb-3 text-gray-900">What if I have concerns after reading reviews?</h3>
             <p className="text-gray-700 leading-relaxed">
-              We welcome questions and concerns! {agent?.name || 'Dr. Janet Duffy'} is available to address any 
+              We welcome questions and concerns! {agent?.name || 'Dr. Jan Duffy'} is available to address any 
               questions you might have about Bravado homes, the buying process, or what to expect. We believe in 
               transparency and want you to make an informed decision. Every community has both strengths and 
               considerations, and we're happy to discuss both honestly.
@@ -504,7 +504,7 @@ export default async function ReviewsPage() {
             <h3 className="text-xl font-bold mb-3 text-gray-900">How can I leave a review after purchasing?</h3>
             <p className="text-gray-700 leading-relaxed">
               After closing on your Bravado home, we'd love to hear about your experience! You can share your 
-              review directly with {agent?.name || 'Dr. Janet Duffy'}, and with your permission, we may include 
+              review directly with {agent?.name || 'Dr. Jan Duffy'}, and with your permission, we may include 
               it on this page to help future homebuyers. Your feedback helps us continue improving the experience 
               for all Bravado homeowners.
             </p>
@@ -612,7 +612,7 @@ export default async function ReviewsPage() {
             </p>
             <p className="text-gray-700 leading-relaxed">
               We believe that honest, balanced reviews serve everyone better than only showcasing positive feedback. 
-              When you work with {agent?.name || 'Dr. Janet Duffy'}, you'll get the full picture—both the strengths 
+              When you work with {agent?.name || 'Dr. Jan Duffy'}, you'll get the full picture—both the strengths 
               and considerations—so you can make an informed decision that's right for your specific situation and needs.
             </p>
           </div>
@@ -666,14 +666,14 @@ export default async function ReviewsPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Outstanding Customer Service Experience</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Homeowners who work with {agent?.name || 'Dr. Janet Duffy'} consistently praise the exceptional service 
+              Homeowners who work with {agent?.name || 'Dr. Jan Duffy'} consistently praise the exceptional service 
               and support they receive throughout the buying process and beyond. Reviewers appreciate having expert 
               guidance that represents their interests, transparent communication, and responsive service. The 
               personalized attention and professional expertise make the homebuying experience enjoyable rather than 
               stressful.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The ongoing support after closing also earns high marks. Reviewers note that {agent?.name || 'Dr. Janet'} 
+              The ongoing support after closing also earns high marks. Reviewers note that {agent?.name || 'Dr. Jan'} 
               remains available to answer questions and provide assistance even after the sale is complete. This level 
               of service creates lasting relationships and demonstrates genuine commitment to homeowner satisfaction, 
               not just making a sale.
@@ -689,7 +689,7 @@ export default async function ReviewsPage() {
         </h2>
         <p className="text-xl mb-6 opacity-90">
           Join the hundreds of satisfied homeowners who have discovered why Bravado Homes earns 5-star reviews. 
-          Schedule your VIP tour with {agent?.name || 'Dr. Janet Duffy'} today and see for yourself what makes 
+          Schedule your VIP tour with {agent?.name || 'Dr. Jan Duffy'} today and see for yourself what makes 
           Bravado special.
         </p>
         <div className="flex flex-wrap justify-center gap-4">

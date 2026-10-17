@@ -13,8 +13,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Century Communities Bravado | Bravado Century Communities Las Vegas | Dr. Janet Duffy',
-    description: 'Century Communities Bravado in Las Vegas. Explore Bravado Homes by Century Communities - one of America\'s top 10 homebuilders. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner. View floor plans, pricing, and schedule your tour.',
+    title: 'Century Communities Bravado | Bravado Century Communities Las Vegas | Dr. Jan Duffy',
+    description: 'Century Communities Bravado in Las Vegas. Explore Bravado Homes by Century Communities - one of America\'s top 10 homebuilders. Expert guidance from Dr. Jan Duffy, Featured Century Communities Partner. View floor plans, pricing, and schedule your tour.',
     keywords: [
       'century communities bravado',
       'bravado century communities',
@@ -35,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'modena I century communities',
       'modena II century communities',
       'townes at union village century communities',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'new construction homes las vegas',
       'century connect smart home',
       'century communities quality',
@@ -46,7 +46,7 @@ export async function generateMetadata(): Promise<Metadata> {
     ],
     openGraph: {
       title: 'Century Communities Bravado | Bravado Century Communities Las Vegas',
-      description: 'Century Communities Bravado in Las Vegas. Explore Bravado Homes by Century Communities - one of America\'s top 10 homebuilders. Expert guidance from Dr. Janet Duffy.',
+      description: 'Century Communities Bravado in Las Vegas. Explore Bravado Homes by Century Communities - one of America\'s top 10 homebuilders. Expert guidance from Dr. Jan Duffy.',
       url: `${baseUrl}/century-communities`,
       type: 'website',
     },
@@ -76,14 +76,14 @@ export default async function CenturyCommunitiesPage() {
             New Construction Homes by America's Top 10 Homebuilder
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy | Featured Partner | Expert New Construction Guidance
+            Dr. Jan Duffy | Featured Partner | Expert New Construction Guidance
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
           </div>
         </div>
@@ -382,7 +382,7 @@ export default async function CenturyCommunitiesPage() {
               community reflects Century Communities' quality standards while offering distinct features and amenities.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              While {agent?.name || 'Dr. Janet Duffy'} specializes in Bravado Homes, she can provide information 
+              While {agent?.name || 'Dr. Jan Duffy'} specializes in Bravado Homes, she can provide information 
               about other Century Communities locations and help you understand the differences between communities. 
               Her expertise with Century Communities means she can help you find the right community and floor plan 
               for your specific needs, whether that's Bravado or another Century Communities location.
@@ -391,10 +391,10 @@ export default async function CenturyCommunitiesPage() {
         </div>
       </div>
 
-      {/* Why Choose Dr. Janet Duffy */}
+      {/* Why Choose Dr. Jan Duffy */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Why Choose Dr. Janet Duffy for Century Communities?
+          Why Choose Dr. Jan Duffy for Century Communities?
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8">
@@ -458,7 +458,7 @@ export default async function CenturyCommunitiesPage() {
           Ready to Build Your Century Communities Dream Home?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for expert guidance on your Century Communities new construction home
+          Contact Dr. Jan Duffy today for expert guidance on your Century Communities new construction home
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -481,7 +481,7 @@ export default async function CenturyCommunitiesPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Century Communities Featured Partner<br />
             Nevada License: S.0197614<br />
             {email}</p>
@@ -497,7 +497,7 @@ export default async function CenturyCommunitiesPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            Dr. Janet Duffy is a Featured Partner with Century Communities, America's top 10 homebuilder. 
+            Dr. Jan Duffy is a Featured Partner with Century Communities, America's top 10 homebuilder. 
             Nevada License S.0197614. Equal Housing Opportunity.
           </p>
         </div>

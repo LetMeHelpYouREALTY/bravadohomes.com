@@ -12,8 +12,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Bravado Community Amenities | Luxury Lifestyle Features North Las Vegas | Dr. Janet Duffy',
-    description: 'Discover Bravado community amenities including gated security, community parks, walking paths, and Century Connect® smart home technology. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner.',
+    title: 'Bravado Community Amenities | Luxury Lifestyle Features North Las Vegas | Dr. Jan Duffy',
+    description: 'Discover Bravado community amenities including gated security, community parks, walking paths, and Century Connect® smart home technology. Expert guidance from Dr. Jan Duffy, Featured Century Communities Partner.',
     keywords: [
       'Bravado community amenities',
       'Bravado amenities',
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'Bravado lifestyle',
       'luxury community amenities',
       'gated community features',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'Century Communities amenities',
       'North Las Vegas community amenities',
       '89031 community amenities',
@@ -41,7 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: 'Bravado Community Amenities | Luxury Lifestyle Features',
-      description: 'Discover Bravado community amenities including gated security, parks, and smart home technology. Expert guidance from Dr. Janet Duffy.',
+      description: 'Discover Bravado community amenities including gated security, parks, and smart home technology. Expert guidance from Dr. Jan Duffy.',
       url: `${baseUrl}/amenities`,
       type: 'website',
     },
@@ -64,14 +64,14 @@ export default async function AmenitiesPage() {
             Luxury Lifestyle Features in North Las Vegas
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Tour
@@ -98,7 +98,7 @@ export default async function AmenitiesPage() {
             </p>
             <div className="luxury-highlight">
               <p>
-                <strong>Dr. Janet Duffy</strong>, as a Featured New Home Construction & Buyer Representation Specialist, can help you understand all the <strong>community benefits and amenities</strong> that make Bravado the perfect choice for your new home.
+                <strong>Dr. Jan Duffy</strong>, as a Featured New Home Construction & Buyer Representation Specialist, can help you understand all the <strong>community benefits and amenities</strong> that make Bravado the perfect choice for your new home.
               </p>
             </div>
           </div>
@@ -417,14 +417,14 @@ export default async function AmenitiesPage() {
         </div>
       </div>
 
-      {/* Dr. Janet Duffy Partnership Section */}
+      {/* Dr. Jan Duffy Partnership Section */}
       <div className="mb-16">
         <div className="vip-partnership bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy for Your Bravado Home?
+            Why Choose Dr. Jan Duffy for Your Bravado Home?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Get expert guidance on community amenities and lifestyle benefits with Dr. Janet Duffy's VIP Century Communities partnership
+            Get expert guidance on community amenities and lifestyle benefits with Dr. Jan Duffy's VIP Century Communities partnership
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -469,7 +469,7 @@ export default async function AmenitiesPage() {
           Ready to Experience Bravado Amenities?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for a private tour and expert guidance on Bravado's luxury amenities
+          Contact Dr. Jan Duffy today for a private tour and expert guidance on Bravado's luxury amenities
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -486,13 +486,13 @@ export default async function AmenitiesPage() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

@@ -247,7 +247,7 @@ export default function PhotoGallery() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="tel:+17025001955" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-lg">
-              📞 Call Dr. Janet: (702) 500-1955
+              📞 Call Dr. Jan: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-purple-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-purple-700 transition-colors shadow-lg">
               📧 Email for Tour Info

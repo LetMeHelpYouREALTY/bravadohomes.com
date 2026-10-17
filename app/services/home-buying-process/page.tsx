@@ -8,9 +8,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = config.baseUrl
 
   return {
-    title: 'North Las Vegas Home Buying Process Guide | Dr. Janet Duffy',
+    title: 'North Las Vegas Home Buying Process Guide | Dr. Jan Duffy',
     description:
-      'Step-by-step North Las Vegas home buying process for new construction and resale buyers, including planning, selection, and closing support from Dr. Janet Duffy.',
+      'Step-by-step North Las Vegas home buying process for new construction and resale buyers, including planning, selection, and closing support from Dr. Jan Duffy.',
     alternates: {
       canonical: `${baseUrl}/services/home-buying-process`,
     },
@@ -28,7 +28,7 @@ export default async function HomeBuyingProcessPage() {
   const headersList = await headers()
   const config = getCurrentDomainConfig({ headers: headersList })
   const email = config.contact.email
-  const agentName = config.realEstateAgent?.name || 'Dr. Janet Duffy'
+  const agentName = config.realEstateAgent?.name || 'Dr. Jan Duffy'
 
   return (
     <section>
@@ -79,7 +79,7 @@ export default async function HomeBuyingProcessPage() {
             Call (702) 500-1955
           </a>
           <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
-            Email Dr. Janet
+            Email Dr. Jan
           </a>
         </div>
       </div>

@@ -14,8 +14,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'New Homes Las Vegas | New Construction Homes | Dr. Janet Duffy',
-    description: 'Find new construction homes in Las Vegas and North Las Vegas. Expert guidance from Dr. Janet Duffy for Century Communities, Bravado, and other new home communities.',
+    title: 'New Homes Las Vegas | New Construction Homes | Dr. Jan Duffy',
+    description: 'Find new construction homes in Las Vegas and North Las Vegas. Expert guidance from Dr. Jan Duffy for Century Communities, Bravado, and other new home communities.',
     keywords: [
       'new homes Las Vegas',
       'new construction Las Vegas',
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'new homes Las Vegas 2025',
       'new home communities Las Vegas',
       'new construction communities Las Vegas',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'Las Vegas new construction',
       'new home builders Las Vegas',
       'new construction homes Nevada',
@@ -41,8 +41,8 @@ export async function generateMetadata(): Promise<Metadata> {
       'new construction Las Vegas Valley'
     ],
     openGraph: {
-      title: 'New Homes Las Vegas | New Construction Homes | Dr. Janet Duffy',
-      description: 'Find new construction homes in Las Vegas and North Las Vegas. Expert guidance from Dr. Janet Duffy for Century Communities, Bravado, and other new home communities.',
+      title: 'New Homes Las Vegas | New Construction Homes | Dr. Jan Duffy',
+      description: 'Find new construction homes in Las Vegas and North Las Vegas. Expert guidance from Dr. Jan Duffy for Century Communities, Bravado, and other new home communities.',
       url: `${baseUrl}/new-homes-las-vegas`,
       type: 'website',
     },
@@ -71,14 +71,14 @@ export default async function NewHomesLasVegasPage() {
             New Construction Homes from Top Builders
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Janet Duffy | Century Communities Featured Partner | Nevada License S.0197614
+            Dr. Jan Duffy | Century Communities Featured Partner | Nevada License S.0197614
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default async function NewHomesLasVegasPage() {
             <ul className="space-y-2 text-gray-700 mb-6">
               <li className="flex items-center">
                 <span className="text-green-500 mr-2">✓</span>
-                Homes from $459,990
+                Homes from $429,990 (Century Communities, 2026-10-12)
               </li>
               <li className="flex items-center">
                 <span className="text-green-500 mr-2">✓</span>
@@ -288,7 +288,7 @@ export default async function NewHomesLasVegasPage() {
       {/* Expert Guidance */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          Expert New Construction Guidance from Dr. Janet Duffy
+          Expert New Construction Guidance from Dr. Jan Duffy
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8">
@@ -352,7 +352,7 @@ export default async function NewHomesLasVegasPage() {
           Ready to Find Your New Construction Dream Home?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for expert guidance on your Las Vegas new construction home purchase
+          Contact Dr. Jan Duffy today for expert guidance on your Las Vegas new construction home purchase
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -375,7 +375,7 @@ export default async function NewHomesLasVegasPage() {
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas New Construction Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>
@@ -391,7 +391,7 @@ export default async function NewHomesLasVegasPage() {
         
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
-            Dr. Janet Duffy specializes in Las Vegas new construction homes and Century Communities properties. 
+            Dr. Jan Duffy specializes in Las Vegas new construction homes and Century Communities properties. 
             Nevada License S.0197614. Equal Housing Opportunity.
           </p>
         </div>

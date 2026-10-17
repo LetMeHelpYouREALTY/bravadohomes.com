@@ -12,8 +12,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Century Connect® Smart Home Technology | Bravado Homes | Dr. Janet Duffy',
-    description: 'Discover Century Connect® smart home technology included in every Bravado home. Advanced smart home features, energy efficiency, and security. Expert guidance from Dr. Janet Duffy, Featured Century Communities Partner.',
+    title: 'Century Connect® Smart Home Technology | Bravado Homes | Dr. Jan Duffy',
+    description: 'Discover Century Connect® smart home technology included in every Bravado home. Advanced smart home features, energy efficiency, and security. Expert guidance from Dr. Jan Duffy, Featured Century Communities Partner.',
     keywords: [
       'Century Connect smart home',
       'Century Connect smart home technology',
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'smart home North Las Vegas',
       'Bravado smart homes',
       'Century Communities smart home',
-      agent?.name || 'Dr. Janet Duffy',
+      agent?.name || 'Dr. Jan Duffy',
       'smart home technology Las Vegas',
       '89031 smart homes',
       'voice assistant integration',
@@ -64,14 +64,14 @@ export default async function SmartHomeTechnologyPage() {
             Advanced Smart Home Features in Every Bravado Home
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Expert Guidance from Dr. Janet Duffy | Century Communities Partnership
+            Expert Guidance from Dr. Jan Duffy | Century Communities Partnership
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
               📞 Call: (702) 500-1955
             </a>
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
-              📧 Email Dr. Janet
+              📧 Email Dr. Jan
             </a>
             <a href="/contact" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors">
               🏠 Schedule Demo
@@ -97,7 +97,7 @@ export default async function SmartHomeTechnologyPage() {
               From <strong>smart thermostats</strong> and <strong>automated lighting</strong> to <strong>security systems</strong> and <strong>energy monitoring</strong>, Century Connect® provides you with complete control over your home's comfort, security, and energy efficiency.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              <strong>Dr. Janet Duffy</strong>, as a Featured New Home Construction & Buyer Representation Specialist, can provide expert guidance on all Century Connect® features and help you understand how this technology enhances your daily living experience.
+              <strong>Dr. Jan Duffy</strong>, as a Featured New Home Construction & Buyer Representation Specialist, can provide expert guidance on all Century Connect® features and help you understand how this technology enhances your daily living experience.
             </p>
           </div>
           
@@ -268,14 +268,14 @@ export default async function SmartHomeTechnologyPage() {
         </div>
       </div>
 
-      {/* Dr. Janet Duffy Partnership Section */}
+      {/* Dr. Jan Duffy Partnership Section */}
       <div className="mb-16">
         <div className="vip-partnership bg-gradient-to-r from-blue-600 to-purple-600 text-white p-12 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Why Choose Dr. Janet Duffy for Smart Home Technology?
+            Why Choose Dr. Jan Duffy for Smart Home Technology?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Get expert guidance on Century Connect® smart home technology with Dr. Janet Duffy's VIP Century Communities partnership
+            Get expert guidance on Century Connect® smart home technology with Dr. Jan Duffy's VIP Century Communities partnership
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -305,7 +305,7 @@ export default async function SmartHomeTechnologyPage() {
             🏠 Advanced Property Tools
           </h2>
           <p className="text-lg text-gray-700 text-center mb-8 max-w-4xl mx-auto">
-            Use Dr. Janet Duffy's advanced RealScout tools for comprehensive market analysis and property search
+            Use Dr. Jan Duffy's advanced RealScout tools for comprehensive market analysis and property search
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -334,7 +334,7 @@ export default async function SmartHomeTechnologyPage() {
           Ready to Experience Smart Home Living?
         </h2>
         <p className="text-xl mb-8 opacity-90">
-          Contact Dr. Janet Duffy today for a smart home demonstration and expert guidance
+          Contact Dr. Jan Duffy today for a smart home demonstration and expert guidance
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -351,13 +351,13 @@ export default async function SmartHomeTechnologyPage() {
         <div className="grid md:grid-cols-3 gap-8 text-left">
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
-            <p>Dr. Janet Duffy - Featured Partner<br />
+            <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
             Urgent: (702) 222-1964</p>
           </div>
           
           <div className="contact-info">
-            <h3 className="text-xl font-bold mb-3">Dr. Janet Duffy</h3>
+            <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
             Nevada License: S.0197614<br />
             {email}</p>

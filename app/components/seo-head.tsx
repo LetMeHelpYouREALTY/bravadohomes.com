@@ -10,12 +10,12 @@ interface SEOHeadProps {
 }
 
 export default function SEOHead({
-  title = "Bravado Homes by Dr. Janet Duffy | New Homes in North Las Vegas",
-  description = "Discover luxury new homes at Bravado in North Las Vegas. Dr. Janet Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities, offers expert guidance on homes from $459,990.",
+  title = "Bravado Homes by Dr. Jan Duffy | New Homes in North Las Vegas",
+  description = "Discover new homes at Bravado in North Las Vegas. Dr. Jan Duffy offers independent buyer guidance on homes from $429,990 (Century Communities, 2026-10-12).",
   canonicalUrl = "https://www.bravadohomes.com",
   ogImage = "https://www.bravadohomes.com/images/bravado/exterior/community-hero.jpg",
   ogType = "website",
-  keywords = "Bravado North Las Vegas, new homes Las Vegas, Century Communities, Dr. Janet Duffy, new home construction, buyer representation, luxury homes North Las Vegas, 89031",
+  keywords = "Bravado North Las Vegas, new homes Las Vegas, Century Communities, Dr. Jan Duffy, new home construction, buyer representation, luxury homes North Las Vegas, 89031",
   zipCode = "89031",
   noIndex = false
 }: SEOHeadProps) {
@@ -31,14 +31,14 @@ export default function SEOHead({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="zip" content={zipCode} />
-      <meta name="author" content="Dr. Janet Duffy" />
+      <meta name="author" content="Dr. Jan Duffy" />
       <meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"} />
       
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
       
       {/* Open Graph Meta Tags */}
-      <meta property="og:site_name" content="Bravado Homes by Dr. Janet Duffy" />
+      <meta property="og:site_name" content="Bravado Homes by Dr. Jan Duffy" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content={ogType} />
       <meta property="og:title" content={title} />
