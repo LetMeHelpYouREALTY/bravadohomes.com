@@ -114,7 +114,7 @@ export default async function DivorceBuyersPage() {
             Compassionate, Efficient Real Estate Services During Life Transitions
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -132,8 +132,8 @@ export default async function DivorceBuyersPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8 font-semibold">
             Selling a home during divorce requires fast, efficient service with compassionate understanding of the emotional 
-            challenges involved. {agent?.name || 'Dr. Jan Duffy'}, with her clinical psychology background and 30+ years 
-            of Las Vegas real estate experience, specializes in divorce-friendly fast sales. She implements proven strategies 
+            challenges involved. {agent?.name || 'Dr. Jan Duffy'}, with her clinical psychology background, 
+            in real estate since 1983, specializes in divorce-friendly fast sales. She implements proven strategies 
             to sell homes quickly—typically in 30-60 days—while ensuring fair market value, coordinating with divorce attorneys 
             when needed, and providing supportive guidance throughout this difficult transition.
           </p>

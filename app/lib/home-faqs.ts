@@ -8,7 +8,6 @@ export type HomeFaqItem = {
 /** Homepage FAQ copy — single source for visible HTML and FAQPage JSON-LD (AEO). */
 export function getHomeFaqs(config: DomainConfig): HomeFaqItem[] {
   const agent = config.realEstateAgent?.name ?? 'Dr. Jan Duffy'
-  const license = config.realEstateAgent?.licenseNumber ?? 'S.0197614'
   const { contact, location, businessName } = config
   const address =
     location.address !== 'TBD' && location.zip !== 'TBD'
@@ -22,7 +21,7 @@ export function getHomeFaqs(config: DomainConfig): HomeFaqItem[] {
     },
     {
       question: `Who is ${agent}?`,
-      answer: `${agent} is a Nevada real estate licensee (${license}) who provides independent buyer representation for Bravado and North Las Vegas new construction. ${agent} is not employed by Century Communities.`,
+      answer: `${agent} is a licensed Nevada REALTOR®, in real estate since 1983, who provides independent buyer representation for Bravado and North Las Vegas new construction. ${agent} is not employed by Century Communities.`,
     },
     {
       question: 'Where is Bravado located?',

@@ -63,9 +63,6 @@ export default async function Footer() {
                   {email}
                 </a>
               </p>
-              <p className="text-sm">
-                Nevada License: S.0197614
-              </p>
             </div>
           </div>
         </div>
@@ -123,7 +120,8 @@ export default async function Footer() {
         <div className="mt-8 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm opacity-75 mb-4 md:mb-0">
-              © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.
+              © {new Date().getFullYear()} Bravado | Homes by Dr. Jan Duffy. All rights reserved.<br />
+              Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
             </p>
             <p className="text-sm opacity-75">
               Equal Housing Opportunity. Independent real estate resource. Not affiliated with or endorsed by Century Communities.

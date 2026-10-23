@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Real Estate Case Studies & Market Analysis | Dr. Jan Duffy',
-  description: 'Case studies and market analysis documenting 30+ years of Las Vegas real estate experience. Real client success stories and market insights from Dr. Jan Duffy.',
+  description: 'Case studies and market analysis from Dr. Jan Duffy, in real estate since 1983. Real client success stories and market insights from Dr. Jan Duffy.',
   keywords: [
     'real estate case studies',
     'Las Vegas market analysis',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Real Estate Case Studies & Market Analysis',
-    description: 'Case studies and market analysis from 30+ years of Las Vegas real estate experience.',
+    description: 'Case studies and market analysis from Dr. Jan Duffy, in real estate since 1983.',
     url: 'https://www.bravadohomes.com/case-studies',
     type: 'website',
   },
@@ -39,16 +39,16 @@ export default async function CaseStudiesPage() {
       <div className="hero-gradient text-white py-16 px-8 rounded-lg mb-12">
         <div className="max-w-6xl mx-auto text-center">
           <div className="vip-badge">
-            ⭐ 30+ YEARS EXPERIENCE ⭐
+            ⭐ IN REAL ESTATE SINCE 1983 ⭐
           </div>
           <h1 className="text-5xl font-bold mb-6">
             Real Estate Case Studies & Market Analysis
           </h1>
           <p className="text-2xl mb-4">
-            Documenting 30+ Years of Las Vegas Real Estate Expertise
+            Documenting Las Vegas Real Estate Expertise Since 1983
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background
           </p>
         </div>
       </div>
@@ -58,8 +58,8 @@ export default async function CaseStudiesPage() {
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8">
             {agent?.name || 'Dr. Jan Duffy'} has helped hundreds of clients navigate the Las Vegas real estate 
-            market over 30+ years. These case studies document real client experiences, market analysis, and 
-            insights gained from decades of experience. Each case study illustrates how expertise, market knowledge, 
+            market, in real estate since 1983. These case studies document real client experiences, market analysis, and 
+            insights gained from that experience. Each case study illustrates how expertise, market knowledge, 
             and client-focused service create successful outcomes.
           </p>
         </div>
@@ -120,7 +120,7 @@ export default async function CaseStudiesPage() {
           Market Analysis & Insights
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto">
-          {agent?.name || 'Dr. Jan Duffy'} provides regular market analysis based on 30+ years of experience 
+          {agent?.name || 'Dr. Jan Duffy'} provides regular market analysis based on experience since 1983 
           and current market conditions. These insights help buyers, sellers, and investors make informed decisions.
         </p>
         <div className="text-center">

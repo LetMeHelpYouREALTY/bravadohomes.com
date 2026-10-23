@@ -494,7 +494,6 @@ export default async function AmenitiesPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
-            Nevada License: S.0197614<br />
             {email}</p>
           </div>
           

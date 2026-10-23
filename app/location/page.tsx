@@ -665,8 +665,7 @@ export default async function LocationPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Featured New Home Construction<br />
-            & Buyer Representation Specialist<br />
-            Nevada License: S.0197614</p>
+            & Buyer Representation Specialist</p>
           </div>
           
           <div className="contact-info">

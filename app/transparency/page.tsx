@@ -99,7 +99,7 @@ export default async function TransparencyPage() {
             See How We Select Neighborhoods & Recommend Homes
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | In Real Estate Since 1983
           </p>
         </div>
       </div>

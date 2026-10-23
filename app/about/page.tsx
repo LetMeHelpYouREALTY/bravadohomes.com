@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About Dr. Jan Duffy - Century Communities Expert | Bravado Homes',
-  description: 'Meet Dr. Jan Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities. Expert guidance for Bravado homes in North Las Vegas with Nevada License S.0197614.',
+  description: 'Meet Dr. Jan Duffy, Featured New Home Construction & Buyer Representation Specialist for Century Communities. Expert guidance for Bravado homes in North Las Vegas.',
   keywords: [
     'Dr. Jan Duffy',
     'Dr. Jan Duffy real estate agent',
@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     'North Las Vegas real estate',
     'North Las Vegas real estate agent',
     'Nevada real estate license',
-    'Nevada real estate license S.0197614',
     'Bravado homes expert',
     'Bravado homes specialist',
     '89031 real estate agent',
@@ -85,7 +84,7 @@ export default async function AboutPage() {
             </a>
           </div>
           <p className="text-lg">
-            Nevada License: S.0197614 | {email}
+            {email}
           </p>
         </div>
       </div>
@@ -129,10 +128,6 @@ export default async function AboutPage() {
             <h3 className="text-2xl font-bold mb-6 text-gray-900 text-center">Professional Credentials</h3>
             <div className="space-y-4">
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-bold text-gray-900">Nevada Real Estate License</h4>
-                <p className="text-gray-700">License #S.0197614</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
                 <h4 className="font-bold text-gray-900">Specialization</h4>
                 <p className="text-gray-700">New Home Construction & Buyer Representation</p>
               </div>
@@ -149,19 +144,19 @@ export default async function AboutPage() {
         </div>
       </div>
 
-      {/* E-E-A-T: 30+ Years Experience Timeline */}
+      {/* E-E-A-T: Experience Timeline */}
       <div className="content-section mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          30+ Years of Las Vegas Real Estate Experience
+          In Real Estate Since 1983
         </h2>
         <div className="max-w-4xl mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200 mb-8">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Experience Timeline</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-blue-600 pl-4">
-                <h4 className="font-bold text-gray-900">1995-Present: 30+ Years in Las Vegas Real Estate</h4>
+                <h4 className="font-bold text-gray-900">In Real Estate Since 1983</h4>
                 <p className="text-gray-700">
-                  Dr. Jan Duffy has been serving Las Vegas homebuyers for over three decades, witnessing 
+                  Dr. Jan Duffy has been in real estate since 1983, witnessing 
                   and adapting to market cycles, neighborhood development, and changing buyer needs. This 
                   extensive experience provides unparalleled market knowledge and client service expertise.
                 </p>
@@ -206,7 +201,7 @@ export default async function AboutPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Authoritativeness</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Featured Century Communities Partner recognition</li>
-              <li>30+ years of continuous Las Vegas market experience</li>
+              <li>In real estate since 1983</li>
               <li>Specialized expertise in new construction and buyer representation</li>
               <li>Published market research and case studies</li>
               <li>Recognition within the Las Vegas real estate community</li>
@@ -215,7 +210,7 @@ export default async function AboutPage() {
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Trustworthiness</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>Nevada Real Estate License (S.0197614) - verified and active</li>
+              <li>Licensed Nevada REALTOR® - verified and active</li>
               <li>Independent buyer representation ensuring client interests are protected</li>
               <li>Transparent decision-making process (see /transparency)</li>
               <li>Client-focused approach prioritizing buyer success over sales</li>
@@ -558,7 +553,6 @@ export default async function AboutPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
-            Nevada License: S.0197614<br />
             {email}</p>
           </div>
           

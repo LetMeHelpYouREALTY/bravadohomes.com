@@ -483,7 +483,6 @@ export default async function CenturyCommunitiesPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Century Communities Featured Partner<br />
-            Nevada License: S.0197614<br />
             {email}</p>
           </div>
           
@@ -498,7 +497,7 @@ export default async function CenturyCommunitiesPage() {
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
             Dr. Jan Duffy is a Featured Partner with Century Communities, America's top 10 homebuilder. 
-            Nevada License S.0197614. Equal Housing Opportunity.
+            Equal Housing Opportunity.
           </p>
         </div>
       </div>

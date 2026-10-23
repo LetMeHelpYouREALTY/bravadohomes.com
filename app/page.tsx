@@ -122,7 +122,7 @@ export default async function Page() {
           <p className="text-lg mb-6 text-white/95 drop-shadow-md max-w-4xl mx-auto leading-relaxed">
             Bravado is a gated Century Communities community at 5060 Wind Springs Street, North Las Vegas, NV 89031.
             Three two-story plans span 1,792–2,119 sq ft with move-in homes from $445,000 (Century Communities, 2026-10-12).
-            Dr. Jan Duffy (NV {agent?.licenseNumber ?? 'S.0197614'}) provides independent buyer representation. Equal Housing Opportunity.
+            Dr. Jan Duffy provides independent buyer representation. Equal Housing Opportunity.
           </p>
           <p className="text-2xl mb-4 text-white drop-shadow-md font-semibold">
             Now Selling! Starting at $445,000 - Luxury Homes in Gated Community
@@ -602,7 +602,7 @@ export default async function Page() {
           <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-100 hover:shadow-lg transition-shadow">
             <div className="feature-icon mx-auto text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Las Vegas Specialist</h3>
-            <p className="text-gray-700 leading-relaxed"><strong>Nevada License S.0197614</strong>. Deep knowledge of North Las Vegas and the entire metro area.</p>
+            <p className="text-gray-700 leading-relaxed"><strong>In real estate since 1983</strong>. Deep knowledge of North Las Vegas and the entire metro area.</p>
           </div>
         </div>
       </div>
@@ -903,7 +903,6 @@ export default async function Page() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
-            Nevada License: S.0197614<br />
             {email}</p>
           </div>
           

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Las Vegas Real Estate Market Research',
-    description: 'Original market research and analysis for Las Vegas real estate from 30+ years of experience.',
+    description: 'Original market research and analysis for Las Vegas real estate from Dr. Jan Duffy, in real estate since 1983.',
     url: 'https://www.bravadohomes.com/research',
     type: 'website',
   },
@@ -44,10 +44,10 @@ export default async function ResearchPage() {
             Las Vegas Real Estate Market Research
           </h1>
           <p className="text-2xl mb-4">
-            Original Analysis & Insights from 30+ Years Experience
+            Original Analysis & Insights from a REALTOR® in Real Estate Since 1983
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background
           </p>
         </div>
       </div>
@@ -56,8 +56,8 @@ export default async function ResearchPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8">
-            {agent?.name || 'Dr. Jan Duffy'} provides original market research based on 30+ years of direct 
-            experience in the Las Vegas real estate market. This research includes price forecasts, buyer behavior 
+            {agent?.name || 'Dr. Jan Duffy'} provides original market research based on direct experience, in real estate since 1983, 
+            in the Las Vegas real estate market. This research includes price forecasts, buyer behavior 
             analysis, neighborhood trend data, and investment property analysis. These insights help buyers, 
             sellers, and investors make data-driven decisions.
           </p>
@@ -124,9 +124,9 @@ export default async function ResearchPage() {
               {agent?.name || 'Dr. Jan Duffy'}'s research methodology combines:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>30+ years of direct market experience and transaction data</li>
+              <li>Direct market experience and transaction data, in real estate since 1983</li>
               <li>Analysis of current market conditions and trends</li>
-              <li>Client behavior patterns and preferences observed over decades</li>
+              <li>Client behavior patterns and preferences observed since 1983</li>
               <li>Comparative market analysis and neighborhood development tracking</li>
               <li>Integration of clinical psychology insights for buyer behavior understanding</li>
               <li>Regular updates to reflect changing market conditions</li>

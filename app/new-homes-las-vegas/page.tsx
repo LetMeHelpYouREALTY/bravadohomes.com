@@ -71,7 +71,7 @@ export default async function NewHomesLasVegasPage() {
             New Construction Homes from Top Builders
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Jan Duffy | Century Communities Featured Partner | Nevada License S.0197614
+            Dr. Jan Duffy | Century Communities Featured Partner
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -377,7 +377,6 @@ export default async function NewHomesLasVegasPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas New Construction Expert<br />
-            Nevada License: S.0197614<br />
             {email}</p>
           </div>
           
@@ -392,7 +391,7 @@ export default async function NewHomesLasVegasPage() {
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
             Dr. Jan Duffy specializes in Las Vegas new construction homes and Century Communities properties. 
-            Nevada License S.0197614. Equal Housing Opportunity.
+            Equal Housing Opportunity.
           </p>
         </div>
       </div>

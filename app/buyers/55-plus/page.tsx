@@ -6,7 +6,7 @@ import RealScoutListings from '../../components/realscout-listings'
 
 export const metadata: Metadata = {
   title: 'Best 55+ Active Adult Communities in Las Vegas | Dr. Jan Duffy',
-  description: 'Discover the best 55+ active adult communities in Las Vegas and North Las Vegas. Expert guide from Dr. Jan Duffy with 30+ years experience helping retirees find perfect homes.',
+  description: 'Discover the best 55+ active adult communities in Las Vegas and North Las Vegas. Expert guide from Dr. Jan Duffy, in real estate since 1983, helping retirees find perfect homes.',
   keywords: [
     '55+ active adult communities Las Vegas',
     'senior living Las Vegas',
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     question: "How do I find the right 55+ community for my lifestyle?",
-    answer: "Finding the right 55+ community requires understanding your priorities: Do you want golf, pickleball, or fitness focus? Urban or suburban setting? Single-story or multi-level? Proximity to family? Budget considerations? Dr. Jan Duffy uses her 30+ years of experience and clinical psychology background to help you identify communities that align with your lifestyle goals and values."
+    answer: "Finding the right 55+ community requires understanding your priorities: Do you want golf, pickleball, or fitness focus? Urban or suburban setting? Single-story or multi-level? Proximity to family? Budget considerations? Dr. Jan Duffy uses her experience since 1983 and clinical psychology background to help you identify communities that align with your lifestyle goals and values."
   },
   {
     question: "What are HOA fees like in Las Vegas 55+ communities?",
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     question: "How do I schedule a tour of 55+ communities?",
-    answer: "Contact Dr. Jan Duffy at (702) 500-1955 or DrJanSells@BravadoHomes.com to schedule tours of 55+ active adult communities in Las Vegas and North Las Vegas. As a Featured Century Communities Partner with 30+ years experience, Dr. Jan can arrange community tours, provide expert guidance, and help you evaluate whether a community matches your lifestyle preferences."
+    answer: "Contact Dr. Jan Duffy at (702) 500-1955 or DrJanSells@BravadoHomes.com to schedule tours of 55+ active adult communities in Las Vegas and North Las Vegas. As a Featured Century Communities Partner in real estate since 1983, Dr. Jan can arrange community tours, provide expert guidance, and help you evaluate whether a community matches your lifestyle preferences."
   },
   {
     question: "What financing options are available for 55+ community homes?",
@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     question: "How does Dr. Jan Duffy help with 55+ community purchases?",
-    answer: "Dr. Jan Duffy brings 30+ years of Las Vegas real estate experience and a clinical psychology background to help you navigate 55+ community purchases. She provides: expert community evaluation, lifestyle matching, buyer representation to protect your interests, negotiation expertise, and understanding of retirement transitions. Her goal is ensuring you find a community that supports your active retirement lifestyle."
+    answer: "Dr. Jan Duffy has been in real estate since 1983 and brings a clinical psychology background to help you navigate 55+ community purchases. She provides: expert community evaluation, lifestyle matching, buyer representation to protect your interests, negotiation expertise, and understanding of retirement transitions. Her goal is ensuring you find a community that supports your active retirement lifestyle."
   }
 ]
 
@@ -118,7 +118,7 @@ export default async function Buyers55PlusPage() {
             Expert Guide to Retirement Living in Las Vegas & North Las Vegas
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | 30+ Years Experience | Nevada License {agent?.licenseNumber || 'S.0197614'}
+            {agent?.name || 'Dr. Jan Duffy'} | In Real Estate Since 1983
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -139,7 +139,7 @@ export default async function Buyers55PlusPage() {
             low-maintenance living, and vibrant social environments perfect for active retirees. 
             Top communities include Sun City Summerlin, Sun City Anthem, and newer developments 
             in North Las Vegas with modern smart home technology. {agent?.name || 'Dr. Jan Duffy'}, 
-            with 30+ years of Las Vegas real estate experience and a clinical psychology background, 
+            in real estate since 1983 and with a clinical psychology background, 
             specializes in helping retirees find communities that match their lifestyle, budget, 
             and long-term needs.
           </p>

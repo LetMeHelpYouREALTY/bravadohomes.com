@@ -27,7 +27,6 @@ export async function generateMetadata(): Promise<Metadata> {
       'Bravado homes for sale',
       'schedule tour Bravado',
       'model home tour',
-      'Nevada real estate license S.0197614',
       agent?.name || 'Dr. Jan Duffy',
       'Century Communities partner',
       'new construction consultation',
@@ -308,7 +307,6 @@ export default async function ContactPage() {
               <strong>Email:</strong> {email}
             </p>
             <p className="text-gray-700">
-              <strong>Nevada License:</strong> S.0197614<br />
               <strong>Areas Served:</strong> North Las Vegas, Las Vegas Metro
             </p>
           </div>
@@ -514,8 +512,7 @@ export default async function ContactPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Featured New Home Construction<br />
-            & Buyer Representation Specialist<br />
-            Nevada License: S.0197614</p>
+            & Buyer Representation Specialist</p>
           </div>
           
           <div className="contact-info">

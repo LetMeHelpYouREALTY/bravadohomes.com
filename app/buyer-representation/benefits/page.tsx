@@ -40,7 +40,7 @@ export default async function BuyerRepresentationBenefitsPage() {
             Independent advocacy, expert negotiation, and local market guidance.
           </p>
           <p className="text-xl opacity-90">
-            Dr. Jan Duffy | Nevada License S.0197614
+            Dr. Jan Duffy
           </p>
         </div>
       </div>

@@ -61,7 +61,7 @@ export default async function ServicesPage() {
             Specialized Guidance for North Las Vegas Homebuyers
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Dr. Jan Duffy | Century Communities Featured Partner | Nevada License S.0197614
+            Dr. Jan Duffy | Century Communities Featured Partner
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -156,7 +156,7 @@ export default async function ServicesPage() {
           <div className="text-center">
             <div className="feature-icon mx-auto">📋</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Licensed Professional</h3>
-            <p className="text-gray-700">Nevada License S.0197614 with proven track record of success.</p>
+            <p className="text-gray-700">Licensed REALTOR® in real estate since 1983 with a proven track record of success.</p>
           </div>
         </div>
       </div>
@@ -252,7 +252,6 @@ export default async function ServicesPage() {
           <div className="contact-info">
             <h3 className="text-xl font-bold mb-3">Dr. Jan Duffy</h3>
             <p>Las Vegas Real Estate Expert<br />
-            Nevada License: S.0197614<br />
             {email}</p>
           </div>
           
@@ -267,7 +266,7 @@ export default async function ServicesPage() {
         <div className="mt-8 pt-8 border-t border-white/20">
           <p className="text-sm opacity-75">
             Dr. Jan Duffy is a Featured New Home Construction and Buyer Representation specialist with Century Communities. 
-            Nevada License S.0197614. Equal Housing Opportunity.
+            Equal Housing Opportunity.
           </p>
         </div>
       </div>
