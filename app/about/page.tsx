@@ -70,7 +70,7 @@ export default async function AboutPage() {
             Featured New Home Construction & Buyer Representation Specialist
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Century Communities Partnership | Las Vegas Real Estate Expert
+            Top 1% Las Vegas REALTOR® | Century Communities Partnership | Las Vegas Real Estate Expert
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
