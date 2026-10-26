@@ -1,4 +1,3 @@
-import RealScoutHomeValue from '../components/realscout-home-value'
 import { CalendlyInline } from '../components/calendly-inline'
 import { CalendlyWidgetScript } from '../components/calendly-widget-script'
 import { listingConsultationUrl } from '../lib/calendly-url'
@@ -100,10 +99,17 @@ export default async function SellToBuyAtBravadoPage() {
             What&apos;s my home worth?
           </h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            Use the Bravado-area valuation tool for a starting point. Dr. Jan will review comps and
-            your Bravado plan on a listing consultation—no instant-value promises.
+            Dr. Jan will review comps and your Bravado plan on a listing consultation—no instant-value
+            promises.
           </p>
-          <RealScoutHomeValue agentEncodedId="QWdlbnQtMjI1MDUw" />
+          <a
+            href={listingConsultationUrl('seller-page-value')}
+            className="inline-block text-blue-600 font-semibold hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Schedule a listing consultation for a home value review
+          </a>
         </div>
       </div>
 

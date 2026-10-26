@@ -12,9 +12,11 @@ export async function generateStaticParams() {
       console.warn('No blog posts found for static generation')
       return []
     }
-    return posts.map((post) => ({
-      slug: post.slug,
-    }))
+    return posts
+      .filter((post) => !NOINDEX_BLOG_SLUGS.has(post.slug))
+      .map((post) => ({
+        slug: post.slug,
+      }))
   } catch (error) {
     console.error('Error generating static params:', error)
     // Return empty array to allow dynamic rendering as fallback
@@ -34,6 +36,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   try {
     const resolvedParams = await params
+    if (NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)) {
+      notFound()
+    }
     const posts = getBlogPosts()
     let post = posts.find((post) => post && post.slug === resolvedParams.slug)
     
@@ -103,6 +108,10 @@ export default async function Blog({
 }) {
   try {
     const resolvedParams = await params
+
+    if (NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)) {
+      notFound()
+    }
     
     // Get all posts and find the matching one
     const posts = getBlogPosts()

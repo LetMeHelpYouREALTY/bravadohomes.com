@@ -1,5 +1,4 @@
 import RealScoutListings from '../components/realscout-listings'
-import RealScoutHomeValue from '../components/realscout-home-value'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from '../utils/domain'
 import type { Metadata } from 'next'
@@ -11,8 +10,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Bravado Homes Las Vegas Reviews | Century Communities North Las Vegas | Dr. Jan Duffy',
-    description: 'Read Bravado Homes Las Vegas reviews and testimonials from satisfied homebuyers. Expert guidance from Dr. Jan Duffy, Featured Century Communities Partner. See why Bravado is one of the top-rated new construction communities in North Las Vegas.',
+    title: 'Bravado Homes Reviews | North Las Vegas | Dr. Jan Duffy',
+    description: 'Bravado Homes Las Vegas reviews from Century Communities buyers in 89031. Dr. Jan Duffy shares what homeowners say about quality, smart tech, and location.',
     keywords: [
       'bravado homes las vegas reviews',
       'bravado homes reviews',
@@ -274,7 +273,7 @@ export default async function ReviewsPage() {
               The location of Bravado at 5060 Wind Springs Street consistently earns high marks from reviewers. 
               Homeowners appreciate the easy access to Craig Ranch Regional Park, one of North Las Vegas's 
               premier recreational destinations. The proximity to shopping, dining, and major employment centers 
-              makes Bravado an ideal choice for families and professionals alike.
+              makes Bravado a strong fit for buyers who want park access, shopping, and commute options in one place.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Many reviewers note that the North Las Vegas location offers the perfect balance—quiet, residential 
@@ -320,15 +319,15 @@ export default async function ReviewsPage() {
               moderately-sized homes.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The two-story layouts are frequently mentioned as ideal for families, with private bedrooms upstairs 
-              and living spaces downstairs. Many reviewers note that the floor plans maximize usable space better 
+              The two-story layouts are frequently mentioned for separating bedrooms upstairs from main living 
+              areas downstairs. Many reviewers note that the floor plans maximize usable space better 
               than single-story homes in the same price range. The thoughtful placement of windows, doors, and 
               traffic flow receives consistent positive feedback.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Homeowners appreciate the variety of floor plan options, allowing them to choose the perfect layout 
-              for their needs. Whether you need 3 bedrooms for a starter family or 5 bedrooms for a growing 
-              household, Bravado's floor plans provide flexibility without sacrificing style or comfort.
+              Homeowners appreciate the variety of floor plan options, allowing them to choose the layout 
+              for their needs. Whether you want a 3-bedroom plan or a 5-bedroom layout with more flex space, 
+              Bravado's floor plans provide options without sacrificing style or comfort.
             </p>
           </div>
 
@@ -341,8 +340,8 @@ export default async function ReviewsPage() {
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               Reviewers love the proximity to Craig Ranch Regional Park, describing it as having a major park in 
-              their backyard. The 170-acre park offers something for everyone—playgrounds for kids, sports fields 
-              for active families, walking trails for exercise enthusiasts, and picnic areas for community gatherings.
+              their backyard. The 170-acre park offers playgrounds, sports fields, walking trails, and picnic 
+              areas—residents use its trails, fields, and playgrounds year-round.
             </p>
             <p className="text-gray-700 leading-relaxed">
               The North Las Vegas location provides access to excellent schools, shopping centers, restaurants, 
@@ -551,8 +550,8 @@ export default async function ReviewsPage() {
             <p className="text-gray-700 leading-relaxed">
               The gated community aspect continues to provide value, with reviewers noting the maintained entry 
               and landscaping, and the community keeps its quality appearance. The proximity to Craig Ranch Regional 
-              Park means that families continue to enjoy recreational opportunities year-round, making Bravado a 
-              great place to raise children and build lasting memories.
+              Park means residents continue to enjoy trails, fields, and playgrounds year-round—a major draw 
+              in homeowner feedback.
             </p>
           </div>
         </div>
@@ -607,8 +606,8 @@ export default async function ReviewsPage() {
             <p className="text-gray-700 leading-relaxed mb-4">
               While we're proud that Bravado receives overwhelmingly positive reviews, we also share honest 
               feedback about what homeowners wish could be different. This balanced approach helps set realistic 
-              expectations. For example, some reviewers note that the two-story design might not be ideal for 
-              those with mobility concerns, while others appreciate the privacy it provides.
+              expectations. For example, some reviewers note that two-story plans put primary living on one level 
+              and bedrooms on another, while others appreciate the privacy that layout provides.
             </p>
             <p className="text-gray-700 leading-relaxed">
               We believe that honest, balanced reviews serve everyone better than only showcasing positive feedback. 
