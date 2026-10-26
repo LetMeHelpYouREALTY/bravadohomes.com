@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import RealScoutListings from '../components/realscout-listings'
+import NearbyAmenitiesSection from '../components/nearby-amenities-section'
 import RealScoutHomeValue from '../components/realscout-home-value'
 import RealScoutAdvancedSearch from '../components/realscout-advanced-search'
 import { headers } from 'next/headers'
@@ -116,6 +117,8 @@ export default async function NorthLasVegasHomesPage() {
           </div>
         </div>
       </div>
+
+      <NearbyAmenitiesSection compact />
 
       {/* Property Search Tools */}
       <div className="mb-16">

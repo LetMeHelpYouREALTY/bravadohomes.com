@@ -26,6 +26,7 @@ const navItems: Record<string, NavItem> = {
     name: 'Community',
     dropdown: [
       { name: 'Amenities', href: '/amenities' },
+      { name: 'Nearby Amenities Map', href: '/nearby-amenities' },
       { name: 'Smart Home Tech', href: '/smart-home-technology' },
       { name: 'Location', href: '/location' },
       { name: 'Century Communities', href: '/century-communities' },
