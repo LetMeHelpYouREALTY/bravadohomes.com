@@ -886,7 +886,7 @@ realscout-advanced-search {
 
 /* Fallback styling for when widgets don't load */
 .realscout-widget-wrapper:empty::after {
-  content: "Property search temporarily unavailable. Please contact Dr. Janet Duffy at (702) 500-1955 for assistance.";
+  content: "Property search temporarily unavailable. Please contact Dr. Jan Duffy at (702) 500-1955 for assistance.";
   display: block;
   padding: 2rem;
   text-align: center;

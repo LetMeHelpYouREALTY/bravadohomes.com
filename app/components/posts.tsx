@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import { formatDate, getBlogPosts } from 'app/blog/utils'
+import { formatDate, getIndexableBlogPosts } from 'app/blog/utils'
 
 export function BlogPosts() {
   let allBlogs
   try {
-    allBlogs = getBlogPosts()
+    allBlogs = getIndexableBlogPosts()
   } catch (error) {
     console.error('Error loading blog posts:', error)
     allBlogs = []

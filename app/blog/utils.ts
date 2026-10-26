@@ -14,6 +14,13 @@ type BlogPost = {
   content: string
 }
 
+/** Theme demo posts — keep files for dev reference but exclude from index/sitemap. */
+export const NOINDEX_BLOG_SLUGS = new Set([
+  'vim',
+  'spaces-vs-tabs',
+  'static-typing',
+])
+
 // Cache blog posts to avoid repeated file system reads
 let blogPostsCache: BlogPost[] | null = null
 
@@ -83,6 +90,10 @@ function getMDXData(dir: string): BlogPost[] {
     console.error(`Error getting MDX data from ${dir}:`, error)
     return []
   }
+}
+
+export function getIndexableBlogPosts(): BlogPost[] {
+  return getBlogPosts().filter((post) => !NOINDEX_BLOG_SLUGS.has(post.slug))
 }
 
 export function getBlogPosts(): BlogPost[] {

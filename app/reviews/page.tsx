@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'bravado north las vegas reviews',
       'bravado homes testimonials',
       'bravado homeowner reviews',
-      'dr. janet duffy reviews',
+      'dr. jan duffy reviews',
       'Dr. Jan Duffy reviews',
       'bravado homes las vegas',
       'century communities reviews',
@@ -277,7 +277,7 @@ export default async function ReviewsPage() {
               makes Bravado an ideal choice for families and professionals alike.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Many reviewers note that the North Las Vegas location offers the perfect balance—quiet, family-friendly 
+              Many reviewers note that the North Las Vegas location offers the perfect balance—quiet, residential 
               living with convenient access to everything Las Vegas has to offer. The I-15 access makes commuting 
               to downtown Las Vegas, the Strip, or McCarran International Airport quick and easy.
             </p>
@@ -544,13 +544,13 @@ export default async function ReviewsPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Community & Neighbor Satisfaction</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               The Bravado community itself receives ongoing praise from reviewers. Homeowners appreciate the 
-              well-maintained common areas, the sense of community among neighbors, and the peaceful, family-friendly 
+              well-maintained common areas, the sense of community among neighbors, and a peaceful, well-kept 
               atmosphere. Many reviewers note that they've formed lasting friendships with neighbors and truly feel 
               like they're part of a special community.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The gated community aspect continues to provide value, with reviewers noting that they feel safe 
-              and secure, and the community maintains its quality appearance. The proximity to Craig Ranch Regional 
+              The gated community aspect continues to provide value, with reviewers noting the maintained entry 
+              and landscaping, and the community keeps its quality appearance. The proximity to Craig Ranch Regional 
               Park means that families continue to enjoy recreational opportunities year-round, making Bravado a 
               great place to raise children and build lasting memories.
             </p>

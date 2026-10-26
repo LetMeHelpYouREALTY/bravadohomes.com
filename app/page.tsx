@@ -140,6 +140,9 @@ export default async function Page() {
             <a href="#floor-plans" className="bg-yellow-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-600 transition-colors text-lg">
               🏠 View Floor Plans
             </a>
+            <a href="/sell-your-home-to-buy-at-bravado" className="bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition-colors text-lg">
+              Sell your home to buy at Bravado
+            </a>
           </div>
           <p className="text-lg text-white drop-shadow-md bg-black/20 px-4 py-2 rounded-lg backdrop-blur-sm inline-block">
             5060 Wind Springs Street, North Las Vegas, NV 89031

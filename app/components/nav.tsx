@@ -37,6 +37,7 @@ const navItems: Record<string, NavItem> = {
     dropdown: [
       { name: 'New Home Construction', href: '/new-home-construction' },
       { name: 'Buyer Representation', href: '/buyer-representation' },
+      { name: 'Sell to Buy at Bravado', href: '/sell-your-home-to-buy-at-bravado' },
       { name: 'Financing & Incentives', href: '/financing-incentives' },
       { name: 'North Las Vegas Homes', href: '/north-las-vegas-homes' },
       { name: 'New Homes Las Vegas', href: '/new-homes-las-vegas' },

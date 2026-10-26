@@ -30,6 +30,7 @@ export default async function Footer() {
               <li><a href="/community" className="hover:text-blue-200 transition-colors">Community</a></li>
               <li><a href="/location" className="hover:text-blue-200 transition-colors">Location</a></li>
               <li><a href="/contact" className="hover:text-blue-200 transition-colors">Contact</a></li>
+              <li><a href="/sell-your-home-to-buy-at-bravado" className="hover:text-blue-200 transition-colors">Sell to Buy at Bravado</a></li>
             </ul>
             <h4 className="text-lg font-bold mt-6 mb-4">Popular Home Searches</h4>
             <ul className="space-y-2 opacity-90">

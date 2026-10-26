@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getBlogPosts } from 'app/blog/utils'
+import { formatDate, getBlogPosts, NOINDEX_BLOG_SLUGS } from 'app/blog/utils'
 import { baseUrl } from 'app/config'
 import type { Metadata } from 'next'
 
@@ -55,10 +55,12 @@ export async function generateMetadata({
     : `${baseUrl}/og?title=${encodeURIComponent(title)}`
   
   const canonicalUrl = `${baseUrl}/blog/${post.slug}`
+  const isDemoPost = NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)
 
   return {
     title,
     description,
+    robots: isDemoPost ? { index: false, follow: false } : undefined,
     alternates: {
       canonical: canonicalUrl,
     },

@@ -1,4 +1,4 @@
-import { getBlogPosts } from 'app/blog/utils'
+import { getIndexableBlogPosts } from 'app/blog/utils'
 import { headers } from 'next/headers'
 import { getCurrentDomainConfig } from './utils/domain'
 
@@ -11,7 +11,7 @@ export default async function sitemap() {
   // Safely get blog posts with error handling
   let blogs: Array<{ url: string; lastModified: string }> = []
   try {
-    const posts = getBlogPosts()
+    const posts = getIndexableBlogPosts()
     blogs = posts.map((post) => ({
       url: `${baseUrl}/blog/${post.slug}`,
       lastModified: post.metadata.publishedAt,
@@ -28,6 +28,7 @@ export default async function sitemap() {
     { route: '', priority: 1.0, changefreq: 'daily' },
     { route: '/floor-plans', priority: 0.95, changefreq: 'daily' },
     { route: '/contact', priority: 0.95, changefreq: 'daily' },
+    { route: '/sell-your-home-to-buy-at-bravado', priority: 0.9, changefreq: 'weekly' },
     
     // High-priority model pages (main product pages)
     { route: '/models/residence-1792', priority: 0.9, changefreq: 'weekly' },
