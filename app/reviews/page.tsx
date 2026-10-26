@@ -10,7 +10,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const agent = config.realEstateAgent
 
   return {
-    title: 'Bravado Homes Reviews | North Las Vegas | Dr. Jan Duffy',
+    title: {
+      absolute: 'Bravado Reviews | North Las Vegas | Dr. Jan Duffy',
+    },
     description: 'Bravado Homes Las Vegas reviews from Century Communities buyers in 89031. Dr. Jan Duffy shares what homeowners say about quality, smart tech, and location.',
     keywords: [
       'bravado homes las vegas reviews',
