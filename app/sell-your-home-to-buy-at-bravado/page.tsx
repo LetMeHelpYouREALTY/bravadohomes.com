@@ -12,9 +12,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = config.baseUrl
 
   return {
-    title: 'Sell Your Home to Buy at Bravado | Dr. Jan Duffy',
+    title: {
+      absolute: 'Sell to Buy at Bravado | Dr. Jan Duffy',
+    },
     description:
-      'Planning to sell your current home and purchase at Bravado? Dr. Jan Duffy coordinates listing prep, timing, and your Century Communities purchase in 89031.',
+      'Sell your current home and buy at Bravado. Dr. Jan Duffy coordinates listing prep, timing, and your Century Communities purchase in 89031.',
     alternates: {
       canonical: `${baseUrl}/sell-your-home-to-buy-at-bravado`,
     },
