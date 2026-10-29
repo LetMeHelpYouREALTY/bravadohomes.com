@@ -194,7 +194,7 @@ export default async function NorthLasVegasHomesPage() {
             <h3 className="text-xl font-bold mb-4 text-gray-900">Master-Planned Communities</h3>
             <p className="text-gray-700 mb-6">
               Thoughtfully designed communities with parks, walking trails, and recreational facilities. 
-              Perfect for families and active lifestyles.
+              Close to parks and trails.
             </p>
             <Link href="/community" className="cta-button w-full text-center">
               Explore Communities

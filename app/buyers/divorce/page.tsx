@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     question: "What neighborhoods in Las Vegas sell fastest?",
-    answer: "Fastest-selling neighborhoods in Las Vegas typically include: North Las Vegas (new construction appeal), Summerlin (established, desirable), Henderson (good value), and areas with good schools and amenities. Dr. Jan Duffy provides market analysis to help you understand which areas sell fastest in current market conditions."
+    answer: "Fastest-selling neighborhoods in Las Vegas typically include: North Las Vegas (new construction appeal), Summerlin (established, desirable), Henderson (good value), and areas with nearby public schools and amenities. Dr. Jan Duffy provides market analysis to help you understand which areas sell fastest in current market conditions."
   },
   {
     question: "How can Dr. Jan Duffy help with divorce home sales?",

@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     question: "Should I invest in North Las Vegas or other areas?",
-    answer: "North Las Vegas offers: Lower entry prices, strong growth potential, new construction opportunities, and good rental demand. Other areas may offer: Established neighborhoods with stable values, higher rental rates, and different appreciation patterns. Dr. Jan Duffy helps investors evaluate which areas align with their investment goals."
+    answer: "North Las Vegas offers: Lower entry prices, strong growth potential, new construction opportunities, and good rental demand. Other areas may offer: Older neighborhoods with stable values, higher rental rates, and different appreciation patterns. Dr. Jan Duffy helps investors evaluate which areas align with their investment goals."
   },
   {
     question: "How can Dr. Jan Duffy help with real estate investment?",
