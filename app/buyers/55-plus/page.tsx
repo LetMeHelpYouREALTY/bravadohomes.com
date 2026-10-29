@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     question: "Are 55+ communities good investments?",
-    answer: "55+ communities can be good investments because they often maintain stable values due to desirable amenities and location. However, appreciation may be slower than family-oriented communities. Resale can be strong if the community remains desirable. Dr. Jan Duffy provides market analysis to help you understand investment potential in specific 55+ communities."
+    answer: "55+ communities can be good investments because they often maintain stable values due to desirable amenities and location. However, appreciation may be slower than communities. Resale can be strong if the community remains desirable. Dr. Jan Duffy provides market analysis to help you understand investment potential in specific 55+ communities."
   },
   {
     question: "What questions should I ask when touring a 55+ community?",

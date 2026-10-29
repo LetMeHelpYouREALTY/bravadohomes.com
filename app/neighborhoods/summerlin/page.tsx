@@ -78,10 +78,10 @@ export default async function SummerlinPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8 font-semibold">
-            Summerlin is one of Las Vegas's premier master-planned communities, offering excellent schools, 
-            extensive amenities, golf courses, and well-established neighborhoods. Located on the western edge 
+            Summerlin is one of Las Vegas's premier master-planned communities, offering nearby public schools, 
+            extensive amenities, golf courses, and older neighborhoods. Located on the western edge 
             of Las Vegas, Summerlin features higher-end homes with average prices starting around $650,000+. 
-            The community is known for its excellent school district ratings, multiple golf courses, shopping 
+            The community is known for its school district ratings, multiple golf courses, shopping 
             centers, and extensive community amenities. {agent?.name || 'Dr. Jan Duffy'} provides expert 
             guidance for buyers considering Summerlin and can help you find homes that match your needs and budget.
           </p>

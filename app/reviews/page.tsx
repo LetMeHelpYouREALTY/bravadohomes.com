@@ -346,7 +346,7 @@ export default async function ReviewsPage() {
               areas—residents use its trails, fields, and playgrounds year-round.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The North Las Vegas location provides access to excellent schools, shopping centers, restaurants, 
+              The North Las Vegas location provides access to public schools, shopping centers, restaurants, 
               and entertainment options. Reviewers consistently note that they have everything they need within a 
               short drive, while still enjoying the peaceful, residential atmosphere that Bravado provides.
             </p>

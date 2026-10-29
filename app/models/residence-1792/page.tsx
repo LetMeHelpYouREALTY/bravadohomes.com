@@ -260,7 +260,7 @@ export default async function Residence1792Page() {
           Comprehensive Residence 1792 Floor Plan Analysis
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
-          The <strong>Residence 1792 at Bravado</strong> represents an exceptional value in <strong>North Las Vegas new construction</strong>. This thoughtfully designed <strong>1,792 square foot home</strong> offers the perfect combination of space, functionality, and luxury features that make it ideal for first-time homebuyers, growing families, or those looking to downsize without compromising quality. As one of <strong>Century Communities'</strong> most popular floor plans in the <strong>Bravado community</strong>, the Residence 1792 has been carefully crafted to maximize every square foot while providing modern conveniences and premium finishes.
+          The <strong>Residence 1792 at Bravado</strong> represents an exceptional value in <strong>North Las Vegas new construction</strong>. This thoughtfully designed <strong>1,792 square foot home</strong> offers the perfect combination of space, functionality, and luxury features that make it ideal for first-time homebuyers, move-up buyers, or those looking to downsize without compromising quality. As one of <strong>Century Communities'</strong> most popular floor plans in the <strong>Bravado community</strong>, the Residence 1792 has been carefully crafted to maximize every square foot while providing modern conveniences and premium finishes.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -275,9 +275,9 @@ export default async function Residence1792Page() {
           </div>
           
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Ideal for Growing Families</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Flexible Space</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The <strong>Residence 1792's two-story design</strong> provides excellent separation between living and sleeping areas, making it ideal for families with children. The downstairs great room and kitchen create a central gathering space where families can spend time together, while the upstairs bedrooms provide quiet retreat spaces. The <strong>expansive loft</strong> on the upper level offers additional flexible space that can serve as a playroom, home office, or second living area—perfect for accommodating a growing family's changing needs.
+              The <strong>Residence 1792's two-story design</strong> provides excellent separation between living and sleeping areas. The downstairs great room and kitchen create a central gathering space, while the upstairs bedrooms provide quiet retreat spaces. The <strong>expansive loft</strong> on the upper level offers additional flexible space that can serve as a playroom, home office, or second living area.
             </p>
             <p className="text-gray-700 leading-relaxed">
               The <strong>private primary suite</strong> with its deluxe bath and roomy walk-in closet provides parents with a luxurious retreat at the end of the day. The two generous secondary bedrooms share a hall bathroom, which is both practical and space-efficient. The convenient upstairs laundry room eliminates the need to carry laundry up and down stairs, making daily chores more manageable for busy families.

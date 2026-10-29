@@ -77,7 +77,7 @@ export default async function NorthLasVegasNeighborhoodsPage() {
         </h2>
         <p className="text-lg text-gray-700 text-center mb-12 max-w-4xl mx-auto">
           North Las Vegas (zip code 89031) is one of Nevada's fastest-growing areas, offering a perfect blend 
-          of suburban tranquility and urban convenience. With master-planned communities, excellent schools, 
+          of suburban tranquility and urban convenience. With master-planned communities, nearby public schools, 
           and proximity to major employment centers, North Las Vegas provides an ideal lifestyle for families 
           and professionals alike.
         </p>
@@ -166,12 +166,12 @@ export default async function NorthLasVegasNeighborhoodsPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">North Las Vegas Area</h3>
             <p className="text-gray-700 mb-4">
               Diverse neighborhoods throughout North Las Vegas offering various housing options, 
-              from established communities to new developments, each with unique amenities and character.
+              from communities to new developments, each with unique amenities and character.
             </p>
             <ul className="space-y-2 text-gray-700 mb-6">
               <li className="flex items-center">
                 <span className="text-blue-500 mr-2">🏘️</span>
-                Established neighborhoods
+                Older neighborhoods
               </li>
               <li className="flex items-center">
                 <span className="text-blue-500 mr-2">🏗️</span>
@@ -179,7 +179,7 @@ export default async function NorthLasVegasNeighborhoodsPage() {
               </li>
               <li className="flex items-center">
                 <span className="text-blue-500 mr-2">🎓</span>
-                Excellent school districts
+                Clark County School District campuses
               </li>
               <li className="flex items-center">
                 <span className="text-blue-500 mr-2">🌳</span>
@@ -226,7 +226,7 @@ export default async function NorthLasVegasNeighborhoodsPage() {
         
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Top-Rated School Districts</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">School Attendance Zones</h3>
             <ul className="space-y-4 text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-3 mt-1">✓</span>
@@ -346,7 +346,7 @@ export default async function NorthLasVegasNeighborhoodsPage() {
               North Las Vegas also includes well-established <strong>neighborhoods</strong> with mature trees, established infrastructure, and strong community character. These areas offer a sense of permanence and stability, with proven property values and established amenities. Many of these <strong>neighborhoods</strong> feature larger lots and more traditional home designs.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Established <strong>North Las Vegas neighborhoods</strong> often provide excellent value for buyers who want character, mature landscaping, and established community infrastructure. These areas typically have well-regarded schools, established shopping districts, and proven track records for property appreciation. Understanding both new and established <strong>neighborhoods</strong> helps you make the best choice for your situation.
+              Established <strong>North Las Vegas neighborhoods</strong> often provide excellent value for buyers who want character, mature landscaping, and community infrastructure. These areas typically have well-regarded schools, established shopping districts, and proven track records for property appreciation. Understanding both new and established <strong>neighborhoods</strong> helps you make the best choice for your situation.
             </p>
           </div>
         </div>
@@ -437,7 +437,7 @@ export default async function NorthLasVegasNeighborhoodsPage() {
             Understanding <strong>North Las Vegas neighborhoods</strong> requires more than just knowing addresses and zip codes. It requires insight into market dynamics, property values, community character, and lifestyle factors. <strong>Dr. Jan Duffy's</strong> expertise in <strong>North Las Vegas neighborhoods</strong> provides this comprehensive understanding, ensuring you choose a <strong>neighborhood</strong> that truly fits your needs.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Whether you're looking for a family-friendly <strong>neighborhood</strong> with excellent schools, a professional-focused area with easy commutes, or a community with specific amenities, <strong>Dr. Jan</strong> can guide you to the right <strong>North Las Vegas neighborhood</strong>. Her knowledge of both established and new construction <strong>neighborhoods</strong> ensures you have all the information needed to make the best decision.
+            Whether you're looking for a <strong>neighborhood</strong> near parks and schools, an area with easy commutes, or a community with specific amenities, <strong>Dr. Jan</strong> can guide you to the right <strong>North Las Vegas neighborhood</strong>. Her knowledge of both resale and new construction <strong>neighborhoods</strong> ensures you have all the information needed to make the best decision.
           </p>
         </div>
       </div>

@@ -152,7 +152,7 @@ export default async function CommunityPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Gated Security & Privacy</h3>
             <p className="mb-4 text-gray-700 leading-relaxed">
               Bravado's gated entrance provides residents with enhanced security and privacy, 
-              creating a safe environment for families to thrive. The controlled access 
+              creating an environment for families to thrive. The controlled access 
               system ensures that only residents and authorized visitors can enter the 
               community, giving you peace of mind whether you're at home or away.
             </p>

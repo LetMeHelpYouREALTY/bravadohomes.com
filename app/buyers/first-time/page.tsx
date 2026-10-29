@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: "What are the best neighborhoods for first-time buyers in Las Vegas?",
-    answer: "Best neighborhoods for first-time buyers in Las Vegas include: North Las Vegas (excellent value, new construction), Centennial Hills (family-friendly, good schools), Summerlin (well-established, higher prices), Henderson (suburban feel, good value), and newer communities with smart home technology. Dr. Jan Duffy helps first-time buyers identify neighborhoods that match their budget, lifestyle, and long-term goals."
+    answer: "Best neighborhoods for first-time buyers in Las Vegas include: North Las Vegas (excellent value, new construction), Centennial Hills (nearby public schools), Summerlin (well-established, higher prices), Henderson (suburban feel, good value), and newer communities with smart home technology. Dr. Jan Duffy helps first-time buyers identify neighborhoods that match their budget, lifestyle, and long-term goals."
   },
   {
     question: "How much do first-time buyers typically need for a down payment in Las Vegas?",
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What should first-time buyers look for in a home?",
-    answer: "First-time buyers should look for: Homes within budget including maintenance costs, good school districts if planning a family, neighborhoods with growth potential, homes with room to grow, low-maintenance features if desired, and properties that match your lifestyle. Dr. Jan Duffy helps first-time buyers prioritize their needs and find homes that align with both current and future goals."
+    answer: "First-time buyers should look for: Homes within budget including maintenance costs, school attendance zones, neighborhoods with growth potential, homes with room to grow, low-maintenance features if desired, and properties that match your lifestyle. Dr. Jan Duffy helps first-time buyers prioritize their needs and find homes that align with both current and future goals."
   },
   {
     question: "What are common mistakes first-time buyers make?",
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     question: "Should first-time buyers buy new construction or resale?",
-    answer: "Both options have benefits: New construction offers modern features, warranties, smart home technology, and customization. Resale homes may offer better value, established neighborhoods, and immediate move-in. Dr. Jan Duffy helps first-time buyers evaluate both options based on their priorities, budget, and timeline."
+    answer: "Both options have benefits: New construction offers modern features, warranties, smart home technology, and customization. Resale homes may offer better value, older neighborhoods, and immediate move-in. Dr. Jan Duffy helps first-time buyers evaluate both options based on their priorities, budget, and timeline."
   },
   {
     question: "What are closing costs for first-time buyers?",
@@ -129,7 +129,7 @@ export default async function FirstTimeBuyersPage() {
           <p className="text-xl text-gray-800 leading-relaxed mb-8 font-semibold">
             First-time home buyers in Las Vegas can find excellent value, down payment assistance programs, 
             and neighborhoods perfect for starting homeownership. The Las Vegas market offers both new construction 
-            homes with modern features and resale homes with established neighborhoods. {agent?.name || 'Dr. Jan Duffy'}, 
+            homes with modern features and resale homes with older neighborhoods. {agent?.name || 'Dr. Jan Duffy'}, 
             in real estate since 1983 with buyer representation expertise, specializes in guiding first-time buyers 
             through the entire process—from pre-approval to closing—while protecting their interests and helping 
             them avoid common mistakes.
@@ -165,7 +165,7 @@ export default async function FirstTimeBuyersPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Step 3: Find the Right Neighborhood</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Las Vegas offers diverse neighborhoods for first-time buyers. Dr. Jan Duffy helps you identify areas 
-              that match your budget, lifestyle, and long-term goals, whether you prefer new construction or established communities.
+              that match your budget, lifestyle, and long-term goals, whether you prefer new construction or communities.
             </p>
           </div>
 
