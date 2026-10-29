@@ -44,7 +44,7 @@ export default async function CentennialHillsPage() {
             Complete Guide to Centennial Hills: Schools, Amenities & Real Estate
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | In Real Estate Since 1983
+            {agent?.name || 'Dr. Jan Duffy'} | Licensed Since 2008
           </p>
         </div>
       </div>

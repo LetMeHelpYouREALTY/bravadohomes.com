@@ -70,7 +70,7 @@ export default async function AboutPage() {
             Featured New Home Construction & Buyer Representation Specialist
           </p>
           <p className="text-xl mb-8 opacity-90">
-            Top 1% Las Vegas REALTOR® | Century Communities Partnership | Las Vegas Real Estate Expert
+            Las Vegas REALTOR® | Century Communities Partnership | Las Vegas Real Estate Expert
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors text-lg">
@@ -147,16 +147,16 @@ export default async function AboutPage() {
       {/* E-E-A-T: Experience Timeline */}
       <div className="content-section mb-16">
         <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-          In Real Estate Since 1983
+          Licensed Since 2008
         </h2>
         <div className="max-w-4xl mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200 mb-8">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Experience Timeline</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-blue-600 pl-4">
-                <h4 className="font-bold text-gray-900">In Real Estate Since 1983</h4>
+                <h4 className="font-bold text-gray-900">Licensed Since 2008</h4>
                 <p className="text-gray-700">
-                  Dr. Jan Duffy has been in real estate since 1983, witnessing 
+                  Dr. Jan Duffy has been licensed since 2008 · 35 years in Las Vegas, witnessing 
                   and adapting to market cycles, neighborhood development, and changing buyer needs. This 
                   extensive experience provides unparalleled market knowledge and client service expertise.
                 </p>
@@ -201,7 +201,7 @@ export default async function AboutPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Authoritativeness</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Featured Century Communities Partner recognition</li>
-              <li>In real estate since 1983</li>
+              <li>Licensed since 2008 · 35 years in Las Vegas</li>
               <li>Specialized expertise in new construction and buyer representation</li>
               <li>Published market research and case studies</li>
               <li>Recognition within the Las Vegas real estate community</li>

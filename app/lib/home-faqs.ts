@@ -21,7 +21,7 @@ export function getHomeFaqs(config: DomainConfig): HomeFaqItem[] {
     },
     {
       question: `Who is ${agent}?`,
-      answer: `${agent} is a licensed Nevada REALTOR®, in real estate since 1983, who provides independent buyer representation for Bravado and North Las Vegas new construction. ${agent} is not employed by Century Communities.`,
+      answer: `${agent} is a licensed Nevada REALTOR®, licensed since 2008 · 35 years in Las Vegas, who provides independent buyer representation for Bravado and North Las Vegas new construction. ${agent} is not employed by Century Communities.`,
     },
     {
       question: 'Where is Bravado located?',

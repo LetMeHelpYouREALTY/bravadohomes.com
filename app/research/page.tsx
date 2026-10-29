@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Las Vegas Real Estate Market Research',
-    description: 'Original market research and analysis for Las Vegas real estate from Dr. Jan Duffy, in real estate since 1983.',
+    description: 'Original market research and analysis for Las Vegas real estate from Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas.',
     url: 'https://www.bravadohomes.com/research',
     type: 'website',
   },
@@ -44,7 +44,7 @@ export default async function ResearchPage() {
             Las Vegas Real Estate Market Research
           </h1>
           <p className="text-2xl mb-4">
-            Original Analysis & Insights from a REALTOR® in Real Estate Since 1983
+            Original Analysis & Insights from a REALTOR® in Real Estate Since 2008
           </p>
           <p className="text-xl mb-8 opacity-90">
             {agent?.name || 'Dr. Jan Duffy'} | Clinical Psychology Background
@@ -56,7 +56,7 @@ export default async function ResearchPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8">
-            {agent?.name || 'Dr. Jan Duffy'} provides original market research based on direct experience, in real estate since 1983, 
+            {agent?.name || 'Dr. Jan Duffy'} provides original market research based on direct experience, licensed since 2008 · 35 years in Las Vegas, 
             in the Las Vegas real estate market. This research includes price forecasts, buyer behavior 
             analysis, neighborhood trend data, and investment property analysis. These insights help buyers, 
             sellers, and investors make data-driven decisions.
@@ -124,9 +124,9 @@ export default async function ResearchPage() {
               {agent?.name || 'Dr. Jan Duffy'}'s research methodology combines:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>Direct market experience and transaction data, in real estate since 1983</li>
+              <li>Direct market experience and transaction data, licensed since 2008 · 35 years in Las Vegas</li>
               <li>Analysis of current market conditions and trends</li>
-              <li>Client behavior patterns and preferences observed since 1983</li>
+              <li>Client behavior patterns and preferences observed since 2008</li>
               <li>Comparative market analysis and neighborhood development tracking</li>
               <li>Integration of clinical psychology insights for buyer behavior understanding</li>
               <li>Regular updates to reflect changing market conditions</li>
