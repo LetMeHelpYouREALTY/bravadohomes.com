@@ -913,7 +913,7 @@ export default async function Page() {
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
             <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
-            Urgent: (702) 222-1964<br /><br />
+            Urgent: (702) 500-1955<br /><br />
             Model Home Hours<br />
             Monday-Sunday: 10:00 AM - 6:00 PM</p>
           </div>

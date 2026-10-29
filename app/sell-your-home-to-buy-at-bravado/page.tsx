@@ -87,8 +87,8 @@ export default async function SellToBuyAtBravadoPage() {
               {email}
             </a>
             . Urgent timing:{' '}
-            <a href="tel:+17022221964" className="text-blue-600 font-semibold">
-              (702) 222-1964
+            <a href="tel:+17025001955" className="text-blue-600 font-semibold">
+              (702) 500-1955
             </a>
             .
           </p>

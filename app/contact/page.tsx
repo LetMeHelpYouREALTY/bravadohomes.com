@@ -73,8 +73,8 @@ export default async function ContactPage() {
             <a href={`mailto:${email}`} className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors text-lg">
               📧 Email Dr. Jan
             </a>
-            <a href="tel:+17022221964" className="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors text-lg">
-              🚨 Urgent: (702) 222-1964
+            <a href="tel:+17025001955" className="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition-colors text-lg">
+              🚨 Urgent: (702) 500-1955
             </a>
           </div>
           <p className="text-lg">
@@ -303,7 +303,7 @@ export default async function ContactPage() {
             </p>
             <p className="text-gray-700 mb-2">
               <strong>Phone:</strong> (702) 500-1955<br />
-              <strong>Urgent/Marketing:</strong> (702) 222-1964<br />
+              <strong>Urgent/Marketing:</strong> (702) 500-1955<br />
               <strong>Email:</strong> {email}
             </p>
             <p className="text-gray-700">
@@ -495,9 +495,9 @@ export default async function ContactPage() {
             EMAIL<br />
             {email}
           </a>
-          <a href="tel:+17022221964" className="bg-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-red-700 transition-colors">
+          <a href="tel:+17025001955" className="bg-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-red-700 transition-colors">
             URGENT<br />
-            <span className="text-2xl">(702) 222-1964</span>
+            <span className="text-2xl">(702) 500-1955</span>
           </a>
         </div>
         

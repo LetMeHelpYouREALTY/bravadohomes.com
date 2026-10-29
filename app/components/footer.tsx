@@ -54,8 +54,8 @@ export default async function Footer() {
               </p>
               <p>
                 <strong>Urgent/Marketing:</strong><br />
-                <a href="tel:+17022221964" className="hover:text-blue-200 transition-colors">
-                  (702) 222-1964
+                <a href="tel:+17025001955" className="hover:text-blue-200 transition-colors">
+                  (702) 500-1955
                 </a>
               </p>
               <p>

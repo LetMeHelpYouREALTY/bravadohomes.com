@@ -310,7 +310,7 @@ export default async function BuyerRepresentationPage() {
             <h3 className="text-xl font-bold mb-3">Bravado Sales Office</h3>
             <p>Dr. Jan Duffy - Featured Partner<br />
             Primary: (702) 500-1955<br />
-            Urgent: (702) 222-1964</p>
+            Urgent: (702) 500-1955</p>
           </div>
           
           <div className="contact-info">

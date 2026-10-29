@@ -10,6 +10,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import GoogleAnalytics from './components/google-analytics'
 import { generateDomainMetadata } from './layout-server'
+import WidgetTracker from './widget-tracker'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -55,6 +56,7 @@ export default function RootLayout({
           <Analytics />
           <SpeedInsights />
         </main>
+        <WidgetTracker />
       </body>
     </html>
   )
