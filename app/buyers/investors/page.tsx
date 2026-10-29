@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     question: "How can Dr. Jan Duffy help with real estate investment?",
-    answer: "Dr. Jan Duffy helps investors by: Providing market analysis and ROI projections, identifying investment opportunities, analyzing cash flow potential, understanding neighborhood trends, negotiating investment purchases, and connecting investors with property management resources. Her experience since 1983 provides valuable market insights for investment decisions."
+    answer: "Dr. Jan Duffy helps investors by: Providing market analysis and ROI projections, identifying investment opportunities, analyzing cash flow potential, understanding neighborhood trends, negotiating investment purchases, and connecting investors with property management resources. Her 35 years of Las Vegas experience provides valuable market insights for investment decisions."
   },
   {
     question: "What financing options are available for investment properties?",
@@ -114,7 +114,7 @@ export default async function InvestorsPage() {
             Expert Analysis: ROI, Cap Rates & Investment Opportunities
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | In Real Estate Since 1983
+            {agent?.name || 'Dr. Jan Duffy'} | Licensed Since 2008
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -134,7 +134,7 @@ export default async function InvestorsPage() {
             Las Vegas real estate investment offers strong ROI potential with cap rates typically ranging from 5-8%, 
             strong rental demand from population growth, and appreciation opportunities in growing neighborhoods like 
             North Las Vegas. The market provides diverse investment options from new construction with modern features 
-            to value-add resale properties. {agent?.name || 'Dr. Jan Duffy'}, in real estate since 1983, 
+            to value-add resale properties. {agent?.name || 'Dr. Jan Duffy'}, licensed since 2008 · 35 years in Las Vegas, 
             provides expert ROI analysis, identifies investment opportunities, and helps investors make data-driven decisions 
             to maximize returns while managing risk.
           </p>

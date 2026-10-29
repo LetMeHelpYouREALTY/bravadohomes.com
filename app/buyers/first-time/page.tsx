@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     question: "What makes Dr. Jan Duffy a good choice for first-time buyers?",
-    answer: "Dr. Jan Duffy is ideal for first-time buyers because: She provides buyer representation that protects your interests, explains everything in clear terms, has been in real estate since 1983, understands first-time buyer programs and financing, helps you avoid common mistakes, and provides ongoing support beyond closing. Her goal is ensuring first-time buyers have a positive, successful home buying experience."
+    answer: "Dr. Jan Duffy is ideal for first-time buyers because: She provides buyer representation that protects your interests, explains everything in clear terms, has been licensed since 2008 · 35 years in Las Vegas, understands first-time buyer programs and financing, helps you avoid common mistakes, and provides ongoing support beyond closing. Her goal is ensuring first-time buyers have a positive, successful home buying experience."
   }
 ]
 
@@ -110,7 +110,7 @@ export default async function FirstTimeBuyersPage() {
             Expert Guidance for First-Time Home Buyers in Las Vegas
           </p>
           <p className="text-xl mb-8 opacity-90">
-            {agent?.name || 'Dr. Jan Duffy'} | In Real Estate Since 1983
+            {agent?.name || 'Dr. Jan Duffy'} | Licensed Since 2008
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a href="tel:+17025001955" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
@@ -130,7 +130,7 @@ export default async function FirstTimeBuyersPage() {
             First-time home buyers in Las Vegas can find excellent value, down payment assistance programs, 
             and neighborhoods perfect for starting homeownership. The Las Vegas market offers both new construction 
             homes with modern features and resale homes with older neighborhoods. {agent?.name || 'Dr. Jan Duffy'}, 
-            in real estate since 1983 with buyer representation expertise, specializes in guiding first-time buyers 
+            licensed since 2008 · 35 years in Las Vegas with buyer representation expertise, specializes in guiding first-time buyers 
             through the entire process—from pre-approval to closing—while protecting their interests and helping 
             them avoid common mistakes.
           </p>

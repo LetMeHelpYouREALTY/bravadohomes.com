@@ -156,7 +156,7 @@ export default async function ServicesPage() {
           <div className="text-center">
             <div className="feature-icon mx-auto">📋</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Licensed Professional</h3>
-            <p className="text-gray-700">Licensed REALTOR® in real estate since 1983 with a proven track record of success.</p>
+            <p className="text-gray-700">Licensed REALTOR® licensed since 2008 · 35 years in Las Vegas with a proven track record of success.</p>
           </div>
         </div>
       </div>

@@ -605,7 +605,7 @@ export default async function Page() {
           <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-100 hover:shadow-lg transition-shadow">
             <div className="feature-icon mx-auto text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Las Vegas Specialist</h3>
-            <p className="text-gray-700 leading-relaxed"><strong>In real estate since 1983</strong>. Deep knowledge of North Las Vegas and the entire metro area.</p>
+            <p className="text-gray-700 leading-relaxed"><strong>Licensed since 2008 · 35 years in Las Vegas</strong>. Deep knowledge of North Las Vegas and the entire metro area.</p>
           </div>
         </div>
       </div>

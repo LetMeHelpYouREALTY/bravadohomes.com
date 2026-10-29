@@ -239,7 +239,7 @@ export default async function NorthLasVegasHomesPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-3 mt-1">✓</span>
-                <span>Proven track record, in real estate since 1983</span>
+                <span>Proven track record, licensed since 2008 · 35 years in Las Vegas</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-3 mt-1">✓</span>

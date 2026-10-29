@@ -133,7 +133,7 @@ export default async function DivorceBuyersPage() {
           <p className="text-xl text-gray-800 leading-relaxed mb-8 font-semibold">
             Selling a home during divorce requires fast, efficient service with compassionate understanding of the emotional 
             challenges involved. {agent?.name || 'Dr. Jan Duffy'}, with her clinical psychology background, 
-            in real estate since 1983, specializes in divorce-friendly fast sales. She implements proven strategies 
+            licensed since 2008 · 35 years in Las Vegas, specializes in divorce-friendly fast sales. She implements proven strategies 
             to sell homes quickly—typically in 30-60 days—while ensuring fair market value, coordinating with divorce attorneys 
             when needed, and providing supportive guidance throughout this difficult transition.
           </p>
