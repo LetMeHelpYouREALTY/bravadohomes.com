@@ -53,10 +53,10 @@ export default async function CentennialHillsPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8 font-semibold">
-            Centennial Hills is a growing northwest Las Vegas area offering excellent value, family-friendly 
+            Centennial Hills is a growing northwest Las Vegas area offering excellent value, parks, 
             neighborhoods, and newer construction options. Located in northwest Las Vegas, Centennial Hills 
             features a mix of established and newer communities with average home prices starting around $500,000+. 
-            The area is known for good schools, growing amenities, and excellent value relative to other Las Vegas 
+            The area is known for nearby public schools, growing amenities, and excellent value relative to other Las Vegas 
             neighborhoods. {agent?.name || 'Dr. Jan Duffy'} provides expert guidance for buyers considering 
             Centennial Hills and can help you find homes that match your needs and budget.
           </p>

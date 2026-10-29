@@ -644,7 +644,7 @@ export default async function FloorPlansPage() {
             well-appointed kitchen provide the perfect space for everyday living and entertaining.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The Residence 1792 is ideal for first-time homebuyers, young professionals, small families, or empty 
+            The Residence 1792 is ideal for first-time homebuyers, professionals, small families, or empty 
             nesters looking to downsize without sacrificing quality or style. The spacious center island in the 
             kitchen and large walk-in pantry provide ample storage and workspace. The charming dining area with 
             direct patio access makes outdoor dining and entertaining easy and enjoyable.
@@ -672,7 +672,7 @@ export default async function FloorPlansPage() {
             formal dining or casual open-concept living, the Residence 1943 adapts to your style.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            The Residence 1943 is particularly appealing to growing families who need a bit more space than the 
+            The Residence 1943 is particularly appealing to buyers who need a bit more space than the 
             1792 offers but don't require the full square footage of the 2119. The thoughtful design maximizes 
             every square foot, ensuring you get the most value and functionality from your investment. Many 
             homeowners find this floor plan to be the sweet spot between affordability and space.
@@ -696,7 +696,7 @@ export default async function FloorPlansPage() {
           <p className="text-gray-700 leading-relaxed">
             The Residence 2119 is ideal for larger families, multi-generational households, or those who simply 
             want more room to spread out. The additional square footage provides flexibility for future needs, 
-            whether that's a growing family, home-based business, or simply the desire for more personal space. 
+            whether that's an extra bedroom, home-based business, or simply the desire for more personal space. 
             The investment in extra square footage pays dividends in comfort, functionality, and long-term value.
           </p>
         </div>

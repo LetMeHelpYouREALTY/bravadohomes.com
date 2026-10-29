@@ -55,10 +55,10 @@ export default async function HendersonPage() {
       <div className="content-section mb-16">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-800 leading-relaxed mb-8 font-semibold">
-            Henderson is one of Las Vegas's most desirable suburban communities, offering excellent schools, 
-            family-friendly neighborhoods, and good value relative to Summerlin. Located southeast of Las Vegas, 
-            Henderson features well-established neighborhoods with average home prices starting around $550,000+. 
-            The community is known for excellent school district ratings, multiple shopping centers, golf courses, 
+            Henderson is one of Las Vegas's most desirable suburban communities, offering nearby public schools, 
+            neighborhoods, and good value relative to Summerlin. Located southeast of Las Vegas, 
+            Henderson features older neighborhoods with average home prices starting around $550,000+. 
+            The community is known for school district ratings, multiple shopping centers, golf courses, 
             and extensive community amenities. {agent?.name || 'Dr. Jan Duffy'} provides expert guidance for 
             buyers considering Henderson and can help you find homes that match your needs and budget.
           </p>

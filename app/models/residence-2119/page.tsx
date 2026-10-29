@@ -274,12 +274,12 @@ export default async function Residence2119Page() {
         
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Maximum Space for Growing Families</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Maximum Space and Flexible Rooms</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               At <strong>2,119 square feet</strong>, the <strong>Residence 2119</strong> provides the most generous living spaces available at <strong>Bravado</strong>. This is the perfect choice for larger families, multi-generational households, or those who simply want more room to spread out. The <strong>modeled downstairs den</strong> provides additional flexible space that can serve as a home office, guest room, playroom, or media room—whatever your family needs most.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              The <strong>spacious great room</strong> is perfect for large family gatherings and entertaining, while the <strong>gourmet kitchen with large island</strong> provides ample workspace for cooking and socializing. The thoughtful layout ensures that even with more square footage, the home feels cohesive and well-designed. The additional space provides flexibility for future needs, whether that's a growing family, home-based business, or simply the desire for more personal space.
+              The <strong>spacious great room</strong> is perfect for large gatherings and entertaining, while the <strong>gourmet kitchen with large island</strong> provides ample workspace for cooking and socializing. The thoughtful layout ensures that even with more square footage, the home feels cohesive and well-designed. The additional space provides flexibility for future needs, whether that's an extra bedroom, home-based business, or simply the desire for more personal space.
             </p>
           </div>
           

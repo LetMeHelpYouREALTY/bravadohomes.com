@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
       '89031 community amenities',
       'community recreation',
       'active lifestyle community',
-      'family-friendly amenities',
+      'amenities',
       'Bravado community lifestyle'
     ],
     alternates: {
@@ -176,7 +176,7 @@ export default async function AmenitiesPage() {
               </li>
               <li className="flex items-center">
                 <span className="text-green-500 mr-3">✓</span>
-                Exclusive community atmosphere
+                Community atmosphere
               </li>
               <li className="flex items-center">
                 <span className="text-green-500 mr-3">✓</span>
@@ -224,7 +224,7 @@ export default async function AmenitiesPage() {
             <h3 className="text-xl font-bold mb-4 text-gray-900">Active Lifestyle</h3>
             <ul className="text-gray-700 space-y-2">
               <li>• Outdoor exercise opportunities</li>
-              <li>• Family-friendly activities</li>
+              <li>• Activities</li>
               <li>• Community fitness spaces</li>
               <li>• Healthy living environment</li>
             </ul>
@@ -266,7 +266,7 @@ export default async function AmenitiesPage() {
         <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-lg mb-8">
           <h3 className="text-2xl font-bold mb-4 text-gray-900">Gated Community Security Benefits</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The <strong>gated community</strong> aspect of Bravado provides enhanced security and privacy that's rare at this price point in North Las Vegas. The controlled access system ensures that only residents and authorized visitors can enter the community, providing peace of mind whether you're at home or away. This security feature is particularly valuable for families with children, as it creates a safer environment where children can play and explore.
+            The <strong>gated community</strong> aspect of Bravado provides enhanced security and privacy that's rare at this price point in North Las Vegas. The controlled access system ensures that only residents and authorized visitors can enter the community, providing peace of mind whether you're at home or away. This security feature also creates a safer environment where children can play and explore.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Beyond security, the gated community also provides privacy and exclusivity that enhances property values. The reduced traffic and noise create a more peaceful residential environment, while the sense of exclusivity adds to the community's appeal. The <strong>gated community</strong> feature is one of the most valued amenities among Bravado residents, contributing to both security and quality of life.
