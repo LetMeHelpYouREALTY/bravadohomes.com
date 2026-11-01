@@ -34,11 +34,12 @@ export async function generateMetadata({
 }: { 
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
+  const resolvedParams = await params
+  if (NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)) {
+    // The page itself returns a real 404 for these slugs.
+    return { title: 'Post Not Found', robots: { index: false, follow: false } }
+  }
   try {
-    const resolvedParams = await params
-    if (NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)) {
-      notFound()
-    }
     const posts = getBlogPosts()
     let post = posts.find((post) => post && post.slug === resolvedParams.slug)
     
@@ -46,6 +47,7 @@ export async function generateMetadata({
       return {
         title: 'Post Not Found',
         description: 'The requested blog post could not be found.',
+        robots: { index: false, follow: false },
       }
     }
 
@@ -94,9 +96,7 @@ export async function generateMetadata({
     return {
       title: 'Blog Post',
       description: 'Blog post page',
-      alternates: {
-        canonical: `${baseUrl}/blog`,
-      },
+      robots: { index: false, follow: false },
     }
   }
 }
@@ -106,28 +106,22 @@ export default async function Blog({
 }: { 
   params: Promise<{ slug: string }>
 }) {
+  const resolvedParams = await params
+
+  if (NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)) {
+    notFound()
+  }
+
+  // Get all posts and find the matching one
+  const posts = getBlogPosts()
+  const post = posts?.find((p) => p && p.slug === resolvedParams.slug)
+
+  // Unknown slugs are a normal 404, not a server error.
+  if (!post) {
+    notFound()
+  }
+
   try {
-    const resolvedParams = await params
-
-    if (NOINDEX_BLOG_SLUGS.has(resolvedParams.slug)) {
-      notFound()
-    }
-    
-    // Get all posts and find the matching one
-    const posts = getBlogPosts()
-    
-    if (!posts || posts.length === 0) {
-      console.error('No blog posts found')
-      notFound()
-    }
-    
-    let post = posts.find((post) => post && post.slug === resolvedParams.slug)
-
-    if (!post) {
-      console.error(`Blog post not found: ${resolvedParams.slug}`)
-      notFound()
-    }
-
     return (
       <section>
         <script
